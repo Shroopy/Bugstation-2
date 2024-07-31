@@ -17,7 +17,7 @@ SUBSYSTEM_DEF(automapper)
 	flags = SS_NO_FIRE
 
 	/// The path to our TOML file
-	var/config_file = "_maps/nova/automapper/automapper_config.toml"
+	var/config_file = "_maps/bug/automapper/automapper_config.toml" //BUG EDIT: points to our automapper
 	/// Our loaded TOML file
 	var/loaded_config
 	/// Our preloaded map templates

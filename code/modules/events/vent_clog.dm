@@ -81,6 +81,7 @@
 		/mob/living/basic/spider/maintenance,
 		/mob/living/basic/mouse,
 		/mob/living/basic/snail,
+		/mob/living/basic/bee,
 	)
 	return pick(mob_list)
 
@@ -225,7 +226,6 @@
 
 /datum/round_event/vent_clog/major/get_mob()
 	var/static/list/mob_list = list(
-		/mob/living/basic/bee,
 		/mob/living/basic/cockroach/hauberoach,
 		/mob/living/basic/spider/giant,
 		/mob/living/basic/mouse/rat,

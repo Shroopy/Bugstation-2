@@ -190,8 +190,9 @@ export const DmTarget = new Juke.Target({
     'interface/**',
     'sound/**',
     'tgui/public/tgui.html',
-    "modular_nova/**", ///NOVA EDIT ADDITION - Making the CBT work
-    "modular_iris/**", /// IRIS ADDITION
+    'modular_nova/**', ///NOVA EDIT ADDITION - Making the CBT work
+    'modular_iris/**', /// IRIS ADDITION
+    'modular_zzbug/**', ///BUG EDIT ADDITION
     `${DME_NAME}.dme`,
     NamedVersionFile,
   ],

@@ -250,7 +250,7 @@ function RecipeRow(props: RecipeRowProps) {
           <Stack.Item key={preview.dir}>
             <ImageButton
               asset={['pipes32x32', `${preview.dir}-${preview.icon_state}`]}
-              color="violet"
+              color="blue"
               imageSize={58}
               assetSize={30}
               onClick={() => {

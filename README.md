@@ -1,5 +1,10 @@
 ## Bugstation 2 (Iris Station 13 Fork/Downstream)
 
+[![CI Suite](https://github.com/Shroopy/Bugstation-2/workflows/CI%20Suite/badge.svg)](https://github.com/Shroopy/Bugstation-2/actions?query=workflow%3A%22CI+Suite%22)
+[![Percentage of issues still open](https://isitmaintained.com/badge/open/Shroopy/Bugstation-2.svg)](https://isitmaintained.com/project/Shroopy/Bugstation-2 "Percentage of issues still open")
+[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/Shroopy/Bugstation-2.svg)](https://isitmaintained.com/project/Shroopy/Bugstation-2 "Average time to resolve an issue")
+![Coverage](https://img.shields.io/codecov/c/github/Shroopy/Bugstation-2)
+
 [![resentment](.github/images/badges/built-with-resentment.svg)](.github/images/comics/131-bug-free.png) [![technical debt](.github/images/badges/contains-technical-debt.svg)](.github/images/comics/106-tech-debt-modified.png) [![forinfinityandbyond](.github/images/badges/made-in-byond.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
 
 | Website                 | Link                                                                                                                                   |
@@ -7,10 +12,10 @@
 | Git / GitHub cheatsheet | [https://www.notion.so/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833](https://www.notion.so/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833) |
 | Guide to Modularization | [./modular_nova/readme.md](./modular_nova/readme.md)                                                                                   |
 | Guide to Mirroring      | [./modular_nova/mirroring_guide.md](./modular_nova/mirroring_guide.md)                                                                 |
-| Code                    | [https://github.com/NovaSector/NovaSector](https://github.com/NovaSector/NovaSector)                                                   |
-| Wiki                    | [https://wiki.irisstation.lol/](https://wiki.irisstation.lol/)                                                                         |
+| Code                    | [https://github.com/Shroopy/Bugstation-2](https://github.com/Shroopy/Bugstation-2)                                                   |
+| Wiki                    | [https://tgstation13.org/wiki/Main_Page](https://tgstation13.org/wiki/Main_Page)                                                                         |
 | Codedocs                | [https://NovaSector.github.io/NovaSector/](https://NovaSector.github.io/NovaSector/)                                                   |
-| Iris Station's Discord  | [https://discord.gg/azps5ydx2F](https://discord.gg/azps5ydx2F)                                                                         |
+| Bugstation's Discord  | [https://discord.gg/37gNK4cvjr](https://discord.gg/37gNK4cvjr)                                                                         |
 | Coderbus Discord        | [https://discord.gg/Vh8TJp9](https://discord.gg/Vh8TJp9)                                                                               |
 
 This is Bugstation's fork of Iris Station, which is a downstream fork of Nova Sector, which in turn is a downstream fork of /tg/station created in BYOND.

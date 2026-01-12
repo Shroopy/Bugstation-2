@@ -19,7 +19,7 @@ on:
   status: {}
 jobs:
   automerge:
-    runs-on: codeberg-medium
+    runs-on: ubuntu-latest
     steps:
       - id: automerge
         name: automerge

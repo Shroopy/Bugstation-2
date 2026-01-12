@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   autowiki:
-    runs-on: codeberg-medium
+    runs-on: ubuntu-latest
     steps:
       - name: "Check for AUTOWIKI_USERNAME"
         id: secrets_set

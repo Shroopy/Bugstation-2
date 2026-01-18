@@ -26,8 +26,8 @@
 		/datum/reagent/carbon,
 		/datum/reagent/consumable/flour,
 		/datum/reagent/space_cleaner,
-		/datum/reagent/carpet/royal/blue,
-		/datum/reagent/carpet/orange,
+	//	/datum/reagent/carpet/royal/blue, // BUG REMOVAL
+	//	/datum/reagent/carpet/orange, // BUG REMOVAL
 		/datum/reagent/consumable/nutriment,
 		/datum/reagent/consumable/condensedcapsaicin,
 		/datum/reagent/drug/mushroomhallucinogen,
@@ -37,8 +37,8 @@
 	//	/datum/reagent/medicine/c2/multiver, // BUG REMOVAL
 		/datum/reagent/water/holywater,
 		/datum/reagent/consumable/ethanol,
-		/datum/reagent/consumable/hot_coco,
-		/datum/reagent/consumable/yoghurt,
+	//	/datum/reagent/consumable/hot_coco, // BUG REMOVAL
+	//	/datum/reagent/consumable/yoghurt, // BUG REMOVAL
 		/datum/reagent/consumable/tinlux,
 		/datum/reagent/hydrogen_peroxide,
 		/datum/reagent/bluespace,

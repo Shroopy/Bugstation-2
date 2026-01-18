@@ -1,4 +1,4 @@
-/obj/item/gun/ballistic/automatic/pistol/type207
+/* /obj/item/gun/ballistic/automatic/pistol/type207
 	name = "\improper Type 207 Kinetic Pistol"
 	desc = "A completly non lethal sidearm used by Sol Fed Peacekeeping forces. It uses kinetic rounds to temporarily disable adversaries."
 	icon = 'modular_nova/modules/modular_weapons/icons/obj/company_and_or_faction_based/bolt_fabrications/type207.dmi'
@@ -25,3 +25,4 @@
 		starting_light = new /obj/item/flashlight/seclite(src), \
 		is_light_removable = FALSE, \
 		)
+*/ //BUG REMOVAL

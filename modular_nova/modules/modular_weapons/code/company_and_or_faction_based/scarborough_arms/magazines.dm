@@ -1,4 +1,4 @@
-/obj/item/ammo_box/magazine/enforcer
+/* /obj/item/ammo_box/magazine/enforcer
 	name = "\improper Enforcer magazine (10mm)"
 	desc = "A robust magazine for a robust handgun."
 	icon = 'modular_nova/modules/modular_weapons/icons/obj/company_and_or_faction_based/scarborough_arms/ammo.dmi'
@@ -35,3 +35,4 @@
 	name = "\improper Enforcer magazine (10mm incendiary)"
 	MAGAZINE_TYPE_INCENDIARY
 	ammo_type = /obj/item/ammo_casing/c10mm/fire
+*/ //BUG REMOVAL

@@ -1,4 +1,4 @@
-/obj/item/gun/ballistic/automatic/pulse_rifle
+/* /obj/item/gun/ballistic/automatic/pulse_rifle
 	name = "\improper Žaibas plasma pulse projector"
 	desc = "An advanced energy weapon that uses high-capacity plasma pulse cells. Fires in 3-round bursts."
 
@@ -121,3 +121,4 @@
 		playsound(src, 'sound/items/weapons/gun/general/empty_alarm.ogg', 40, TRUE)
 		return
 	..()
+*/ //BUG REMOVAL

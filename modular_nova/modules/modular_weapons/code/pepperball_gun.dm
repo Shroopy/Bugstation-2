@@ -1,5 +1,5 @@
 /obj/item/gun/ballistic/automatic/pistol/pepperball
-	name = "\improper Bolt Pepperball AHG"
+	name = "\improper pepperball pistol" //BUG RENAME (original: Bolt Pepperball AHG)
 	desc = "An incredibly mediocre 'firearm' designed to fire soft pepper balls meant to easily subdue targets."
 	icon = 'modular_nova/modules/modular_weapons/icons/obj/pepperball/pepperball.dmi'
 	icon_state = "peppergun"

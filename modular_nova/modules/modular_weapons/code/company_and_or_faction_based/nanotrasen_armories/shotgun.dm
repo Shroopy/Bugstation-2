@@ -1,4 +1,4 @@
-/obj/item/gun/ballistic/shotgun/katyusha
+/* /obj/item/gun/ballistic/shotgun/katyusha
 	name = "\improper Katyusha Shotgun"
 	desc = "A mag-fed shotgun for combat in narrow corridors, \
 		nicknamed 'Katyusha' by the blueshields for its versatility. Compatible only with specialized 16-shell drum magazines."
@@ -81,3 +81,4 @@
 
 /obj/item/gun/ballistic/shotgun/katyusha/jager/give_manufacturer_examine()
 	AddElement(/datum/element/manufacturer_examine, COMPANY_SOLFED)
+*/ //BUG REMOVAL

@@ -1,3 +1,4 @@
+/*
 // Currently unfolded.
 #define BOARDER_FOLD_EXTEND 0
 // Currently folded.
@@ -185,3 +186,4 @@
 /obj/item/storage/toolbox/guncase/nova/boarder
 	weapon_to_spawn = /obj/item/gun/ballistic/pump_launcher
 	extra_to_spawn = /obj/item/ammo_box/a40mm
+*/ //BUG REMOVAL

@@ -1,4 +1,4 @@
-/obj/item/crafting_conversion_kit/reclaimer_reverse
+/* /obj/item/crafting_conversion_kit/reclaimer_reverse
 	name = "\improper Nanotrasen NT20 conversion kit"
 	desc = "All the parts you need to convert the 'Reclaimer' rC-20 back to a stock Nanotrasen NT20, outside of the parts that make the gun actually a gun. \
 		Considering the limited quantity of NT20s in existence, having to deconstruct an rC-20 to rebuild your NT20 means that something went wrong."
@@ -84,3 +84,4 @@
 	if(the_piece.get_ammo())
 		return FALSE
 	return ..()
+*/ //BUG REMOVAL

@@ -1,4 +1,4 @@
-/obj/item/crafting_conversion_kit
+/* /obj/item/crafting_conversion_kit
 	name = "base conversion kit"
 	desc = "It's a set of parts, for something. This shouldn't be here, and you should probably throw this away, since it's not going to be very useful."
 	icon = 'icons/obj/storage/box.dmi'
@@ -56,3 +56,4 @@
 	if(LAZYLEN(the_piece.magazine.stored_ammo))
 		return FALSE
 	return ..()
+*/ //BUG REMOVAL

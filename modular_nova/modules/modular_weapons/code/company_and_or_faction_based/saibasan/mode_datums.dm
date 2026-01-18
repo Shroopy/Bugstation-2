@@ -1,3 +1,4 @@
+/*
 // Yeah I'm using datums for this, because the code on a regular gun would suck huge
 // Holds a lot of information that will be applied ot the gun, as well as info that the gun will read later
 // This basetype is applies to the base 2 burst laser kill mode for the large laser gun
@@ -204,3 +205,4 @@
 
 /datum/laser_weapon_mode/trickshot_disabler/remove_from_weapon(obj/item/gun/energy/applied_gun)
 	return
+*/ //BUG REMOVAL

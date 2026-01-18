@@ -1,4 +1,4 @@
-/obj/structure/sign/poster/official/trappiste_suppressor
+/* /obj/structure/sign/poster/official/trappiste_suppressor
 	name = "Keep It Quiet - Ear Protection Unneeded"
 	desc = "This poster depicts, alongside the prominent logo of Trappiste Fabriek, a \
 		diagram of the average suppressor, and how on most* Trappiste weapons \
@@ -35,3 +35,4 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/trappiste_suppre
 		not liable for excess harm caused by misreading color identification systems.</i>"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/trappiste_ammunition, 32)
+*/ //BUG REMOVAL

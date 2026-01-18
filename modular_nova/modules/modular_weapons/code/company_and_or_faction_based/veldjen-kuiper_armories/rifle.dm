@@ -1,5 +1,5 @@
 // Base Sol classic rifle meant for crewside use
-
+/*
 /obj/item/gun/ballistic/automatic/sol_classic
 	name = "\improper Renpaard Battle Rifle"
 	desc = "A previous-generation heavy battle rifle firing .40 Sol. Seen in the hands of SolFed parade units \
@@ -139,3 +139,4 @@
 
 /obj/item/gun/ballistic/automatic/sol_classic/marksman/evil/no_mag
 	spawnwithmagazine = FALSE
+*/ //BUG REMOVAL

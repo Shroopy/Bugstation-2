@@ -1,4 +1,4 @@
-/obj/item/gun/ballistic/automatic/c20r/reclaimed
+/* /obj/item/gun/ballistic/automatic/c20r/reclaimed
 	name = "rC-20 'Reclaimer'"
 	desc = "A bullpup, three-round burst, .45 SMG, reborn from the ashes of an evidently inferior competitor. \
 		Strive for your next breath. Believe that with it, you can do more than with the last one. \
@@ -21,3 +21,4 @@
 
 /obj/item/gun/ballistic/automatic/c20r/reclaimed/empty
 	spawnwithmagazine = FALSE
+/* //BUG REMOVAL

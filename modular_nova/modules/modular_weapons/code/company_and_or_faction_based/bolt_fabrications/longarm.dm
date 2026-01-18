@@ -1,4 +1,4 @@
-/obj/item/gun/ballistic/automatic/type213
+/* /obj/item/gun/ballistic/automatic/type213
 	name = "\improper Type 213 Kinetic Submachine Gun"
 	desc = "A completely nonlethal longarm used by SolGov Peacekeeping forces, using kinetic rounds to temporarily disable adversaries. Made as a companion to the Type 207 Kinetic Pistol."
 	icon = 'modular_nova/modules/modular_weapons/icons/obj/company_and_or_faction_based/bolt_fabrications/type213.dmi'
@@ -22,3 +22,4 @@
 
 /obj/item/gun/ballistic/automatic/pistol/type207/give_manufacturer_examine()
 	AddElement(/datum/element/manufacturer_examine, COMPANY_BOLT)
+*/ //BUG REMOVAL

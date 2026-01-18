@@ -1,5 +1,5 @@
 // .35 Sol mini revolver
-
+/*
 /obj/item/gun/ballistic/revolver/sol
 	name = "\improper Renard Revolver"
 	desc = "A small revolver with a comically short barrel and cylinder space for eight .35 Sol Short rounds."
@@ -105,3 +105,4 @@
 
 /obj/item/gun/ballistic/revolver/bluvolva/give_manufacturer_examine()
 	AddElement(/datum/element/manufacturer_examine, COMPANY_TRAPPISTE)
+*/ //BUG REMOVAL

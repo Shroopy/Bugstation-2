@@ -1,3 +1,4 @@
+/*
 /// File location for the long gun's speech
 #define LONG_MOD_LASER_SPEECH "nova/long_modular_laser.json"
 /// File location for the short gun's speech
@@ -288,3 +289,4 @@
 #undef SHORT_MOD_LASER_SPEECH
 #undef MOD_LASER_SPEECH_COOLDOWN
 #undef DEFAULT_RUNECHAT_GUN_COLOR
+*/ //BUG REMOVAL

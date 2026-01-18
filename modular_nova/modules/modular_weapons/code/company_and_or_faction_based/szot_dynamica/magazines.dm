@@ -1,5 +1,5 @@
 // .310 magazine for the Lanca rifle
-
+/*
 /obj/item/ammo_box/magazine/lanca
 	name = "\improper Lanca rifle magazine"
 	desc = "A standard size magazine for Lanca rifles, holds ten rounds."
@@ -110,7 +110,7 @@
 	ammo_type = /obj/item/ammo_casing/shotgun
 	caliber = CALIBER_SHOTGUN
 	max_ammo = 4
-	ammo_box_multiload = AMMO_BOX_MULTILOAD_NONE 
+	ammo_box_multiload = AMMO_BOX_MULTILOAD_NONE
 
 // AMR magazine
 
@@ -205,3 +205,4 @@
 
 /obj/item/ammo_box/magazine/pulse/spawns_empty
 	start_empty = TRUE
+*/ //BUG REMOVAL

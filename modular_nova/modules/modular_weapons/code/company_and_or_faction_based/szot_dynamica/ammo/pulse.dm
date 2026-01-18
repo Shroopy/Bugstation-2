@@ -1,4 +1,4 @@
-/obj/item/ammo_box/pulse_cargo_box
+/* /obj/item/ammo_box/pulse_cargo_box
 	name = "ammo canister (pulse energy cell)"
 	desc = "A stabilizing canister of plasma pulse energy cells, holds eight cells."
 
@@ -149,3 +149,4 @@
 
 		// Apply brute damage
 		victim.apply_damage(brute_damage, BRUTE, hit_limb_zone, blocked = armour_block, wound_bonus = 5, exposed_wound_bonus = 10, sharpness = SHARP_POINTY)
+*/ //BUG REMOVAL

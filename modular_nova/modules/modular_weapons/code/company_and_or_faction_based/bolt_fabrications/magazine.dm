@@ -1,4 +1,4 @@
-/obj/item/ammo_box/magazine/kineticballs
+/* /obj/item/ammo_box/magazine/kineticballs
 	name = "kinetic ball pistol magazine"
 	desc = "A gun magazine filled with balls. The kind that makes makes people stop, holds twelve rounds."
 	icon = 'modular_nova/modules/modular_weapons/icons/obj/company_and_or_faction_based/bolt_fabrications/type207magazine.dmi'
@@ -55,3 +55,4 @@
 		/datum/material/plastic = SHEET_MATERIAL_AMOUNT * 2,
 	)
 	max_ammo = 24
+*/ //BUG REMOVAL

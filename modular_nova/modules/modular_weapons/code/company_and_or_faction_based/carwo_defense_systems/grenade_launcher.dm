@@ -1,5 +1,5 @@
 // Low caliber grenade launcher (fun & games)
-
+/*
 /obj/item/gun/ballistic/automatic/sol_grenade_launcher
 	name = "\improper Kiboko Grenade Launcher"
 	desc = "A unique grenade launcher firing .980 grenades. A laser sight system allows its user to specify a range for the grenades it fires to detonate at."
@@ -89,3 +89,4 @@
 
 /obj/item/gun/ballistic/automatic/sol_grenade_launcher/evil/no_mag
 	spawnwithmagazine = FALSE
+*/ //BUG REMOVAL

@@ -1,4 +1,4 @@
-/obj/item/crafting_conversion_kit/reclaimer_c20r
+/* /obj/item/crafting_conversion_kit/reclaimer_c20r
 	name = "\improper Scarborough 'Reclaimer' conversion kit"
 	desc = "All the parts you need to convert the Nanotrasen NT20 into a 'Reclaimer' rC-20, outside of the parts that make the gun actually a gun. \
 		Considering the limited quantity of NT20s in existence, surely you have a good reason to be considering stealing one and breaking it down."
@@ -72,4 +72,4 @@
 		- The Song of Roland, translated by Dorothy Sayers</i>"
 	if(lore_blurb)
 		. += "<br><i>[lore_blurb]</i>"
-
+*/ //BUG REMOVAL

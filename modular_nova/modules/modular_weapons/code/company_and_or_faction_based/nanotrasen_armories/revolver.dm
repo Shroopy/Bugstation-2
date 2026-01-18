@@ -1,5 +1,5 @@
 /// NT-E Laevateinn .38 revolver - it's a bit chunky but it has a barrel charger
-
+/*
 /obj/item/gun/ballistic/revolver/c38/super
 	name = "\improper NT/E Laevateinn Revolver"
 	icon = 'modular_nova/modules/modular_weapons/icons/obj/company_and_or_faction_based/nanotrasen_armories/ballistic.dmi'
@@ -89,3 +89,4 @@
 	var/list/to_clear = ammo_list() // forces ammo to init
 	for (var/obj/item/ammo_casing/casing in to_clear) // and then deletes it
 		qdel(casing)
+*/ //BUG REMOVAL

@@ -1,4 +1,4 @@
-/obj/item/gun/ballistic/automatic/pistol/enforcer
+/* /obj/item/gun/ballistic/automatic/pistol/enforcer
 	name = "\improper Enforcer-TEN combat handgun"
 	desc = "A robust, full-size combat handgun, chambered in 10mm. Lacks a threaded barrel, leaving it unable to be suppressed, \
 		but has enough heft to be used as a decent improvised weapon in a pinch."
@@ -73,3 +73,4 @@
 /obj/item/storage/toolbox/guncase/traitor/enforcer/ammunition
 	name = "enforcer magazine case"
 	weapon_to_spawn = /obj/item/ammo_box/magazine/enforcer
+*/ //BUG REMOVAL

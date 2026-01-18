@@ -1,5 +1,5 @@
 // Gunset for the Wespe pistol
-/obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/wespe
+/* /obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/wespe
 	name = "\improper Trappiste 'Wespe' gunset"
 	weapon_to_spawn = /obj/item/gun/ballistic/automatic/pistol/sol/no_mag
 	extra_to_spawn = /obj/item/ammo_box/magazine/c35sol_pistol
@@ -21,3 +21,4 @@
 	name = "\improper Trappiste 'Fendér' gunset"
 	weapon_to_spawn = /obj/item/gun/ballistic/revolver/bluvolva
 	extra_to_spawn = /obj/item/ammo_box/speedloader/c585trappiste
+*/ //BUG REMOVAL

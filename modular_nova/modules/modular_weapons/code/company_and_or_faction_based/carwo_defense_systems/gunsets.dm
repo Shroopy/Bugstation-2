@@ -1,5 +1,5 @@
 // Sindano in a box, how innovative!
-
+/*
 /obj/item/storage/toolbox/guncase/nova/carwo_large_case/sindano
 	name = "\improper Carwo 'Sindano' gunset"
 	weapon_to_spawn = /obj/item/gun/ballistic/automatic/sol_smg/no_mag
@@ -106,3 +106,4 @@
 		/obj/item/ammo_box/c980grenade/smoke = 1,
 		/obj/item/ammo_box/c980grenade/riot = 1,
 	), src)
+*/ //BUG REMOVAL

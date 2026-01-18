@@ -1,6 +1,4 @@
-
-
-/obj/item/gun/ballistic/automatic/napad
+/* /obj/item/gun/ballistic/automatic/napad
 	name = "\improper 'Napad' Submachine Gun"
 	desc = "A bulky, 10mm submachine gun with sizeable magazines holding a close relation to the Zashchitnik pistol. Designated 'Napadayuschiy'."
 
@@ -54,3 +52,4 @@
 
 /obj/item/gun/ballistic/automatic/napad/no_mag
 	spawnwithmagazine = FALSE
+*/ //BUG REMOVAL

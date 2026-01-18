@@ -1,7 +1,7 @@
 /*
 *	QM Sporter Rifle
 */
-
+/*
 /obj/item/gun/ballistic/rifle/sporterized
 	name = "\improper Rengo Precision Rifle"
 	desc = "A heavily modified Sakhno rifle, with parts made by Xhihao light arms based around Jupiter herself. \
@@ -55,3 +55,4 @@
 	desc = "A weapon's case. This one is green and looks pretty old, but is otherwise in decent condition."
 	icon = 'modular_nova/modules/modular_weapons/icons/obj/company_and_or_faction_based/cases.dmi'
 	material_flags = NONE // ????? Why do these have materials enabled??
+*/ //BUG REMOVAL

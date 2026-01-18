@@ -1,5 +1,5 @@
 // .585 pistol magazines
-
+/*
 /obj/item/ammo_box/magazine/c585trappiste_pistol
 	name = "\improper Trappiste pistol magazine"
 	desc = "A standard size magazine for Trappiste pistols, holds ten rounds."
@@ -17,3 +17,4 @@
 
 /obj/item/ammo_box/magazine/c585trappiste_pistol/spawns_empty
 	start_empty = TRUE
+*/ //BUG REMOVAL

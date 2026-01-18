@@ -3,7 +3,7 @@ The Nanotrasen Armories NT20, a revamped (nerfed) variant of the C20-r for the B
 If you're thinking of putting this in Company Imports: don't. Stop! We've been through this once already with the CMG.
 This is a Blueshield weapon. It's for the Blueshield. If this ends up in Cargo I'll haunt you. Thaaaanks!
 */
-
+/*
 /obj/item/gun/ballistic/automatic/nt20
 	name = "\improper NT20 Submachine Gun"
 	icon = 'modular_nova/modules/modular_weapons/icons/obj/company_and_or_faction_based/nanotrasen_armories/ballistic.dmi'
@@ -58,3 +58,4 @@ This is a Blueshield weapon. It's for the Blueshield. If this ends up in Cargo I
 
 /obj/item/gun/ballistic/automatic/nt20/empty
 	spawnwithmagazine = FALSE
+*/ //BUG REMOVAL

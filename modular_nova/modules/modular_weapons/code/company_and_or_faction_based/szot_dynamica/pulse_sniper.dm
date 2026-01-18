@@ -1,4 +1,4 @@
-/obj/item/gun/ballistic/rifle/pulse_sniper
+/* /obj/item/gun/ballistic/rifle/pulse_sniper
 	name = "\improper Žaibas-A sniper rifle"
 	desc = "A sniper variant of the Žaibas plasma pulse projector, modified for precision long-range engagements. \
 	Uses a specialized chamber-loading system that consumes three charges per shot."
@@ -192,3 +192,4 @@
 	ammo_type = /obj/item/ammo_casing/pulse
 	caliber = "pulse"
 	max_ammo = 1
+*/ //BUG REMOVAL

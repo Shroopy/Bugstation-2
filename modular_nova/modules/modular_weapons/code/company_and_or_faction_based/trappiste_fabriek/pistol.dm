@@ -1,5 +1,5 @@
 // .35 Sol pistol
-
+/*
 /obj/item/gun/ballistic/automatic/pistol/sol
 	name = "\improper Guêpe Pistol"
 	desc = "The standard issue service pistol of SolGov's various military branches. Uses .35 Sol, and comes with an attached light."
@@ -93,3 +93,4 @@
 
 /obj/item/gun/ballistic/automatic/pistol/trappiste/no_mag
 	spawnwithmagazine = FALSE
+*/ //BUG REMOVAL

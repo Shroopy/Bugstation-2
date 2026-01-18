@@ -1,6 +1,6 @@
 // .27-54 Cesarzowa
 // Small caliber pistol round meant to be fired out of something that shoots real quick like
-
+/*
 /obj/item/ammo_casing/c27_54cesarzowa
 	name = ".27-54 Cesarzowa piercing bullet casing"
 	desc = "A purple-bodied caseless cartridge home to a small projectile with a fine point."
@@ -66,3 +66,4 @@
 	icon_state = "27-54cesarzowa_box_rubber"
 
 	ammo_type = /obj/item/ammo_casing/c27_54cesarzowa/rubber
+*/ //BUG REMOVAL

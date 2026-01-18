@@ -1,4 +1,4 @@
-/obj/item/gun/ballistic/shotgun/katyusha/shitzu // Pulls from katyusha Shotgun
+/* /obj/item/gun/ballistic/shotgun/katyusha/shitzu // Pulls from katyusha Shotgun
 	name = "\improper Shitzu Shotgun"
 	desc = "A suspicious mag-fed shotgun for combat in narrow corridors, \
 		nicknamed 'Shitzu' by other agents for its versatility in clearing tight corridors and its ability to disbatch of threats."
@@ -28,3 +28,4 @@
 	desc = "Man's best friend.... may be in this case!"
 	weapon_to_spawn = /obj/item/gun/ballistic/shotgun/katyusha/shitzu
 	extra_to_spawn = /obj/item/ammo_box/magazine/shitzu/milspec
+*/ //BUG REMOVAL

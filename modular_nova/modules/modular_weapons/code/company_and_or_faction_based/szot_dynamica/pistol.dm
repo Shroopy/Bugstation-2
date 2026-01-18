@@ -1,6 +1,6 @@
 // Plasma spewing pistol
 // Sprays a wall of plasma that sucks against armor but fucks against unarmored targets
-
+/*
 /obj/item/gun/ballistic/automatic/pistol/plasma_thrower
 	name = "\improper Słońce Plasma Projector"
 	desc = "An inaccurate, plasma-spewing pistol, for melting the broad side of a barn. Uses plasma power packs."
@@ -135,4 +135,4 @@
 		starting_light = new /obj/item/flashlight/seclite(src), \
 		is_light_removable = FALSE, \
 	)
-
+*/ //BUG REMOVAL

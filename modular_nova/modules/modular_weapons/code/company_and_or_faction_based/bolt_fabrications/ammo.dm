@@ -1,3 +1,4 @@
+/*
 /obj/projectile/bullet/kineticball
 	name = "kinetic orb"
 	icon = 'modular_nova/modules/modular_weapons/icons/obj/company_and_or_faction_based/bolt_fabrications/riotrubberbullet.dmi'
@@ -30,3 +31,4 @@
 	max_ammo = 13
 	casing_w_spacing = 2
 	casing_z_padding = 6
+*/ //BUG REMOVAL

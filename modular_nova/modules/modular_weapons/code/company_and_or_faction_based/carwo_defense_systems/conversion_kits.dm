@@ -1,4 +1,4 @@
-/obj/item/crafting_conversion_kit/riot_sol_super
+/* /obj/item/crafting_conversion_kit/riot_sol_super
 	name = "\improper KOLBEN/NACHTREIHER overhaul suite"
 	desc = "All the parts you need to convert the venerable M64 shotgun into the barrel-charging-capable Nachtreiher combat shotgun."
 	icon = 'modular_nova/modules/modular_weapons/icons/obj/company_and_or_faction_based/carwo_defense_systems/guns32x.dmi'
@@ -41,3 +41,4 @@
 	if(the_piece.get_ammo())
 		return FALSE
 	return ..()
+*/ //BUG REMOVAL

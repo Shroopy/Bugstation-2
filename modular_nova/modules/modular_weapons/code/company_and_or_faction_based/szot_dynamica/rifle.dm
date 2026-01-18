@@ -1,5 +1,5 @@
 // Rapid firing scary military grade weapon firing .27-54 Cesarzowa
-
+/*
 /obj/item/gun/ballistic/automatic/miecz
 	name = "\improper Miecz Support Weapon"
 	desc = "A short-barrel weapon riding the line between submachine gun and a rifle, chambered for .27-54 Cesarzowa. \
@@ -190,3 +190,4 @@
 /obj/item/gun/ballistic/automatic/wylom/give_manufacturer_examine()
 	AddElement(/datum/element/manufacturer_examine, COMPANY_SZOT)
 	AddElement(/datum/element/gun_launches_little_guys, throwing_force = 3, throwing_range = 5)
+*/ //BUG REMOVAL

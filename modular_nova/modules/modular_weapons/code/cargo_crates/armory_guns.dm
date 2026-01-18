@@ -1,4 +1,4 @@
-/datum/supply_pack/security/armory/sindano
+/* /datum/supply_pack/security/armory/sindano
 	name = "Sindano Submachinegun Crate"
 	desc = "Three entirely proprietary Sindano kits, chambered in .35 Sol Short. Each kit contains three empty magazines and a box each of incapacitator and lethal rounds."
 	cost = CARGO_CRATE_VALUE * 10
@@ -52,3 +52,4 @@
 		/obj/item/gun/energy/modular_laser_rifle,
 	)
 	crate_name = "\improper Modular Laser Rifle Crate"
+*/ //BUG REMOVAL

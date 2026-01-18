@@ -1,5 +1,5 @@
 // Base Sol SMG
-
+/*
 /obj/item/gun/ballistic/automatic/sol_smg
 	name = "\improper Sindano Submachine Gun"
 	desc = "A small submachine gun firing .35 Sol Short. Commonly seen in the hands of PMCs and other unsavory corpos. Accepts any standard Sol pistol magazine."
@@ -60,3 +60,4 @@
 
 /obj/item/gun/ballistic/automatic/sol_smg/evil/no_mag
 	spawnwithmagazine = FALSE
+*/ //BUG REMOVAL

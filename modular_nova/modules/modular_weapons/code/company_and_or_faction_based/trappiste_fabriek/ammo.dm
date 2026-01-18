@@ -1,6 +1,6 @@
 // .585 Trappiste
 // High caliber round used in large pistols and revolvers
-
+/*
 /obj/item/ammo_casing/c585trappiste
 	name = ".585 Trappiste lethal bullet casing"
 	desc = "A white polymer cased high caliber round commonly used in handguns."
@@ -110,3 +110,4 @@
 	caliber = CALIBER_585TRAPPISTE
 	ammo_band_icon = "+sl585_band"
 	ammo_band_color = null
+*/ //BUG REMOVAL

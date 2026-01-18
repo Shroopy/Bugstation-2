@@ -1,5 +1,5 @@
 // Base Sol rifle
-
+/*
 /obj/item/gun/ballistic/automatic/sol_rifle
 	name = "\improper MMR-2543E"
 	desc = "A heavy assault rifle chambered in .40 Sol Long, with a decent rate of fire for weapons of its class. Accepts any standard SolGov rifle magazine."
@@ -172,3 +172,4 @@
 
 /obj/item/gun/ballistic/automatic/sol_rifle/marksman/evil/no_mag
 	spawnwithmagazine = FALSE
+*/ //BUG REMOVAL

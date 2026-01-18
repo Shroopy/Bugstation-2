@@ -1,5 +1,5 @@
 // SolGov shotgun (this was gonna be in a proprietary shotgun shell type outside of 12ga at some point, wild right?)
-
+/*
 /obj/item/gun/ballistic/shotgun/riot/sol
 	name = "\improper M64 Shotgun"
 	desc = "A robust twelve-gauge shotgun with an eight-shell, top-mounted magazine tube. Made for and used by SolGov's various military and police forces."
@@ -218,3 +218,4 @@
 
 /obj/item/ammo_box/magazine/internal/shot/sol_super/plus/empty
 	start_empty = TRUE
+*/ //BUG REMOVAL

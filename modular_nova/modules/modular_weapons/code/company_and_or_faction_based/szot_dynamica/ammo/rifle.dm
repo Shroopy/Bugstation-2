@@ -1,5 +1,5 @@
 // Various ammo boxes for .310
-
+/*
 /obj/item/ammo_box/c310_cargo_box
 	name = "ammo box (.310 Strilka lethal)"
 	desc = "A box of .310 Strilka lethal rifle rounds, holds ten cartridges."
@@ -73,3 +73,4 @@
 	if(target_mob.mob_biotypes & biotype_we_look_for)
 		damage += anti_materiel_damage_addition
 	return ..()
+*/ //BUG REMOVAL

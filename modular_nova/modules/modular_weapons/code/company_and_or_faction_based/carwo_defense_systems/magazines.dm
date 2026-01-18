@@ -1,5 +1,5 @@
 // .35 Sol pistol magazines
-
+/*
 /obj/item/ammo_box/magazine/c35sol_pistol
 	name = "\improper Sol pistol magazine"
 	desc = "A standard size magazine for SolGov pistols, holds twelve rounds."
@@ -121,3 +121,4 @@
 
 /obj/item/ammo_box/magazine/c980_grenade/drum/thunderdome_gas
 	ammo_type = /obj/item/ammo_casing/c980grenade/riot
+*/ //BUG REMOVAL

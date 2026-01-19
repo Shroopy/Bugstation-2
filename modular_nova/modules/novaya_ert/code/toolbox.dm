@@ -17,13 +17,13 @@
 	desc = "If the label's accurate, it should probably contain magazines for the Lanca battle rifle."
 	ammo_to_spawn = /obj/item/ammo_box/magazine/lanca
 	amount = 7
-*/ // BUG REMOVAL
+
 /obj/item/storage/toolbox/ammobox/full/nri_smg
 	name = "ammo box (Miecz)"
 	desc = "If the label's accurate, it should probably contain magazines for the Miecz submachine gun."
 	ammo_to_spawn = /obj/item/ammo_box/magazine/miecz
 	amount = 7
-
+*/ // BUG REMOVAL
 /obj/item/storage/toolbox/ammobox/full/l6_saw
 	name = "ammo box (L6 SAW)"
 	desc = "If the label's accurate, it should probably contain box magazines for the L6 squad automatic weapon."

@@ -46,16 +46,16 @@
 		/obj/item/ammo_box/magazine/m45, // BUG CHANGE (was "/obj/item/ammo_box/magazine/c585trappiste_pistol")
 		/obj/item/ammo_box/magazine/m9mm_aps, // BUG CHANGE (was "/obj/item/ammo_box/magazine/miecz")
 	)
-/*
+
 /obj/item/storage/toolbox/emergency/turret/mag_fed/cerberus/pre_filled/PopulateContents()
-	new /obj/item/ammo_box/magazine/c585trappiste_pistol(src)
-	new /obj/item/ammo_box/magazine/c585trappiste_pistol(src)
-	new /obj/item/ammo_box/magazine/c585trappiste_pistol(src)
+	new /obj/item/ammo_box/magazine/m45(src) // BUG CHANGE (was "/obj/item/ammo_box/magazine/c585trappiste_pistol")
+	new /obj/item/ammo_box/magazine/m45(src) // BUG CHANGE (was "/obj/item/ammo_box/magazine/c585trappiste_pistol")
+	new /obj/item/ammo_box/magazine/m45(src) // BUG CHANGE (was "/obj/item/ammo_box/magazine/c585trappiste_pistol")
 
 /obj/item/storage/toolbox/emergency/turret/mag_fed/hoplite/pre_filled/PopulateContents()
-	new /obj/item/ammo_box/magazine/c35sol_pistol(src)
-	new /obj/item/ammo_box/magazine/c35sol_pistol(src)
-*/ // BUG REMOVAL
+	new /obj/item/ammo_box/magazine/m9mm(src) // BUG CHANGE (was "/obj/item/ammo_box/magazine/c35sol_pistol")
+	new /obj/item/ammo_box/magazine/m9mm(src) // BUG CHANGE (was "/obj/item/ammo_box/magazine/c35sol_pistol")
+
 ////// Turrets //////
 /obj/machinery/porta_turret/syndicate/toolbox/mag_fed/cerberus
 	name = "\improper T.I.B.S \"Cerberus\" Guardian Turret"

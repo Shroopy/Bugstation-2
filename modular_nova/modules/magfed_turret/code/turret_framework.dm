@@ -807,15 +807,15 @@
 	var/fire_sound = lethal_projectile_sound
 	if(!adjustable_magwell) //if it has 1 magazine type
 		fire_sound = lethal_projectile_sound
-	else if(istype(soundmaker, /obj/item/ammo_casing/c35sol))
+	/* else if(istype(soundmaker, /obj/item/ammo_casing/c35sol))
 		fire_sound = 'modular_nova/modules/modular_weapons/sounds/pistol_light.ogg'
-	/* else if(istype(soundmaker, /obj/item/ammo_casing/c585trappiste))
-		fire_sound = 'modular_nova/modules/modular_weapons/sounds/pistol_heavy.ogg' */ // BUG REMOVAL
+	else if(istype(soundmaker, /obj/item/ammo_casing/c585trappiste))
+		fire_sound = 'modular_nova/modules/modular_weapons/sounds/pistol_heavy.ogg'
 	else if(istype(soundmaker, /obj/item/ammo_casing/c40sol))
 		fire_sound = 'modular_nova/modules/modular_weapons/sounds/rifle_heavy.ogg'
 	else if(istype(soundmaker, /obj/item/ammo_casing/strilka310))
 		fire_sound = 'modular_nova/modules/modular_weapons/sounds/battle_rifle.ogg'
-	/* else if(istype(soundmaker, /obj/item/ammo_casing/c27_54cesarzowa))
+	else if(istype(soundmaker, /obj/item/ammo_casing/c27_54cesarzowa))
 		fire_sound = 'modular_nova/modules/modular_weapons/sounds/smg_light.ogg' */ // BUG REMOVAL
 
 	playsound(src, fire_sound, 60, TRUE)

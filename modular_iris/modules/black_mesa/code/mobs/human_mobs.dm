@@ -155,13 +155,13 @@
 	icon_living = "security_guard_ranged"
 	ai_controller = /datum/ai_controller/basic_controller/sec/ranged
 	corpse = /obj/effect/mob_spawn/corpse/human/security_guard/ranged
-	r_hand = /obj/item/gun/ballistic/automatic/pistol/sol
+	r_hand = /obj/item/gun/ballistic/automatic/pistol/m1911 // BUG CHANGE (was "/obj/item/gun/ballistic/automatic/pistol/sol")
 
-/mob/living/basic/blackmesa/human/sec/ranged/Initialize(mapload)
+/mob/living/basic/blackmesa/human/sec/ranged/Initialize(mapload) // BUG CHANGE (used "/obj/item/ammo_casing/c35sol")
 	. = ..()
 	AddComponent(\
 		/datum/component/ranged_attacks,\
-		casing_type = /obj/item/ammo_casing/c35sol,\
+		casing_type = /obj/item/ammo_casing/c45,\
 		projectile_sound = 'sound/items/weapons/gun/pistol/shot.ogg',\
 		cooldown_time = 5 SECONDS,\
 		burst_shots = 1\
@@ -205,11 +205,11 @@
 	corpse = /obj/effect/mob_spawn/corpse/human/black_ops/ranged
 	r_hand = /obj/item/gun/ballistic/automatic/c20r // BUG CHANGE (was "/obj/item/gun/ballistic/automatic/sol_rifle")
 
-/mob/living/basic/blackmesa/human/blackops/ranged/Initialize(mapload)
+/mob/living/basic/blackmesa/human/blackops/ranged/Initialize(mapload) // BUG CHANGE (used "/obj/item/ammo_casing/c40sol")
 	. = ..()
 	AddComponent(\
 		/datum/component/ranged_attacks,\
-		casing_type = /obj/item/ammo_casing/c40sol,\
+		casing_type = /obj/item/ammo_casing/c45,\
 		projectile_sound = 'sound/items/weapons/gun/rifle/shot.ogg',\
 		cooldown_time = 4 SECONDS,\
 		burst_shots = 3\

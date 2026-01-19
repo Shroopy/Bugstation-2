@@ -232,7 +232,7 @@
 	new /obj/item/storage/toolbox/ammobox/full/lanca(src)
 	new /obj/item/storage/toolbox/ammobox/full/lanca(src)
 	new /obj/item/storage/toolbox/ammobox/full/lanca(src)
+	new /obj/item/storage/toolbox/ammobox/full/nri_smg(src)
+	new /obj/item/storage/toolbox/ammobox/full/nri_smg(src)
 	*/ // BUG REMOVAL
-	new /obj/item/storage/toolbox/ammobox/full/nri_smg(src)
-	new /obj/item/storage/toolbox/ammobox/full/nri_smg(src)
 	new /obj/item/storage/toolbox/ammobox/full/aps(src)

@@ -208,7 +208,7 @@
 /datum/armament_entry/company_import/vitezstvi/grenade_shells
 	subcategory = "Grenade Shells"
 	cost = PAYCHECK_COMMAND
-
+/*
 /datum/armament_entry/company_import/vitezstvi/grenade_shells/practice
 	item_type = /obj/item/ammo_box/c980grenade
 
@@ -225,7 +225,7 @@
 /datum/armament_entry/company_import/vitezstvi/grenade_shells/phosphor
 	item_type = /obj/item/ammo_box/c980grenade/shrapnel/phosphor
 	restricted = TRUE
-
+*/ // BUG REMOVAL
 // IRIS ADDITION START
 
 /datum/armament_entry/company_import/vitezstvi/misc

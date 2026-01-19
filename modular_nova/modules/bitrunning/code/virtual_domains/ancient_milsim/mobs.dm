@@ -61,11 +61,10 @@
 	/// Time between taking shots
 	var/ranged_cooldown = 0.45 SECONDS
 
-/mob/living/basic/trooper/cin_soldier/ranged/Initialize(mapload)
+/mob/living/basic/trooper/cin_soldier/ranged/Initialize(mapload) // BUG REMOVAL: "casing_type = casingtype,\"
 	. = ..()
 	AddComponent(\
 		/datum/component/ranged_attacks,\
-		/* casing_type = casingtype,\ */ // BUG REMOVAL
 		projectile_sound = projectilesound,\
 		cooldown_time = ranged_cooldown,\
 		burst_shots = burst_shots,\

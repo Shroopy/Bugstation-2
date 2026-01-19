@@ -1,7 +1,7 @@
 // Special ammo
 
 // .980 grenades
-
+/*
 /obj/item/ammo_box/magazine/ammo_stack/c980
 	name = ".980 Tydhouer grenades"
 	desc = "A stack of .980 Tydhouer grenades."
@@ -33,7 +33,7 @@
 	name = ".980 Tydhouer phosphor grenades"
 	ammo_type = /obj/item/ammo_casing/c980grenade/shrapnel/phosphor
 	icon_state = "stack_spec"
-
+*/ // BUG REMOVAL
 // 12ga shotgun shells
 
 /obj/item/ammo_casing/shotgun

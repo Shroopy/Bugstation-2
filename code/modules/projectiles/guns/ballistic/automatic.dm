@@ -35,7 +35,7 @@
 	pin = /obj/item/firing_pin
 
 /obj/item/gun/ballistic/automatic/c20r
-	name = "\improper bullpup smg" // BUG CHANGE (was "C-20r SMG")
+	name = "\improper bullpup SMG" // BUG CHANGE (was "C-20r SMG")
 	desc = "A C-20r bullpup submachine gun, firing lethal three-round bursts of .45 rounds. A barcode seems to be printed on the rear of the weapon's receiver." // BUG CHANGE (was "A bullpup three-round burst .45 SMG, designated 'C-20r'. Has a 'Scarborough Arms - Per falcis, per pravitas' buttstamp.")
 	icon_state = "c20r"
 	inhand_icon_state = "c20r"
@@ -64,8 +64,8 @@
 	update_appearance()
 
 /obj/item/gun/ballistic/automatic/wt550
-	name = "\improper combat rifle" // BUG CHANGE (was "WT-550 Autorifle")
-	desc = "An automatic 4.6x30mm assault rifle developed by Nanotrasen, and the reason for the cutting of their ballistics division, owed to its poor heat management." // BUG CHANGE (was "Recalled by Nanotrasen due to public backlash around heat distribution resulting in unintended discombobulation. This outcry was fabricated through various Syndicate-backed misinformation operations to force Nanotrasen to abandon its ballistics weapon program, cornering them into the energy weapons market. Most often found today in the hands of pirates, underfunded security personnel, cargo technicians, theoretical physicists, and gang bangers out on the rim. Light-weight and fully automatic. Uses 4.6x30mm rounds.")
+	name = "\improper combat PDW" // BUG CHANGE (was "WT-550 Autorifle")
+	desc = "The WT-550; an automatic 4.6x30mm PDW developed by Nanotrasen, and the reason for the cutting of their ballistics division, owed to its poor heat management." // BUG CHANGE (was "Recalled by Nanotrasen due to public backlash around heat distribution resulting in unintended discombobulation. This outcry was fabricated through various Syndicate-backed misinformation operations to force Nanotrasen to abandon its ballistics weapon program, cornering them into the energy weapons market. Most often found today in the hands of pirates, underfunded security personnel, cargo technicians, theoretical physicists, and gang bangers out on the rim. Light-weight and fully automatic. Uses 4.6x30mm rounds.")
 	icon_state = "wt550"
 	w_class = WEIGHT_CLASS_BULKY
 	inhand_icon_state = "arg"
@@ -86,7 +86,7 @@
 	AddComponent(/datum/component/bayonet_attachable, offset_x = 25, offset_y = 12)
 
 /obj/item/gun/ballistic/automatic/smartgun
-	name = "\improper smart smg" // BUG CHANGE (was "Abielle Smart-SMG")
+	name = "\improper smart SMG" // BUG CHANGE (was "Abielle Smart-SMG")
 	desc = "The Abielle Smart-SMG; a weapons experiment by shady outer-rim groups to create a submachine gun capable of tracking targets. \
 		While the tracking functions, the gun is prone to wide spread thanks to its extremely short barrel." // BUG CHANGE (was "An old experiment in smart-weapon technology that guides bullets towards the target the gun was aimed at when fired. While the tracking functions worked fine, the gun is prone to wide spread thanks to its extremely short barrel.")
 	icon_state = "smartgun"

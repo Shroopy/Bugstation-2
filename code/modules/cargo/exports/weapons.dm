@@ -78,6 +78,6 @@
 
 /datum/export/weapon/wt550
 	cost = CARGO_CRATE_VALUE * 1.5
-	unit_name = "combat rifle" // BUG EDIT
+	unit_name = "combat PDW" // BUG EDIT
 	export_types = list(/obj/item/gun/ballistic/automatic/wt550)
 

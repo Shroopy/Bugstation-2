@@ -32,7 +32,7 @@
 	cost = PAYCHECK_CREW * 1.5
 	access_view = ACCESS_WEAPONS
 	contains = list(/obj/item/ammo_box/speedloader/c38/match/bouncy)
-
+/*
 /datum/supply_pack/goody/dumdum38br
 	name = ".38 DumDum Magazine Single-Pack"
 	desc = "Contains one magazine of .38 DumDum ammunition, good for embedding in soft targets."
@@ -53,9 +53,9 @@
 	cost = PAYCHECK_CREW * 1.5
 	access_view = ACCESS_WEAPONS
 	contains = list(/obj/item/ammo_box/magazine/m38/match/bouncy)
-
+*/ // BUG REMOVAL
 /datum/supply_pack/goody/mars_single
-	name = "Colt Detective Special Single-Pack"
+	name = "Detective's Revolver Single-Pack" // BUG EDIT
 	desc = "The HoS took your gun and your badge? No problem! Just pay the absurd taxation fee and you too can be reunited with the lethal power of a .38!"
 	cost = PAYCHECK_CREW * 40 //they really mean a premium here
 	access_view = ACCESS_WEAPONS
@@ -76,7 +76,7 @@
 
 /datum/supply_pack/goody/ballistic_single
 	name = "Combat Shotgun Single-Pack"
-	desc = "For when the enemy absolutely needs to be replaced with lead. Contains one Aussec-designed Combat Shotgun, and one Shotgun Bandolier."
+	desc = "For when the enemy absolutely needs to be replaced with lead. Contains one Combat Shotgun, and one Shotgun Bandolier." // BUG EDIT
 	cost = PAYCHECK_COMMAND * 15
 	access_view = ACCESS_ARMORY
 	contains = list(

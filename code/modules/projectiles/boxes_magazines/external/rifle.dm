@@ -9,12 +9,12 @@
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 
 /obj/item/ammo_box/magazine/m223/phasic
-	name = "toploader magazine (.223 Phasic)"
+	name = "toploader magazine (.223 phasic)" // BUG EDIT
 	desc = parent_type::desc + "<br>Carries phasic rounds, which completely ignore armor and phase through cover, but not targets."
 	ammo_type = /obj/item/ammo_casing/a223/phasic
 
 // .38 (Battle Rifle) //
-
+/*
 /obj/item/ammo_box/magazine/m38
 	name = "battle rifle magazine (.38)"
 	desc = "A .38 magazine for a BR-38 battle rifle."
@@ -85,3 +85,4 @@
 	desc = parent_type::desc + " Flare casings launch a concentrated particle beam towards a target, lighting them up for everyone to see."
 	ammo_type = /obj/item/ammo_casing/c38/flare
 	ammo_band_color = COLOR_AMMO_HELLFIRE
+*/ // BUG REMOVAL

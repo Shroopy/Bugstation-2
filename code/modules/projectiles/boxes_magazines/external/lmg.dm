@@ -1,6 +1,6 @@
 /obj/item/ammo_box/magazine/m7mm
 	name = "box magazine (7mm)"
-	desc = "A sizeable 7mm box magazine, suitable for the L6 SAW."
+	desc = "A sizeable 7mm box magazine, suitable for the L6 light machine gun." // BUG EDIT
 	icon_state = "a7mm"
 	ammo_band_icon = "+a7mmab"
 	ammo_type = /obj/item/ammo_casing/m7mm

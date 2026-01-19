@@ -232,10 +232,10 @@ datum/armament_entry/company_import/sol_defense/longarm/outomaties
 
 /datum/armament_entry/company_import/sol_defense/magazines/sol_rifle_short
 	item_type = /obj/item/ammo_box/magazine/c40sol_rifle/starts_empty
-
+/*
 /datum/armament_entry/company_import/sol_defense/magazines/br38
 	item_type = /obj/item/ammo_box/magazine/m38/empty
-
+*/ // BUG REMOVAL
 /datum/armament_entry/company_import/sol_defense/magazines/kineticballs
 	item_type = /obj/item/ammo_box/magazine/kineticballs/starts_empty
 

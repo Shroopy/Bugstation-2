@@ -99,7 +99,7 @@
 		RND_CATEGORY_WEAPONS + RND_SUBCATEGORY_WEAPONS_AMMO
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
-
+/*
 /datum/design/c38_mag
 	name = "Magazine (.38) (Lethal)"
 	desc = "Designed to tactically reload a NT BR-38 Battle Rifle. Less powerful by design, guns chambered in .38 caliber rounds are still quite popular for use by police forces, \
@@ -214,7 +214,7 @@
 		RND_CATEGORY_WEAPONS + RND_SUBCATEGORY_WEAPONS_AMMO
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
-
+*/ // BUG REMOVAL
 /datum/design/rubbershot/sec
 	id = "sec_rshot"
 	desc = "Rubbershot shotgun shells. Fires a cloud of pellets. Rubber bullets are bouncy and less-than-lethal."

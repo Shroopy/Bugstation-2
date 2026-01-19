@@ -49,7 +49,7 @@
 	ammo_type = /obj/item/ammo_casing/shotgun/flechette
 
 /obj/item/ammo_box/magazine/m12g/donk
-	name = "shotgun magazine (12g Donk Co. 'Donk Spike' flechette)"
+	name = "shotgun magazine (12g donk spikes)" // BUG EDIT
 	desc = "A drum magazine of shotgun shells, suitable for the Bulldog combat shotgun. It is covered in Donk Co. scratch-and-sniff \
 		stickers. You're not sure you want to try and get a whiff..."
 	icon_state = "m12gd"

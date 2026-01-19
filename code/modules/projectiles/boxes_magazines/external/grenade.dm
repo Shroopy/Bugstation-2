@@ -1,6 +1,6 @@
 /obj/item/ammo_box/magazine/m75
 	name = "specialized magazine (.75)"
-	desc = "A .75 gyrojet magazine, suitable for use in the Gyrojet pistol."
+	desc = "A .75 gyrojet magazine, suitable for use in Gyrojet pistols." // BUG EDIT
 	icon_state = "75"
 	ammo_type = /obj/item/ammo_casing/a75
 	caliber = CALIBER_75

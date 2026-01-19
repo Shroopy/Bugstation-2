@@ -1,7 +1,7 @@
 // .310 Strilka (Sakhno Rifle)
 
 /obj/item/ammo_casing/strilka310
-	name = ".310 Strilka bullet casing"
+	name = ".310 bullet casing" // BUG EDIT
 	desc = "A .310 Strilka bullet casing. Casing is a bit of a fib; there is no case, it's just a block of red powder."
 	icon_state = "310-casing"
 	caliber = CALIBER_STRILKA310
@@ -13,7 +13,7 @@
 	AddElement(/datum/element/caseless)
 
 /obj/item/ammo_casing/strilka310/surplus
-	name = ".310 Strilka surplus bullet casing"
+	name = ".310 surplus bullet casing" // BUG EDIT
 	desc = parent_type::desc + " Damp red powder at that."
 	projectile_type = /obj/projectile/bullet/strilka310/surplus
 
@@ -21,7 +21,7 @@
 	projectile_type = /obj/projectile/bullet/strilka310/enchanted
 
 /obj/item/ammo_casing/strilka310/phasic
-	name = ".310 Strilka phasic bullet casing"
+	name = ".310 phasic bullet casing" // BUG EDIT
 	desc = "A phasic .310 Strilka bullet casing."
 	projectile_type = /obj/projectile/bullet/strilka310/phasic
 // .223 (M-90gl Carbine)
@@ -57,7 +57,7 @@
 	projectile_type = /obj/projectile/bullet/shotgun_beanbag/a40mm
 
 /obj/item/ammo_casing/rebar
-	name = "Sharpened Iron Rod"
+	name = "sharpened iron rod" // BUG EDIT
 	desc = "A Sharpened Iron rod. It's Pointy!"
 	caliber = CALIBER_REBAR
 	icon_state = "rod_sharp"
@@ -74,7 +74,7 @@
 	icon_state = "[base_icon_state]"
 
 /obj/item/ammo_casing/rebar/syndie
-	name = "Jagged Iron Rod"
+	name = "jagged iron rod" // BUG EDIT
 	desc = "An Iron rod, with notches cut into it. You really don't want this stuck in you."
 	caliber = CALIBER_REBAR
 	icon_state = "rod_jagged"

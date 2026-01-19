@@ -33,8 +33,8 @@
 // Stechkin APS (9mm) //
 
 /obj/item/ammo_box/magazine/m9mm_aps
-	name = "stechkin pistol magazine (9mm)"
-	desc = "A 9mm handgun magazine, suitable for the Stechkin APS machine pistol."
+	name = "machine pistol magazine (9mm)" // BUG EDIT
+	desc = "A 9mm handgun magazine, suitable for machine pistols." // BUG EDIT
 	icon_state = "9mmaps-15"
 	base_icon_state = "9mmaps"
 	ammo_band_icon = "+9mmapsab"
@@ -48,17 +48,17 @@
 	icon_state = "[base_icon_state]-[round(ammo_count(), 5)]"
 
 /obj/item/ammo_box/magazine/m9mm_aps/fire
-	name = "stechkin pistol magazine (9mm incendiary)"
+	name = "machine pistol magazine (9mm incendiary)" // BUG EDIT
 	MAGAZINE_TYPE_INCENDIARY
 	ammo_type = /obj/item/ammo_casing/c9mm/fire
 
 /obj/item/ammo_box/magazine/m9mm_aps/hp
-	name = "stechkin pistol magazine (9mm HP)"
+	name = "machine pistol magazine (9mm HP)" // BUG EDIT
 	MAGAZINE_TYPE_HOLLOWPOINT
 	ammo_type = /obj/item/ammo_casing/c9mm/hp
 
 /obj/item/ammo_box/magazine/m9mm_aps/ap
-	name = "stechkin pistol magazine (9mm AP)"
+	name = "machine pistol magazine (9mm AP)" // BUG EDIT
 	MAGAZINE_TYPE_ARMORPIERCE
 	ammo_type = /obj/item/ammo_casing/c9mm/ap
 
@@ -66,7 +66,7 @@
 
 /obj/item/ammo_box/magazine/m10mm
 	name = "pistol magazine (10mm)"
-	desc = "A 10mm handgun magazine, suitable for the Ansem pistol."
+	desc = "A 10mm handgun magazine, suitable for operator pistols." // BUG EDIT
 	icon_state = "9x19p"
 	base_icon_state = "9x19p"
 	ammo_band_icon = "+9x19ab"
@@ -94,7 +94,7 @@
 	ammo_type = /obj/item/ammo_casing/c10mm/ap
 
 // Regal Condor (10mm) //
-
+/*
 /obj/item/ammo_box/magazine/r10mm
 	name = "regal condor magazine (10mm Reaper)"
 	desc = "A very expensive 10mm handgun magazine, suitable for the Regal Condor. Loaded with \"reaper\" rounds, which are dangerously effective against everything."
@@ -105,12 +105,12 @@
 	max_ammo = 8
 	multiple_sprites = AMMO_BOX_PER_BULLET
 	multiple_sprite_use_base = TRUE
-
+*/ // BUG REMOVAL
 // M1911 (.45) //
 
 /obj/item/ammo_box/magazine/m45
 	name = "handgun magazine (.45)"
-	desc = "A .45 handgun magazine, suitable for the M1911."
+	desc = "A .45 handgun magazine, suitable for antique pistols." // BUG EDIT
 	icon_state = "45-8"
 	base_icon_state = "45"
 	ammo_type = /obj/item/ammo_casing/c45
@@ -123,7 +123,7 @@
 
 /obj/item/ammo_box/magazine/m50
 	name = "handgun magazine (.50 AE)"
-	desc = "A .50 AE handgun magazine, suitable for the Desert Eagle."
+	desc = "A .50 AE handgun magazine, suitable for the 'Orion Eagle' handgun." // BUG EDIT
 	icon_state = "50ae"
 	ammo_type = /obj/item/ammo_casing/a50ae
 	caliber = CALIBER_50AE

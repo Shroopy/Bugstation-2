@@ -1,0 +1,4 @@
+author: "keygenpie"
+delete-after: True
+changes:
+  - rscdel: "Removed carpets, hot cocoa, and yogurt from the list of valid substances for the scrubber event."

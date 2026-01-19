@@ -1,5 +1,5 @@
 // Tarkon M6 PDW //
-
+/*
 /obj/item/gun/ballistic/automatic/m6pdw
 	name = "\improper M6 Personal Defense Weapon"
 	desc = "A PDW designed to be used within close to medium range. Its slide seems to stick a bit, having years of dust accumulation, And its manufacturer stamp and symbols have been scratched out."
@@ -19,3 +19,4 @@
 	projectile_damage_multiplier = 1
 	burst_size = 2
 	fire_delay = 1.9
+*/ // BUG REMOVAL

@@ -1,4 +1,4 @@
-/// Component that handles barrel-charger-esque effects, typically increasing damage/projectile speed but reducing firerate
+/* /// Component that handles barrel-charger-esque effects, typically increasing damage/projectile speed but reducing firerate
 /// Examples: the Laevateinn revolver, the Kolben shotgun
 /datum/component/gun_booster
 	/// Is our currently attached gun amped?
@@ -109,3 +109,4 @@
 
 /obj/item/gun/ballistic/revolver/c38/super/empty
 	spawn_magazine_type = /obj/item/ammo_box/magazine/internal/cylinder/rev38/empty
+*/ // BUG REMOVAL

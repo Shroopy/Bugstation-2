@@ -395,8 +395,8 @@ GLOBAL_LIST_INIT(call911_do_and_do_not, list(
 	l_pocket = /obj/item/restraints/handcuffs
 	id = /obj/item/card/id/advanced/solfed
 	backpack_contents = list(
-		/obj/item/gun/ballistic/automatic/pistol/sol = 1,
-		/obj/item/ammo_box/magazine/c35sol_pistol = 4,
+		/obj/item/gun/ballistic/automatic/pistol/m1911 = 1, // BUG CHANGE (was "/obj/item/gun/ballistic/automatic/pistol/sol")
+		/obj/item/ammo_box/magazine/m45 = 4, // BUG CHANGE (was "/obj/item/ammo_box/magazine/c35sol_pistol")
 		/obj/item/storage/box/survival = 1,
 		/obj/item/storage/box/handcuffs = 1,
 		/obj/item/solfed_reporter/swat_caller = 1,
@@ -558,7 +558,7 @@ GLOBAL_LIST_INIT(call911_do_and_do_not, list(
 	r_pocket = /obj/item/flashlight/seclite
 	l_pocket = /obj/item/restraints/handcuffs
 	id = /obj/item/card/id/advanced/solfed
-	l_hand = /obj/item/gun/ballistic/shotgun/riot/sol
+	l_hand = /obj/item/gun/ballistic/shotgun/riot // BUG CHANGE (was "/obj/item/gun/ballistic/shotgun/riot/sol")
 	backpack_contents = list(
 		/obj/item/storage/box/survival = 1,
 		/obj/item/storage/box/handcuffs = 1,
@@ -608,11 +608,11 @@ GLOBAL_LIST_INIT(call911_do_and_do_not, list(
 	l_pocket = /obj/item/restraints/handcuffs
 	r_pocket = /obj/item/flashlight/seclite
 	id = /obj/item/card/id/advanced/solfed
-	r_hand = /obj/item/gun/ballistic/automatic/sol_rifle
+	r_hand = /obj/item/gun/ballistic/automatic/battle_rifle // BUG CHANGE (was "/obj/item/gun/ballistic/automatic/sol_rifle")
 	backpack_contents = list(
 		/obj/item/storage/box/handcuffs = 1,
 		/obj/item/melee/baton/security/loaded = 1,
-		/obj/item/ammo_box/magazine/c40sol_rifle/standard = 4,
+		/obj/item/ammo_box/magazine/m38 = 4, // BUG CHANGE (was "/obj/item/ammo_box/magazine/c40sol_rifle/standard")
 	)
 
 	id_trim = /datum/id_trim/solfed

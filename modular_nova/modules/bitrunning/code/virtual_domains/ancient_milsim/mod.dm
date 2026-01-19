@@ -116,7 +116,7 @@
 		/obj/item/mod/module/visor/night,
 	)
 	insignia_type = /obj/item/mod/module/insignia/milsim_trooper
-	additional_modules = /obj/item/mod/module/dispenser/ancient_milsim/trooper
+	// additional_modules = /obj/item/mod/module/dispenser/ancient_milsim/trooper BUG REMOVAL
 
 /obj/item/mod/module/dispenser/ancient_milsim
 	removable = FALSE
@@ -196,6 +196,7 @@
 	new_dispense_type = /obj/item/ammo_box/magazine/mmg_box
 	new_cooldown_time = 15 SECONDS
 
+/*
 /obj/item/mod/module/dispenser/ancient_milsim/trooper
 	name = "MOD Sol rifle-Sol rifle magazine dispenser module"
 	desc = "This module can create a single .40 Sol caliber assault rifle and additional magazines at the user's liking."
@@ -203,6 +204,7 @@
 	cooldown_time = 25 SECONDS
 	new_dispense_type = /obj/item/ammo_box/magazine/c40sol_rifle/standard
 	new_cooldown_time = 15 SECONDS
+*/ // BUG REMOVAL
 
 /obj/item/mod/module/insignia/milsim_mechanic
 	color = "#ff7300"

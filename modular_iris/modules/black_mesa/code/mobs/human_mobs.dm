@@ -203,7 +203,7 @@
 	ai_controller = /datum/ai_controller/basic_controller/blackops/ranged
 	attack_sound = 'sound/items/weapons/punch1.ogg'
 	corpse = /obj/effect/mob_spawn/corpse/human/black_ops/ranged
-	r_hand = /obj/item/gun/ballistic/automatic/sol_rifle
+	r_hand = /obj/item/gun/ballistic/automatic/c20r // BUG CHANGE (was "/obj/item/gun/ballistic/automatic/sol_rifle")
 
 /mob/living/basic/blackmesa/human/blackops/ranged/Initialize(mapload)
 	. = ..()

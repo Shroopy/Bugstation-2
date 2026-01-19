@@ -170,12 +170,12 @@
 	new /obj/item/gun/ballistic/automatic/c20r/unrestricted(src)
 	new /obj/item/ammo_box/magazine/smgm45(src)
 	new /obj/item/ammo_box/magazine/smgm45(src)
-
+/*
 /datum/opposing_force_equipment/ranged_stealth/sindano
 	name = "Sindano SMG"
 	description = "A small submachinegun, this one is painted in tacticool black. Accepts any standard Sol pistol magazine."
 	item_type = /obj/item/storage/toolbox/guncase/nova/pistol/opfor/sindano
-/*
+
 /obj/item/storage/toolbox/guncase/nova/pistol/opfor/sindano/PopulateContents()
 	new /obj/item/gun/ballistic/automatic/sol_smg/evil(src)
 	new /obj/item/ammo_box/magazine/c35sol_pistol/stendo(src)

@@ -1,4 +1,5 @@
 // LOW COST
+/*
 /datum/uplink_item/ammo/enforcer
 	name = "Enforcer 10mm Magazine Case"
 	desc = "A case containing three additional 12-round 10mm magazines, compatible with the Enforcer-TEN combat handgun, as well as \
@@ -30,7 +31,7 @@
 	item = /obj/item/ammo_box/magazine/enforcer/fire
 	cost = /datum/uplink_item/low_cost/ammunition::cost
 	purchasable_from = UPLINK_TRAITORS | UPLINK_SERIOUS_OPS
-
+*/ // BUG REMOVAL
 /datum/uplink_item/ammo/slug_shells
 	name = "Slug Twelve-Gauge Box"
 	desc = "A standard-sized box of slug shells."

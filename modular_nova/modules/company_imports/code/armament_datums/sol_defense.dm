@@ -83,6 +83,7 @@
 /datum/armament_entry/company_import/sol_defense/armor_sacrifice/sacrificial_vest
 	item_type = /obj/item/clothing/suit/armor/sf_sacrificial
 
+/*
 /datum/armament_entry/company_import/sol_defense/case
 	subcategory = "Weapon Cases"
 
@@ -264,3 +265,4 @@ datum/armament_entry/company_import/sol_defense/longarm/outomaties
 	item_type = /obj/item/ammo_box/magazine/jager/large/empty
 	cost = PAYCHECK_CREW * 3
 	restricted = TRUE
+*/ // BUG REMOVAL

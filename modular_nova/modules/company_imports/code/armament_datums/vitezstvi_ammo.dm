@@ -89,7 +89,7 @@
 
 /datum/armament_entry/company_import/vitezstvi/ammo_boxes/auto10mm_rubber
 	item_type = /obj/item/ammo_box/c10mm/rubber
-
+/*
 /datum/armament_entry/company_import/vitezstvi/ammo_boxes/zaibas_ammo
 	item_type = /obj/item/ammo_box/pulse_cargo_box
 	//It's like, a lot of ammo compared to other packages; high-capacity universal ammo for all pulse plasma guns.
@@ -142,7 +142,7 @@
 
 /datum/armament_entry/company_import/vitezstvi/ammo_boxes/kineticballs
 	item_type = /obj/item/ammo_box/advanced/kineticballs
-
+*/ // BUG REMOVAL
 // Revolver speedloaders
 
 /datum/armament_entry/company_import/vitezstvi/speedloader
@@ -157,13 +157,13 @@
 
 /datum/armament_entry/company_import/vitezstvi/speedloader/detective_bouncy
 	item_type = /obj/item/ammo_box/speedloader/c38/match
-
+/*
 /datum/armament_entry/company_import/vitezstvi/speedloader/c35sol
 	item_type = /obj/item/ammo_box/speedloader/c35sol
 
 /datum/armament_entry/company_import/vitezstvi/speedloader/c585trappiste
 	item_type = /obj/item/ammo_box/speedloader/c585trappiste
-
+*/ // BUG REMOVAL
 // Shotgun boxes
 
 /datum/armament_entry/company_import/vitezstvi/shot_shells

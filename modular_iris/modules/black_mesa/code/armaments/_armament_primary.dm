@@ -7,7 +7,7 @@
 /datum/armament_entry/hecu/primary/submachinegun
 	subcategory = ARMAMENT_SUBCATEGORY_SUBMACHINEGUN
 	mags_to_spawn = 4
-
+/*
 /datum/armament_entry/hecu/primary/submachinegun/sindano
 	item_type = /obj/item/gun/ballistic/automatic/sol_smg
 	max_purchase = 4
@@ -17,11 +17,11 @@
 	item_type = /obj/item/gun/ballistic/automatic/xhihao_smg
 	max_purchase = 2
 	cost = 8
-
+*/ // BUG REMOVAL
 /datum/armament_entry/hecu/primary/assaultrifle
 	subcategory = ARMAMENT_SUBCATEGORY_ASSAULTRIFLE
 	mags_to_spawn = 3
-
+/*
 /datum/armament_entry/hecu/primary/assaultrifle/automaties
 	item_type = /obj/item/gun/ballistic/automatic/sol_rifle/machinegun
 	max_purchase = 1
@@ -33,18 +33,18 @@
 	max_purchase = 2
 	cost = 11
 	magazine = /obj/item/ammo_box/magazine/c40sol_rifle/standard
-
+*/ // BUG REMOVAL
 /datum/armament_entry/hecu/primary/shotgun
 	subcategory = ARMAMENT_SUBCATEGORY_SHOTGUN
 	mags_to_spawn = 1
 	magazine = /obj/item/storage/box/ammo_box/shotgun_12g
 	magazine_cost = 4
-
+/*
 /datum/armament_entry/hecu/primary/shotgun/shotgun_highcap
 	item_type = /obj/item/gun/ballistic/shotgun/riot/sol
 	max_purchase = 2
 	cost = 5
-
+*/ // BUG REMOVAL
 /datum/armament_entry/hecu/primary/shotgun/autoshotgun_pump
 	item_type = /obj/item/gun/ballistic/shotgun/automatic/combat
 	max_purchase = 1
@@ -53,12 +53,12 @@
 /datum/armament_entry/hecu/primary/special
 	subcategory = ARMAMENT_SUBCATEGORY_SPECIAL
 	mags_to_spawn = 2
-
+/*
 /datum/armament_entry/hecu/primary/special/sniper_rifle
 	item_type = /obj/item/gun/ballistic/automatic/sol_rifle/marksman
 	max_purchase = 1
 	cost = 16
-
+*/ // BUG REMOVAL
 /datum/armament_entry/hecu/primary/special/hmg
 	item_type = /obj/item/mounted_machine_gun_folded
 	max_purchase = 1

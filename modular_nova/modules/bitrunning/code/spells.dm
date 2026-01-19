@@ -1,4 +1,4 @@
-/datum/action/cooldown/spell/conjure/flare
+/* /datum/action/cooldown/spell/conjure/flare
 	name = "Summon Light Source"
 	desc = "This spell creates a green flare."
 
@@ -10,7 +10,7 @@
 	spell_requirements = NONE
 	sound = 'sound/items/match_strike.ogg'
 	summon_radius = 0
-	summon_type = list(/obj/item/flashlight/flare/plasma_projectile)
+	summon_type = list(/obj/item/flashlight/flare/plasma_projectile) */ // BUG REMOVAL
 
 /datum/action/cooldown/spell/death_loop
 	name = "Death Loop"

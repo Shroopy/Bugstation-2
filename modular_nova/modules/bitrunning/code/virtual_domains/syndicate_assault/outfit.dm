@@ -9,9 +9,9 @@
 		/obj/item/storage/box/survival/interdyne,
 		/obj/item/storage/box/nif_ghost_box,
 	)
-	r_hand = /obj/item/gun/energy/modular_laser_rifle
-	l_pocket = /obj/item/storage/pouch/ammo/marksman
-	belt = /obj/item/gun/energy/modular_laser_rifle/carbine
+	r_hand = /obj/item/gun/ballistic/automatic/mini_uzi //BUG CHANGE (was "/obj/item/gun/energy/modular_laser_rifle")
+	l_pocket = /obj/item/ammo_box/magazine/uzim9mm //BUG CHANGE (was "/obj/item/storage/pouch/ammo/marksman")
+	// belt = /obj/item/gun/energy/modular_laser_rifle/carbine BUG REMOVAL
 	id = /obj/item/card/id/advanced/chameleon
 	id_trim = /datum/id_trim/chameleon/virtual_operative
 	implants = list(/obj/item/implant/weapons_auth)

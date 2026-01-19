@@ -54,7 +54,7 @@ GLOBAL_LIST_INIT(nova_funny_mystery_box_items, list(
 ))
 
 /obj/structure/mystery_box/guns/generate_valid_types()
-	valid_types = GLOB.summoned_guns + GLOB.nova_special_firearms
+	valid_types = GLOB.summoned_guns // BUG CHANGE: removed "GLOB.nova_special_firearms"
 
 /obj/structure/mystery_box/tdome/generate_valid_types()
-	valid_types = GLOB.mystery_box_guns + GLOB.mystery_box_extended + GLOB.nova_special_firearms + GLOB.nova_funny_mystery_box_items
+	valid_types = GLOB.mystery_box_guns + GLOB.mystery_box_extended + GLOB.nova_funny_mystery_box_items // BUG CHANGE: removed "GLOB.nova_special_firearms"

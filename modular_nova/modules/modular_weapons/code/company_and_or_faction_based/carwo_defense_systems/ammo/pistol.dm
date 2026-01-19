@@ -1,6 +1,6 @@
 // .35 Sol Short
 // Pistol caliber caseless round used almost exclusively by SolGov weapons
-
+/*
 /obj/item/ammo_casing/c35sol
 	name = ".35 Sol Short lethal bullet casing"
 	desc = "A SolGov standard caseless lethal pistol round."
@@ -182,3 +182,4 @@
 	caliber = CALIBER_SOL35SHORT
 	ammo_band_icon = "+sl35_band"
 	ammo_band_color = null
+*/ // BUG REMOVAL

@@ -9,6 +9,7 @@
 	cost = 1
 	purchasable_from = UPLINK_TRAITORS | UPLINK_ALL_SYNDIE_OPS
 
+/*
 /datum/uplink_item/dangerous/enforcer
 	name = "Enforcer-TEN Handgun Case"
 	desc = "A weapon case containing the Enforcer-TEN combat handgun, along with two spare magazines and a large box of loose 10mm ammunition. \
@@ -17,6 +18,7 @@
 	item = /obj/item/storage/toolbox/guncase/traitor/enforcer
 	cost = /datum/uplink_item/low_cost/weaponry::cost
 	purchasable_from = UPLINK_TRAITORS | UPLINK_SERIOUS_OPS
+*/ // BUG REMOVAL
 
 /datum/uplink_item/dangerous/ansem
 	name = "Ansem Pistol Case"
@@ -51,12 +53,14 @@
 	cost = /datum/uplink_item/medium_cost/weaponry::cost
 	purchasable_from = UPLINK_TRAITORS | UPLINK_SERIOUS_OPS
 
+/*
 /datum/uplink_item/dangerous/sindano
 	name = "Carwo-Cawil Sindano Case"
 	desc = "A Sindano SMG, with spare lethal-and-non-lethal ammo, and three various magazines."
 	item = /obj/item/storage/toolbox/guncase/nova/pistol/opfor/sindano
 	cost = /datum/uplink_item/medium_cost/weaponry::cost
 	purchasable_from = UPLINK_TRAITORS | UPLINK_SERIOUS_OPS
+*/ // BUG REMOVAL
 
 /datum/uplink_item/dangerous/nukeop_smg
 	name = "Scarborough C-20r Case"
@@ -80,6 +84,7 @@
 	cost = /datum/uplink_item/medium_cost/weaponry::cost
 	purchasable_from = UPLINK_TRAITORS | UPLINK_SERIOUS_OPS
 
+/*
 /datum/uplink_item/dangerous/combat_shotgun
 	name = "Carwo-Cawil M64 Shotgun Case"
 	desc = "A twelve guage shotgun with an eight shell capacity underneath."
@@ -95,7 +100,6 @@
 	item = /obj/item/storage/toolbox/guncase/traitor/boarder
 	cost = /datum/uplink_item/medium_cost/weaponry::cost
 	purchasable_from = UPLINK_TRAITORS | UPLINK_SERIOUS_OPS
-
 
 // HIGH COST
 /datum/uplink_item/dangerous/shitzu
@@ -118,6 +122,7 @@
 	item = /obj/item/storage/toolbox/guncase/nova/opfor/amr
 	cost = /datum/uplink_item/high_cost/weaponry::cost
 	purchasable_from = UPLINK_TRAITORS | UPLINK_SERIOUS_OPS
+*/ // BUG REMOVAL
 
 /datum/uplink_item/dangerous/hook_shotgun
 	name = "Modified Sawn-off Shotgun Case"

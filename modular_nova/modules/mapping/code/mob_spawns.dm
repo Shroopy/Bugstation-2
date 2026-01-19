@@ -72,8 +72,8 @@
 		/obj/item/gun/energy/e_gun/old = 50,
 		/obj/item/gun/ballistic/shotgun/automatic/combat = 50,
 		/obj/item/gun/ballistic/automatic/pistol/contraband = 30,
-		/obj/item/gun/ballistic/automatic/sol_rifle/evil  = 20,
-		/obj/item/gun/ballistic/automatic/sol_smg/evil = 20,
+		/obj/item/gun/ballistic/automatic/pistol/clandestine = 20, // BUG CHANGE (was "/obj/item/gun/ballistic/automatic/sol_rifle/evil")
+		/obj/item/gun/ballistic/automatic/mini_uzi = 20, // BUG CHANGE (was "/obj/item/gun/ballistic/automatic/sol_smg/evil")
 		/obj/item/gun/ballistic/shotgun/bulldog/unrestricted,
 	)
 
@@ -409,8 +409,8 @@
 	glasses = /obj/item/clothing/glasses/hud/security/sunglasses
 	backpack_contents = list(
 		/obj/item/storage/box/survival/interdyne = 1,
-		/obj/item/gun/ballistic/automatic/pistol/sol/evil = 1,
-		/obj/item/ammo_box/magazine/c35sol_pistol = 1,
+		/obj/item/gun/ballistic/automatic/pistol/clandestine = 1, // BUG CHANGE (was "/obj/item/gun/ballistic/automatic/pistol/sol/evil")
+		/obj/item/gun/ballistic/automatic/mini_uzi = 1, // BUG CHANGE (was "/obj/item/ammo_box/magazine/c35sol_pistol")
 		)
 	r_pocket = /obj/item/flashlight/seclite
 	mask = /obj/item/clothing/mask/gas/syndicate

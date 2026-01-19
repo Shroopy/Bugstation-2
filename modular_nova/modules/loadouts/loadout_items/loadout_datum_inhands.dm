@@ -57,11 +57,11 @@
 /datum/loadout_item/inhand/guncase_small
 	name = "Empty Gun Case (Black, Small)"
 	item_path = /obj/item/storage/toolbox/guncase/nova/pistol
-
+/*
 /datum/loadout_item/inhand/guncase_large/yellow
 	name = "Empty Gun Case (Yellow, Large)"
 	item_path = /obj/item/storage/toolbox/guncase/nova/carwo_large_case
-
+*/ // BUG REMOVAL
 /datum/loadout_item/inhand/flag_azulea
 	name = "Flag - Azulea"
 	item_path = /obj/item/sign/flag/azulea

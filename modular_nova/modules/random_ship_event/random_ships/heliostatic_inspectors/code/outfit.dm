@@ -18,8 +18,8 @@
 	back = /obj/item/storage/backpack/satchel/leather
 	backpack_contents = list(
 		/obj/item/storage/box/nri_survival_pack/inspector = 1,
-		/obj/item/ammo_box/magazine/recharge/plasma_battery = 2,
-		/obj/item/gun/ballistic/automatic/pistol/plasma_marksman = 1,
+		/obj/item/ammo_box/speedloader/c38 = 2, // BUG CHANGE (was "/obj/item/ammo_box/magazine/recharge/plasma_battery")
+		/obj/item/gun/ballistic/revolver/c38 = 1, // BUG CHANGE (was "/obj/item/gun/ballistic/automatic/pistol/plasma_marksman")
 		/obj/item/clothing/mask/gas/hc_police = 1,
 		/obj/item/modular_computer/pda/hc_police = 1,
 	)

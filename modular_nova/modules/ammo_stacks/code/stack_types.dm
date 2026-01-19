@@ -125,6 +125,8 @@
 
 // .35 sol short
 
+/*
+
 /obj/item/ammo_box/magazine/ammo_stack/c35_sol
 	name = ".35 Sol Short casings"
 	desc = "A stack of .35 Sol Short cartridges."
@@ -265,3 +267,4 @@
 
 /obj/item/ammo_box/magazine/ammo_stack/c60_strela/prefilled
 	start_empty = FALSE
+*/ // BUG REMOVAL

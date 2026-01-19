@@ -50,7 +50,7 @@
 	var/mag_slots = 2
 	////// Types of magazines that can be allowed.
 	var/mag_types_allowed = list(
-		/obj/item/ammo_box/magazine/c35sol_pistol,
+		/obj/item/ammo_box/magazine/m9mm, // BUG CHANGE (was "/obj/item/ammo_box/magazine/c35sol_pistol")
 	)
 
 /obj/item/storage/toolbox/emergency/turret/mag_fed/Initialize(mapload)

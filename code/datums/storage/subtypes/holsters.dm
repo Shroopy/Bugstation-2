@@ -43,10 +43,14 @@
 		/obj/item/gun/energy/laser/captain,
 		/obj/item/gun/energy/e_gun/hos,
 		// NOVA EDIT ADDITION START
+
+		/*
 		/obj/item/gun/ballistic/automatic/pistol/plasma_marksman,
 		/obj/item/gun/ballistic/automatic/pistol/plasma_thrower,
 		/obj/item/ammo_box/magazine/recharge/plasma_battery,
 		/obj/item/gun/energy/recharge/kinetic_accelerator/variant/glock,
+		*/ // BUG REMOVAL
+
 		// NOVA EDIT ADDITION END
 		// IRIS EDIT ADDITION START
 		/obj/item/gun/energy/e_gun/blueshield

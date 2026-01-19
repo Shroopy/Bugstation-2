@@ -1,6 +1,6 @@
 // .40 Sol Long
 // Rifle caliber caseless ammo that kills people good
-
+/*
 /obj/item/ammo_casing/c40sol
 	name = ".40 Sol Long lethal bullet casing"
 	desc = "A SolGov standard caseless lethal rifle round."
@@ -190,3 +190,4 @@
 	icon_state = "40box_flame"
 
 	ammo_type = /obj/item/ammo_casing/c40sol/incendiary
+*/ // BUG REMOVAL

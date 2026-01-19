@@ -49,23 +49,23 @@
 
 /obj/effect/spawner/armory_spawn/shotguns
 	guns = list(
-		/obj/item/gun/ballistic/shotgun/riot/sol,
-		/obj/item/gun/ballistic/shotgun/riot/sol,
-		/obj/item/gun/ballistic/shotgun/riot/sol,
+		/obj/item/gun/ballistic/shotgun/riot, // BUG CHANGE (was "/obj/item/gun/ballistic/shotgun/riot/sol")
+		/obj/item/gun/ballistic/shotgun/riot, // BUG CHANGE (was "/obj/item/gun/ballistic/shotgun/riot/sol")
+		/obj/item/gun/ballistic/shotgun/riot, // BUG CHANGE (was "/obj/item/gun/ballistic/shotgun/riot/sol")
 	)
 
 /obj/effect/spawner/armory_spawn/mod_lasers_big
 	guns = list(
-		/obj/item/gun/energy/modular_laser_rifle,
-		/obj/item/gun/energy/modular_laser_rifle,
-		/obj/item/gun/energy/modular_laser_rifle,
+		/obj/item/gun/energy/laser, // BUG CHANGE (was "/obj/item/gun/energy/modular_laser_rifle")
+		/obj/item/gun/energy/laser, // BUG CHANGE (was "/obj/item/gun/energy/modular_laser_rifle")
+		/obj/item/gun/energy/laser, // BUG CHANGE (was "/obj/item/gun/energy/modular_laser_rifle")
 	)
 
 /obj/effect/spawner/armory_spawn/mod_lasers_small
 	guns = list(
-		/obj/item/gun/energy/modular_laser_rifle/carbine,
-		/obj/item/gun/energy/modular_laser_rifle/carbine,
-		/obj/item/gun/energy/modular_laser_rifle/carbine,
+		/obj/item/gun/energy/e_gun, // BUG CHANGE (was "/obj/item/gun/energy/modular_laser_rifle/carbine")
+		/obj/item/gun/energy/e_gun, // BUG CHANGE (was "/obj/item/gun/energy/modular_laser_rifle/carbine")
+		/obj/item/gun/energy/e_gun, // BUG CHANGE (was "/obj/item/gun/energy/modular_laser_rifle/carbine")
 	)
 
 /obj/structure/closet/ammunitionlocker/useful/PopulateContents()
@@ -76,9 +76,9 @@
 
 /obj/effect/spawner/armory_spawn/centcom_rifles
 	guns = list(
-		/obj/item/gun/ballistic/automatic/sol_rifle,
-		/obj/item/gun/ballistic/automatic/sol_rifle,
-		/obj/item/gun/ballistic/automatic/sol_rifle/machinegun,
+		/obj/item/gun/ballistic/automatic/battle_rifle, // BUG CHANGE (was "/obj/item/gun/ballistic/automatic/sol_rifle")
+		/obj/item/gun/ballistic/automatic/battle_rifle, // BUG CHANGE (was "/obj/item/gun/ballistic/automatic/sol_rifle")
+		/obj/item/gun/ballistic/automatic/l6_saw, // BUG CHANGE (was "/obj/item/gun/ballistic/automatic/sol_rifle/machinegun")
 	)
 
 /obj/effect/spawner/armory_spawn/centcom_lasers
@@ -91,8 +91,8 @@
 /obj/effect/spawner/armory_spawn/smg
 	vertical_guns = FALSE // Name slightly misleading, but i'd probably do more damage renaming it from SMG then letting it be.
 	guns = list(
-		/obj/item/storage/toolbox/guncase/nova/carwo_large_case/sindano,
-		/obj/item/storage/toolbox/guncase/nova/carwo_large_case/sindano,
-		/obj/item/storage/toolbox/guncase/nova/carwo_large_case/sol_classic,
-		/obj/item/storage/toolbox/guncase/nova/carwo_large_case/sol_classic,
+		/obj/item/gun/ballistic/automatic/proto, // BUG CHANGE (was "/obj/item/storage/toolbox/guncase/nova/carwo_large_case/sindano")
+		/obj/item/gun/ballistic/automatic/proto, // BUG CHANGE (was "/obj/item/storage/toolbox/guncase/nova/carwo_large_case/sindano")
+		/obj/item/gun/ballistic/automatic/proto, // BUG CHANGE (was "/obj/item/storage/toolbox/guncase/nova/carwo_large_case/sol_classic")
+		/obj/item/gun/ballistic/automatic/proto, // BUG CHANGE (was "/obj/item/storage/toolbox/guncase/nova/carwo_large_case/sol_classic")
 	)

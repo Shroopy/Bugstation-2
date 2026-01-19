@@ -5,7 +5,7 @@
 	if(!isnull(ammo_to_spawn))
 		for(var/i in 1 to amount)
 			new ammo_to_spawn(src)
-
+/*
 /obj/item/storage/toolbox/ammobox/full/sakhno
 	name = "ammo box (Sakhno)"
 	desc = "If the label's accurate, it probably contains stripper clips for the Sakhno precision rifle or variants."
@@ -17,7 +17,7 @@
 	desc = "If the label's accurate, it should probably contain magazines for the Lanca battle rifle."
 	ammo_to_spawn = /obj/item/ammo_box/magazine/lanca
 	amount = 7
-
+*/ // BUG REMOVAL
 /obj/item/storage/toolbox/ammobox/full/nri_smg
 	name = "ammo box (Miecz)"
 	desc = "If the label's accurate, it should probably contain magazines for the Miecz submachine gun."

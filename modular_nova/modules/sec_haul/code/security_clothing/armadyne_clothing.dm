@@ -119,7 +119,7 @@
 	r_pocket = /obj/item/assembly/flash/handheld
 	backpack_contents = list(
 		/obj/item/melee/baton/telescopic,
-		/obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/skild,
+		/obj/item/gun/ballistic/revolver/c38, // BUG CHANGE (was "/obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/skild")
 	)
 	back = /obj/item/storage/backpack/satchel/leather
 	box = /obj/item/storage/box/survival/security
@@ -137,12 +137,12 @@
 	glasses = /obj/item/clothing/glasses/hud/security/sunglasses/armadyne
 	mask = /obj/item/clothing/mask/gas/sechailer
 	suit = /obj/item/clothing/suit/armor/vest/armadyne/armor
-	suit_store = /obj/item/gun/ballistic/automatic/sol_smg
+	suit_store = /obj/item/gun/ballistic/automatic/wt550 // BUG CHANGE (was "/obj/item/gun/ballistic/automatic/sol_smg")
 	shoes = /obj/item/clothing/shoes/jackboots/armadyne
 	backpack_contents = list(
-		/obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/wespe,
+		/obj/item/gun/ballistic/revolver/c38, // BUG CHANGE (was "/obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/wespe")
 		/obj/item/storage/box/handcuffs,
-		/obj/item/ammo_box/magazine/c35sol_pistol/stendo,
+		/obj/item/ammo_box/speedloader/c38, // BUG CHANGE (was "/obj/item/ammo_box/magazine/c35sol_pistol/stendo")
 		/obj/item/modular_computer/pda/security,
 	)
 	back = /obj/item/storage/backpack/security
@@ -160,13 +160,13 @@
 	glasses = /obj/item/clothing/glasses/hud/security/sunglasses/armadyne
 	mask = /obj/item/clothing/mask/gas/sechailer/swat
 	suit = /obj/item/clothing/suit/armor/vest/armadyne/armor
-	suit_store = /obj/item/gun/ballistic/automatic/sol_rifle
+	suit_store = /obj/item/gun/ballistic/automatic/wt550 // BUG CHANGE (was "/obj/item/gun/ballistic/automatic/sol_rifle")
 	shoes = /obj/item/clothing/shoes/jackboots/armadyne
 	belt = /obj/item/storage/belt/security/webbing/armadyne
 	backpack_contents = list(
-		/obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/wespe,
+		/obj/item/gun/ballistic/revolver/c38, // BUG CHANGE (was "/obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/wespe")
 		/obj/item/storage/box/handcuffs,
-		/obj/item/ammo_box/magazine/c40sol_rifle/standard,
+		/obj/item/ammo_box/magazine/wt550m9, // BUG CHANGE (was "/obj/item/ammo_box/magazine/c40sol_rifle/standard")
 		/obj/item/modular_computer/pda/security,
 	)
 	back = /obj/item/storage/backpack/security
@@ -178,23 +178,23 @@
 /datum/outfit/armadyne_security/high_alert
 	name = "Armadyne Corporate Security (High Alert)"
 	belt = /obj/item/storage/belt/security/webbing/armadyne
-	suit_store = /obj/item/gun/ballistic/automatic/sol_rifle
+	suit_store = /obj/item/gun/ballistic/automatic/wt550 // BUG CHANGE (was "/obj/item/gun/ballistic/automatic/sol_rifle")
 	backpack_contents = list(
 		/obj/item/melee/baton/telescopic,
-		/obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/wespe,
+		/obj/item/gun/ballistic/revolver/c38, // BUG CHANGE (was "/obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/wespe")
 		/obj/item/storage/box/handcuffs,
-		/obj/item/ammo_box/magazine/c40sol_rifle/standard = 2,
+		/obj/item/ammo_box/magazine/wt550m9 = 2, // BUG CHANGE (was "/obj/item/ammo_box/magazine/c40sol_rifle/standard")
 	)
 
 
 /datum/outfit/armadyne_security/commander/high_alert
 	name = "Armadyne Corporate Security Commander (High Alert)"
-	suit_store = /obj/item/gun/ballistic/automatic/sol_rifle
+	suit_store = /obj/item/gun/ballistic/automatic/wt550 // BUG CHANGE (was "/obj/item/gun/ballistic/automatic/sol_rifle")
 	backpack_contents = list(
 		/obj/item/melee/baton/telescopic,
-		/obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/skild,
+		/obj/item/gun/ballistic/revolver/c38, // BUG CHANGE (was "/obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/skild")
 		/obj/item/storage/box/handcuffs,
-		/obj/item/ammo_box/magazine/c40sol_rifle/standard = 2,
+		/obj/item/ammo_box/magazine/wt550m9 = 2, // BUG CHANGE (was "/obj/item/ammo_box/magazine/c40sol_rifle/standard")
 	)
 
 /obj/item/card/id/advanced/armadyne

@@ -81,7 +81,7 @@
 	suit = /obj/item/clothing/suit/armor/vest/blueshirt
 	shoes = /obj/item/clothing/shoes/jackboots
 	head = /obj/item/clothing/head/helmet/blueshirt
-	l_pocket = /obj/item/ammo_box/magazine/c35sol_pistol
+	l_pocket = /obj/item/ammo_box/speedloader/c38 // BUG CHANGE (was "/obj/item/ammo_box/magazine/c35sol_pistol")
 
 /datum/outfit/black_ops_corpse
 	name = "Black Ops"
@@ -102,4 +102,4 @@
 	mask = /obj/item/clothing/mask/gas/sechailer
 	head = /obj/item/clothing/head/helmet/swat
 	back = /obj/item/storage/backpack/security
-	l_pocket = /obj/item/ammo_box/magazine/c40sol_rifle
+	// l_pocket = /obj/item/ammo_box/magazine/c40sol_rifle BUG REMOVAL

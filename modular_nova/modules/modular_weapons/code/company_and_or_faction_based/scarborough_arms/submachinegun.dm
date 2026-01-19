@@ -21,4 +21,4 @@
 
 /obj/item/gun/ballistic/automatic/c20r/reclaimed/empty
 	spawnwithmagazine = FALSE
-/* //BUG REMOVAL
+*/ //BUG REMOVAL

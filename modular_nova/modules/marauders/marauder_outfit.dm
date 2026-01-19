@@ -112,7 +112,7 @@
 		/obj/item/clothing/suit/armor/bulletproof,
 		/obj/item/storage/belt/military/assault,
 		/obj/item/clothing/shoes/combat,
-		/obj/item/storage/toolbox/guncase/nova/syndicate,
+		// /obj/item/storage/toolbox/guncase/nova/syndicate, BUG REMOVAL
 	)
 
 /obj/structure/mannequin/operative_barracks/spy
@@ -167,7 +167,7 @@
 		/obj/item/clothing/under/pants/track/robohand,
 		/obj/item/clothing/suit/jacket/leather_trenchcoat/gunman,
 		/obj/item/clothing/shoes/combat,
-		/obj/item/storage/toolbox/guncase/nova/green,
+		// /obj/item/storage/toolbox/guncase/nova/green, BUG REMOVAL
 	)
 
 /obj/structure/mannequin/operative_barracks/sol_militant
@@ -182,7 +182,7 @@
 		/obj/item/storage/belt/military/solfed,
 		/obj/item/clothing/gloves/frontier_colonist,
 		/obj/item/clothing/shoes/jackboots/frontier_colonist,
-		/obj/item/storage/toolbox/guncase/nova/solfed,
+		// /obj/item/storage/toolbox/guncase/nova/solfed, BUG REMOVAL
 	)
 
 ///

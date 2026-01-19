@@ -1,4 +1,4 @@
-#define AMMO_MATS_GRENADE list( \
+/*#define AMMO_MATS_GRENADE list( \
 	/datum/material/iron = SMALL_MATERIAL_AMOUNT * 4, \
 )
 
@@ -285,3 +285,4 @@
 #undef AMMO_MATS_GRENADE_INCENDIARY
 
 #undef GRENADE_SMOKE_RANGE
+*/ // BUG REMOVAL

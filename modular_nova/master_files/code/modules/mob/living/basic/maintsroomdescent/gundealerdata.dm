@@ -11,6 +11,7 @@
 	///The initial products that the trader offers
 	/// one crew paycheck is 50 credits
 	initial_products = list(
+		/*
 		/obj/item/gun/ballistic/automatic/sol_rifle/machinegun = list(PAYCHECK_CREW * 1200, INFINITY),
 		/obj/item/ammo_box/magazine/c40sol_rifle/standard = list(PAYCHECK_CREW * 60, INFINITY),
 		/obj/item/gun/ballistic/automatic/lanca = list(PAYCHECK_CREW * 500, INFINITY),
@@ -21,18 +22,21 @@
 		/obj/item/ammo_box/magazine/napad = list(PAYCHECK_CREW * 2, INFINITY),
 		/obj/item/gun/ballistic/automatic/pistol/zashch = list(PAYCHECK_CREW * 200, INFINITY),
 		/obj/item/ammo_box/magazine/zashch = list(PAYCHECK_CREW * 50, INFINITY),
+		*/ // BUG REMOVAL
 		/obj/item/gun/ballistic/automatic/pistol/deagle/gold = list(PAYCHECK_CREW * 400, INFINITY),
 		/obj/item/ammo_box/magazine/m50 = list(PAYCHECK_CREW * 10, INFINITY),
+		/*
 		/obj/item/gun/ballistic/automatic/sol_smg = list(PAYCHECK_CREW * 200, INFINITY),
 		/obj/item/ammo_box/magazine/c35sol_pistol/stendo = list(PAYCHECK_CREW * 10, INFINITY),
+		*/ // BUG REMOVAL
 		/obj/item/gun/ballistic/rifle/boltaction/prime = list(PAYCHECK_CREW * 300, INFINITY),
 		/obj/item/storage/toolbox/ammobox/strilka310 = list(PAYCHECK_CREW * 50, INFINITY),
 		/obj/item/gun/ballistic/revolver/grenadelauncher/unrestricted = list(PAYCHECK_CREW * 1000, INFINITY),
 		/obj/item/ammo_box/a40mm = list(PAYCHECK_CREW * 1000, INFINITY),
 		/obj/item/gun/ballistic/shotgun/doublebarrel = list(PAYCHECK_CREW * 40, INFINITY),
-		/obj/item/gun/ballistic/shotgun/katyusha/jager = list(PAYCHECK_CREW * 2000, INFINITY),
+		/* /obj/item/gun/ballistic/shotgun/katyusha/jager = list(PAYCHECK_CREW * 2000, INFINITY),
 		/obj/item/ammo_box/magazine/jager/large = list(PAYCHECK_CREW * 50, INFINITY),
-		/obj/item/gun/ballistic/automatic/nt20 = list(PAYCHECK_CREW * 2000, INFINITY),
+		/obj/item/gun/ballistic/automatic/nt20 = list(PAYCHECK_CREW * 2000, INFINITY), */ // BUG REMOVAL
 		/obj/item/ammo_box/magazine/smgm45 = list(PAYCHECK_CREW * 10, INFINITY),
 		/obj/item/gun/ballistic/revolver/golden = list(PAYCHECK_CREW * 800, INFINITY),
 		/obj/item/ammo_box/speedloader/c357 = list(PAYCHECK_CREW * 800, INFINITY),
@@ -47,8 +51,10 @@
 		/obj/item/gun/energy/laser/thermal/inferno = list(PAYCHECK_CREW * 4, INFINITY, ""),
 		/obj/item/gun/energy/laser/thermal/cryo = list(PAYCHECK_CREW * 6, INFINITY, ""),
 		/obj/item/gun/energy/lasercannon = list(PAYCHECK_CREW * 40, INFINITY, ""),
+		/*
 		/obj/item/gun/energy/modular_laser_rifle = list(PAYCHECK_CREW * 25, INFINITY, ""),
 		/obj/item/gun/energy/modular_laser_rifle/carbine = list(PAYCHECK_CREW * 30, INFINITY, ""),
+		*/ // BUG REMOVAL
 		/obj/item/gun/energy/laser/captain = list(PAYCHECK_CREW * 200, INFINITY, ""),
 		/obj/item/gun/energy/laser/musket = list(PAYCHECK_CREW * 1, INFINITY, ""),
 		/obj/item/gun/energy/cell_loaded/medigun/cmo = list(PAYCHECK_CREW * 100, INFINITY, ""),

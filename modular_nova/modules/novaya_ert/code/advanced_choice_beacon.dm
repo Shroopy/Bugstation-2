@@ -122,8 +122,8 @@
 	icon = 'modular_nova/modules/novaya_ert/icons/turret_deployable.dmi'
 	icon_state = "living"
 	base_icon_state = "living"
-	stun_projectile = /obj/projectile/bullet/c27_54cesarzowa/rubber
-	lethal_projectile = /obj/projectile/bullet/c27_54cesarzowa
+	stun_projectile = /obj/projectile/bullet/c9mm //BUG CHANGE (was "/obj/projectile/bullet/c27_54cesarzowa/rubber")
+	lethal_projectile = /obj/projectile/bullet/c9mm //BUG CHANGE (was "/obj/projectile/bullet/c27_54cesarzowa")
 	max_integrity = 150
 	req_access = list(ACCESS_CENT_GENERAL)
 	faction = list(FACTION_NEUTRAL, FACTION_ERT)
@@ -227,10 +227,12 @@
 /obj/structure/closet/crate/secure/weapon/nri/heavy/offense/PopulateContents()
 	new /obj/item/gun/ballistic/automatic/l6_saw/unrestricted(src)
 	new /obj/item/storage/toolbox/ammobox/full/l6_saw(src)
+	/*
 	new /obj/item/storage/toolbox/ammobox/full/lanca(src)
 	new /obj/item/storage/toolbox/ammobox/full/lanca(src)
 	new /obj/item/storage/toolbox/ammobox/full/lanca(src)
 	new /obj/item/storage/toolbox/ammobox/full/lanca(src)
+	*/ // BUG REMOVAL
 	new /obj/item/storage/toolbox/ammobox/full/nri_smg(src)
 	new /obj/item/storage/toolbox/ammobox/full/nri_smg(src)
 	new /obj/item/storage/toolbox/ammobox/full/aps(src)

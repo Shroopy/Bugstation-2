@@ -1,8 +1,8 @@
 /obj/effect/spawner/random/hecu_smg
 	name = "HECU SMG drops"
 	spawn_all_loot = FALSE
-	loot = list(/obj/item/gun/ballistic/automatic/sol_smg = 15,
-				/obj/item/ammo_box/magazine/c35sol_pistol/stendo = 25,
+	loot = list(/obj/item/gun/ballistic/automatic/c20r = 15, // BUG CHANGE (was "/obj/item/gun/ballistic/automatic/sol_smg")
+				/obj/item/ammo_box/magazine/smgm45 = 25, // BUG CHANGE (was "/obj/item/ammo_box/magazine/c35sol_pistol/stendo")
 				/obj/item/clothing/mask/gas/hecu = 15,
 				/obj/item/clothing/head/helmet = 15,
 				/obj/item/clothing/suit/armor/vest = 15,

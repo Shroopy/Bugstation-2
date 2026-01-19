@@ -169,8 +169,8 @@
 	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
 	ears = /obj/item/radio/headset/interdyne/green
 	shoes = /obj/item/clothing/shoes/combat
-	l_pocket = /obj/item/gun/ballistic/automatic/pistol
-	r_hand = /obj/item/storage/toolbox/guncase/nova/carwo_large_case/sindano/evil
+	l_pocket = /obj/item/ammo_box/magazine/uzim9mm // BUG CHANGE (was "/obj/item/gun/ballistic/automatic/pistol")
+	r_hand = /obj/item/gun/ballistic/automatic/mini_uzi // BUG CHANGE (was "/obj/item/storage/toolbox/guncase/nova/carwo_large_case/sindano/evil")
 	implants = list(/obj/item/implant/weapons_auth)
 	var/jobtype = /datum/job/interdyne_planetary_base
 

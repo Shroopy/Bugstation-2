@@ -25,7 +25,7 @@
 	head = /obj/item/clothing/head/beret/sec/engineering
 	belt = /obj/item/storage/belt/holster
 	belt_contents = list(
-		/obj/item/gun/ballistic/revolver/c38/super = 1,
+		/obj/item/gun/ballistic/revolver/c38 = 1, // BUG CHANGE (was "/obj/item/gun/ballistic/revolver/c38/super")
 		/obj/item/ammo_box/speedloader/c38 = 2,
 	)
 	backpack_contents = list(
@@ -42,7 +42,7 @@
 	glasses = /obj/item/clothing/glasses/science
 	belt = /obj/item/storage/belt/holster
 	belt_contents = list(
-		/obj/item/gun/ballistic/revolver/c38/super = 1,
+		/obj/item/gun/ballistic/revolver/c38 = 1, // BUG CHANGE (was "/obj/item/gun/ballistic/revolver/c38/super")
 		/obj/item/ammo_box/speedloader/c38 = 2,
 	)
 	backpack_contents = list(

@@ -132,7 +132,7 @@
 	. = ..()
 	selectable_actions += list(
 		/datum/action/cooldown/spell/touch/lay_on_hands,
-		/datum/action/cooldown/spell/conjure/flare,
+		///datum/action/cooldown/spell/conjure/flare, BUG REMOVAL
 	)
 	selectable_actions -= list(
 		/datum/action/cooldown/spell/conjure/cheese,

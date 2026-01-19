@@ -1,5 +1,6 @@
-// Red kill lasers for the big gun
 /*
+// Red kill lasers for the big gun
+
 /obj/item/ammo_casing/energy/cybersun_big_kill
 	projectile_type = /obj/projectile/beam/cybersun_laser
 	e_cost = LASER_SHOTS(20, STANDARD_CELL_CHARGE * 2)
@@ -233,4 +234,4 @@
 
 /obj/projectile/beam/cybersun_laser/blade
 	icon_state = "blade"
-/* //BUG REMOVAL
+*/ //BUG REMOVAL

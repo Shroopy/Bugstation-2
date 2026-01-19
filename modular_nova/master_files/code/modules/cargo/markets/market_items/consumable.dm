@@ -34,7 +34,7 @@
 	price_min = CARGO_CRATE_VALUE * 2
 	price_max = CARGO_CRATE_VALUE * 3
 	availability_prob = 35
-
+/*
 /datum/market_item/consumable/pipegun_reciept
 	name = "Diary of a Dead Assistant"
 	desc = "Some dusty book smuggled away from a maintenance cleaning team. Sellers note: extremely fragile."
@@ -43,7 +43,7 @@
 	price_min = CARGO_CRATE_VALUE * 2
 	price_max = CARGO_CRATE_VALUE * 3
 	availability_prob = 5
-
+*/ // BUG REMOVAL
 /datum/market_item/consumable/trash_cannon
 	name = "Diary of a Demoted Engineer"
 	desc = "Some dusty book smuggled away from a maintenance cleaning team. Sellers note: reeks of oil, bit slippery too. Probably makes good tinder."

@@ -29,7 +29,7 @@ GLOBAL_LIST_INIT(mystery_box_guns, list(
 	/obj/item/gun/energy/temperature,
 	/obj/item/gun/ballistic/revolver/c38/detective,
 	/obj/item/gun/ballistic/revolver/mateba,
-	/obj/item/gun/ballistic/automatic/pistol/deagle/camo,
+	// /obj/item/gun/ballistic/automatic/pistol/deagle/camo, BUG REMOVAL
 	/obj/item/gun/ballistic/automatic/pistol/suppressed,
 	/obj/item/gun/energy/pulse/carbine/taserless,
 	/obj/item/gun/energy/pulse/pistol/taserless,
@@ -96,7 +96,7 @@ GLOBAL_LIST_INIT(mystery_fishing, list(
 	/obj/item/gun/energy/laser/retro/old,
 	/obj/item/gun/energy/laser/musket,
 	/obj/item/gun/energy/disabler/smoothbore,
-	/obj/item/gun/ballistic/rifle/boltaction/surplus,
+	// /obj/item/gun/ballistic/rifle/boltaction/surplus, BUG REMOVAL
 	/obj/item/food/rationpack,
 	/obj/item/food/canned/squid_ink,
 	/obj/item/reagent_containers/cup/glass/bottle/rum/aged,

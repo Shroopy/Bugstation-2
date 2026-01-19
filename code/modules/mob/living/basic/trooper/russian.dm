@@ -24,7 +24,7 @@
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/russian/ranged
 	r_hand = /obj/item/gun/ballistic/automatic/pistol
 	corpse = /obj/effect/mob_spawn/corpse/human/russian/ranged
-	loot = list(/obj/item/gun/ballistic/revolver/nagant)
+	loot = list(/obj/item/gun/ballistic/revolver) // BUG EDIT: changed nagant revolver to regular
 	var/casingtype = /obj/item/ammo_casing/n762
 	var/projectilesound = 'sound/items/weapons/gun/revolver/shot.ogg'
 

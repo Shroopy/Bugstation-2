@@ -7,7 +7,7 @@
 	///which seeds cannot be obtained through shifting/sieving
 	var/static/list/seeds_blacklist = list(
 		/obj/item/seeds/lavaland,
-		/obj/item/seeds/gatfruit,
+		// /obj/item/seeds/gatfruit, BUG REMOVAL
 		/obj/item/seeds/seedling/evil,
 	)
 

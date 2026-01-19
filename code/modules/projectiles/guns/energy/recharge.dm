@@ -136,11 +136,8 @@
 
 /// A silly gun that does literally zero damage, but disrupts electrical sources of light, like flashlights.
 /obj/item/gun/energy/recharge/fisher
-	name = "\improper SC/FISHER disruptor"
-	desc = "A self-recharging, integrally suppressed, modified kinetic accelerator that does no damage, \
-		but disrupts electronics like lights, APCs, and security cameras. \
-		Can fire twice before requiring a recharge. \
-		Bolts can be fired around machinery, but the precise nature of shooting light fixtures demands a skillful hand."
+	name = "\improper stealth disruptor" // BUG CHANGE (was "SC/FISHER disruptor")
+	desc = "An integrally-suppressed accelerator which disrupts electronics, such as cameras, lights, or APCs." // BUG CHANGE (was "A self-recharging, integrally suppressed, modified kinetic accelerator that does no damage, but disrupts electronics like lights, APCs, and security cameras. Can fire twice before requiring a recharge. Bolts can be fired around machinery, but the precise nature of shooting light fixtures demands a skillful hand.")
 	icon_state = "fisher"
 	base_icon_state = "fisher"
 	dry_fire_sound_volume = 10
@@ -152,6 +149,7 @@
 
 /obj/item/gun/energy/recharge/fisher/Initialize(mapload)
 	. = ..()
+	/*
 	AddElement(/datum/element/examine_lore, \
 		lore_hint = span_notice("You can [EXAMINE_HINT("look closer")] to learn a little more about [src]."), \
 		lore = "The SC/FISHER is an illegally-modified kinetic accelerator that's been cut down and refit into a miniature energy gun chassis, \
@@ -168,7 +166,7 @@
 			<br>\
 			Caveat emptor." \
 	)
-
+	*/ // BUG REMOVAL
 /obj/item/gun/energy/recharge/fisher/attack(mob/living/target_mob, mob/living/user, list/modifiers, list/attack_modifiers)
 	. = ..()
 	if(.)

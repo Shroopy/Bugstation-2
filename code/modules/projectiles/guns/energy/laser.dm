@@ -52,8 +52,8 @@
 	AddComponent(/datum/component/automatic_fire, 0.15 SECONDS, allow_akimbo = FALSE)
 
 /obj/item/gun/energy/laser/carbine/cybersun
-	name = "\improper Cybersun S-120"
-	desc = "A laser gun primarily used by syndicate security guards. It fires a rapid spray of low-power plasma beams."
+	name = "\improper laser smg" // BUG CHANGE (was "Cybersun S-120")
+	desc = "A Cybersun laser gun primarily used by syndicate security guards. It fires a rapid spray of low-power plasma beams." // BUG EDIT
 	icon_state = "cybersun_s120"
 	inhand_icon_state = "s120"
 	ammo_type = list(/obj/item/ammo_casing/energy/lasergun/carbine/cybersun)

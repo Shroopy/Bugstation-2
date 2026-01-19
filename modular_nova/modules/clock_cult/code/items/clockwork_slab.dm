@@ -1,6 +1,6 @@
 #define MAXIMUM_QUICKBIND_SLOTS 5
 
-GLOBAL_LIST_INIT(clockwork_slabs, list())
+GLOBAL_LIST_INIT(clockwork_slabs, alist())
 
 
 /obj/item/clockwork
@@ -34,10 +34,10 @@ GLOBAL_LIST_INIT(clockwork_slabs, list())
 	/// How many cogs this slab has currently
 	var/cogs = 0
 	/// A list of what scriptures that this slab has purchased
-	var/list/purchased_scriptures = list()
+	var/list/purchased_scriptures = alist()
 
 	//Initialise an empty list for quickbinding
-	var/list/quick_bound_scriptures = list(
+	var/list/quick_bound_scriptures = alist(
 		1 = null,
 		2 = null,
 		3 = null,
@@ -46,7 +46,7 @@ GLOBAL_LIST_INIT(clockwork_slabs, list())
 	)
 
 	//The default scriptures that get auto-assigned.
-	var/list/default_scriptures = list()
+	var/list/default_scriptures = alist()
 
 	//For trap linkage
 	var/datum/component/clockwork_trap/buffer
@@ -153,18 +153,18 @@ GLOBAL_LIST_INIT(clockwork_slabs, list())
 		ui.open()
 
 /obj/item/clockwork/clockwork_slab/ui_data(mob/user)
-	var/list/data = list()
+	var/list/data = alist()
 
 	data["cogs"] = cogs
 	data["vitality"] = GLOB.clock_vitality
 	data["max_vitality"] = GLOB.max_clock_vitality
 	data["power"] = GLOB.clock_power
 	data["max_power"] = GLOB.max_clock_power
-	data["scriptures"] = list()
+	data["scriptures"] = alist()
 
 	//2 scriptures accessible at the same time will cause issues
 	for(var/datum/scripture/scripture as anything in GLOB.clock_scriptures)
-		var/list/scripture_data = list(
+		var/list/scripture_data = alist(
 			"name" = scripture.name,
 			"desc" = scripture.desc,
 			"type" = scripture.category,
@@ -176,7 +176,7 @@ GLOBAL_LIST_INIT(clockwork_slabs, list())
 			"research_required" = !!(scripture.research_required ? !(scripture.type in GLOB.clockwork_research_unlocked_scriptures) : FALSE),
 		)
 		//Add it to the correct list
-		data["scriptures"] += list(scripture_data)
+		data["scriptures"] += alist(scripture_data)
 
 	return data
 
@@ -233,7 +233,7 @@ GLOBAL_LIST_INIT(clockwork_slabs, list())
 			if(!scripture)
 				return FALSE
 
-			var/list/positions = list()
+			var/list/positions = alist()
 			for(var/i in 1 to MAXIMUM_QUICKBIND_SLOTS)
 				var/datum/scripture/quick_bound = quick_bound_scriptures[i]
 				if(!quick_bound)

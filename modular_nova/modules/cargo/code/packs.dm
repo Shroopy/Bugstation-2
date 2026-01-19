@@ -188,7 +188,7 @@
 /*
 * ARMORY
 */
-
+/*
 /datum/supply_pack/security/armory/battle_rifle
 	cost = CARGO_CRATE_VALUE * 15
 	contains = list(
@@ -204,7 +204,7 @@
 		/obj/item/ammo_box/magazine/m38/hotshot = 3,
 		/obj/item/ammo_box/magazine/m38/iceblox = 3,
 	)
-
+*/ // BUG REMOVAL
 /datum/supply_pack/security/armory/ammobench_starter
 	name = "Ammunition Workbench Starter Kit"
 	desc = "Contains a flat-packed ammunition workbench, a standard lethal and niche non-lethal module pair, and a pair of reauthenticators. \

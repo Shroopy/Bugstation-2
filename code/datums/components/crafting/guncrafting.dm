@@ -16,7 +16,7 @@
 	desc = "A prototype modular receiver and trigger assembly for a firearm."
 	icon = 'icons/obj/weapons/improvised.dmi'
 	icon_state = "receiver"
-
+/*
 /obj/item/weaponcrafting/receiver/create_slapcraft_component()
 	var/static/list/slapcraft_recipe_list = list(/datum/crafting_recipe/pipegun)
 
@@ -24,7 +24,7 @@
 		/datum/element/slapcrafting,\
 		slapcraft_recipes = slapcraft_recipe_list,\
 	)
-
+*/ // BUG REMOVAL
 /obj/item/weaponcrafting/stock
 	name = "rifle stock"
 	desc = "A classic rifle stock that doubles as a grip, roughly carved out of wood."

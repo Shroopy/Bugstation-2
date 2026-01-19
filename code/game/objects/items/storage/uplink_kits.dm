@@ -177,7 +177,7 @@
 			new /obj/item/storage/pill_bottle/lsd(src) // ~1 TC
 			new /obj/item/pen/sleepy(src) // 4 TC
 			new /obj/item/disk/neuroware/sleepy(src) // NOVA EDIT ADDITION - Neuroware
-			new /obj/item/gun/ballistic/revolver/nagant(src) // 13 TC comparable to 357. revolvers
+			new /obj/item/gun/ballistic/revolver(src) // 13 TC comparable to 357. revolvers // BUG EDIT: now regular revolver instead of nagant
 			new /obj/item/megaphone(src)
 			new /obj/item/bedsheet/rev(src)
 			new /obj/item/clothing/suit/armor/vest/russian_coat(src)
@@ -574,10 +574,10 @@
 	. = ..()
 	new /obj/item/reagent_containers/syringe/mulligan(src)
 	new /obj/item/fake_identity_kit(src)
-
+/*
 /obj/item/storage/box/hug/reverse_revolver/PopulateContents()
 	new /obj/item/gun/ballistic/revolver/reverse(src)
-
+*/ // BUG REMOVAL
 /obj/item/storage/box/syndie_kit/mimery/PopulateContents()
 	new /obj/item/book/granter/action/spell/mime/mimery_blockade(src)
 	new /obj/item/book/granter/action/spell/mime/mimery_guns(src)

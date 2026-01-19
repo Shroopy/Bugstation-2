@@ -65,8 +65,8 @@
 		/obj/item/grenade/clusterbuster/teargas = 20,
 		/obj/item/grenade/clusterbuster = 20,
 		/obj/item/gun/ballistic/automatic/pistol/deagle/contraband,
-		/obj/item/gun/ballistic/revolver/mateba = 9,
-		/obj/item/gun/ballistic/revolver/reverse/mateba = 1,
+		// /obj/item/gun/ballistic/revolver/mateba = 9, BUG REMOVAL
+		// /obj/item/gun/ballistic/revolver/reverse/mateba = 1, BUG REMOVAL
 	)
 
 /obj/effect/spawner/random/contraband/narcotics

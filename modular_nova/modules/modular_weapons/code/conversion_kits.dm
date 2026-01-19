@@ -17,7 +17,7 @@
 	if(lore_blurb)
 		. += "<i>[lore_blurb]</i>"
 
-/obj/item/crafting_conversion_kit/mosin_pro
+/* /obj/item/crafting_conversion_kit/mosin_pro
 	name = "\improper Xhihao 'Rengo' rifle conversion kit"
 	desc = "All the parts you need to make a 'Rengo' rifle, outside of the parts that make the gun actually a gun. \
 		It looks like this stuff could fit on an old Sakhno rifle, if only you had one of those around."
@@ -56,3 +56,4 @@
 	if(LAZYLEN(the_piece.magazine.stored_ammo))
 		return FALSE
 	return ..()
+*/ // BUG REMOVAL

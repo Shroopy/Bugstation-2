@@ -1,5 +1,5 @@
 /obj/item/ammo_casing/rocket
-	name = "\improper Dardo HE rocket"
+	name = "\improper high-explosive rocket" // BUG EDIT
 	desc = "An 84mm High Explosive rocket. Fire at people and pray."
 	caliber = CALIBER_84MM
 	icon_state = "srm-8"
@@ -16,14 +16,14 @@
 	icon_state = "[base_icon_state]"
 
 /obj/item/ammo_casing/rocket/heap
-	name = "\improper Dardo HE-AP rocket"
-	desc = "An 84mm High Explosive All Purpose rocket. For when you just need something to not exist anymore."
+	name = "\improper armor-penetrating rocket" // BUG EDIT
+	desc = "An 84mm Armor-Penetrating rocket. For when you just need something to not exist anymore." // BUG EDIT
 	icon_state = "84mm-heap"
 	base_icon_state = "84mm-heap"
 	projectile_type = /obj/projectile/bullet/rocket/heap
 
 /obj/item/ammo_casing/rocket/weak
-	name = "\improper Dardo HE Low-Yield rocket"
+	name = "\improper low-yield rocket" // BUG EDIT
 	desc = "An 84mm High Explosive rocket. This one isn't quite as devastating."
 	icon_state = "low_yield_rocket"
 	base_icon_state = "low_yield_rocket"

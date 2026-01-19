@@ -21,7 +21,7 @@
 		/obj/item/ammo_box/magazine/napad = list(PAYCHECK_CREW * 2, INFINITY),
 		/obj/item/gun/ballistic/automatic/pistol/zashch = list(PAYCHECK_CREW * 200, INFINITY),
 		/obj/item/ammo_box/magazine/zashch = list(PAYCHECK_CREW * 50, INFINITY),
-		/obj/item/gun/ballistic/automatic/pistol/deagle/gold = list(PAYCHECK_CREW * 400, INFINITY),
+		/obj/item/gun/ballistic/automatic/pistol/deagle = list(PAYCHECK_CREW * 400, INFINITY), // BUG EDIT: changed to regular deagle
 		/obj/item/ammo_box/magazine/m50 = list(PAYCHECK_CREW * 10, INFINITY),
 		/obj/item/gun/ballistic/automatic/sol_smg = list(PAYCHECK_CREW * 200, INFINITY),
 		/obj/item/ammo_box/magazine/c35sol_pistol/stendo = list(PAYCHECK_CREW * 10, INFINITY),

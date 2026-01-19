@@ -271,7 +271,7 @@
 	back = /obj/item/mod/control/pre_equipped/responsory/clown
 	box = /obj/item/storage/box/survival/centcom
 	backpack_contents = list(
-		/obj/item/gun/ballistic/revolver/reverse = 1,
+		// /obj/item/gun/ballistic/revolver/reverse = 1, BUG REMOVAL
 		/obj/item/melee/energy/sword/bananium = 1,
 		/obj/item/shield/energy/bananium = 1,
 	)

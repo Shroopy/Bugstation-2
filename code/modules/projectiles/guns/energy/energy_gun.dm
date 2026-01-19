@@ -73,8 +73,8 @@
 	gun_flags = NOT_A_REAL_GUN
 
 /obj/item/gun/energy/e_gun/hos
-	name = "\improper X-01 MultiPhase Energy Gun"
-	desc = "This is an expensive, modern recreation of an antique laser gun. This gun has several unique firemodes, but lacks the ability to recharge over time."
+	name = "\improper multiphase energy gun" // BUG EDIT
+	desc = "An expensive, modern recreation of an antique laser gun with several unique firemodes." // BUG EDIT
 	cell_type = /obj/item/stock_parts/power_store/cell/hos_gun
 	icon_state = "hoslaser"
 	w_class = WEIGHT_CLASS_NORMAL
@@ -85,10 +85,8 @@
 	flags_1 = PREVENT_CONTENTS_EXPLOSION_1
 
 /obj/item/gun/energy/e_gun/dragnet
-	name = "\improper DRAGnet translocation shotgun"
-	desc = "The \"Dynamic Rapid-Apprehension of the Guilty Network\" translocation shotgun (or DRAGnet for short) is a revolution in law enforcement technology. \
-		By syncing the weapon to a DRAGnet beacon, the bluespace transportation fields produced by the weapon's 'snare' function can rapidly exfiltrate an entire \
-		security squad, with criminal in tow. Otherwise, the weapon is an entirely nonlethal apprehension tool. Exceptionally useful for nonlethal close-quarters battle."
+	name = "\improper translocation shotgun" // BUG EDIT
+	desc = "A (typically) non-lethal shotgun which teleports targets to a synced DRAGnet beacon." // BUG CHANGE (was "The \"Dynamic Rapid-Apprehension of the Guilty Network\" translocation shotgun (or DRAGnet for short) is a revolution in law enforcement technology. By syncing the weapon to a DRAGnet beacon, the bluespace transportation fields produced by the weapon's 'snare' function can rapidly exfiltrate an entire security squad, with criminal in tow. Otherwise, the weapon is an entirely nonlethal apprehension tool. Exceptionally useful for nonlethal close-quarters battle.")
 	icon_state = "dragnet"
 	worn_icon_state = "dragnet"
 	base_icon_state = "dragnet"

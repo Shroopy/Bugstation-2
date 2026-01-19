@@ -15,8 +15,8 @@
 	pickup_sound = 'sound/items/handling/gun/ballistics/smg/smg_pickup1.ogg'
 
 /obj/item/gun/ballistic/automatic/proto
-	name = "\improper Nanotrasen Saber SMG"
-	desc = "A prototype full-auto 9mm submachine gun, designated 'SABR'. Has a threaded barrel for suppressors."
+	name = "\improper prototype smg" // BUG CHANGE (was "Nanotrasen Saber SMG")
+	desc = "A prototype full-auto 9mm submachine gun developed by Nanotrasen's now-thin ballistics division, designated 'SABR'. Has a threaded barrel for suppressors." // BUG CHANGE (was "A prototype full-auto 9mm submachine gun, designated 'SABR'. Has a threaded barrel for suppressors.")
 	icon_state = "saber"
 	burst_size = 1
 	actions_types = list()
@@ -35,8 +35,8 @@
 	pin = /obj/item/firing_pin
 
 /obj/item/gun/ballistic/automatic/c20r
-	name = "\improper C-20r SMG"
-	desc = "A bullpup three-round burst .45 SMG, designated 'C-20r'. Has a 'Scarborough Arms - Per falcis, per pravitas' buttstamp."
+	name = "\improper bullpup smg" // BUG CHANGE (was "C-20r SMG")
+	desc = "A C-20r bullpup submachine gun, firing lethal three-round bursts of .45 rounds. A barcode seems to be printed on the rear of the weapon's receiver." // BUG CHANGE (was "A bullpup three-round burst .45 SMG, designated 'C-20r'. Has a 'Scarborough Arms - Per falcis, per pravitas' buttstamp.")
 	icon_state = "c20r"
 	inhand_icon_state = "c20r"
 	selector_switch_icon = TRUE
@@ -90,9 +90,9 @@
 	AddComponent(/datum/component/bayonet_attachable, offset_x = 25, offset_y = 12)
 
 /obj/item/gun/ballistic/automatic/smartgun
-	name = "\improper Abielle Smart-SMG"
-	desc = "An old experiment in smart-weapon technology that guides bullets towards the target the gun was aimed at when fired. \
-		While the tracking functions worked fine, the gun is prone to insanely wide spread thanks to it's practically non-existant barrel."
+	name = "\improper smart smg" // BUG CHANGE (was "Abielle Smart-SMG")
+	desc = "The Abielle Smart-SMG; a weapons experiment by shady outer-rim groups to create a submachine gun capable of tracking targets. \
+		While the tracking functions, the gun is prone to wide spread thanks to its extremely short barrel." // BUG CHANGE (was "An old experiment in smart-weapon technology that guides bullets towards the target the gun was aimed at when fired. While the tracking functions worked fine, the gun is prone to wide spread thanks to its extremely short barrel.")
 	icon_state = "smartgun"
 	inhand_icon_state = "smartgun"
 	accepted_magazine_type = /obj/item/ammo_box/magazine/smartgun
@@ -118,8 +118,8 @@
 	playsound(src, picked_fire_sound, fire_sound_volume, vary_fire_sound)
 
 /obj/item/gun/ballistic/automatic/mini_uzi
-	name = "\improper Type U3 Uzi"
-	desc = "A lightweight, burst-fire submachine gun, for when you really want someone dead. Uses 9mm rounds."
+	name = "\improper lightweight smg" // BUG CHANGE (was "Type U3 Uzi")
+	desc = "A lightweight submachine gun, firing 2-round bursts of 9mm rounds." // BUG CHANGE (was "A lightweight, burst-fire submachine gun, for when you really want someone dead. Uses 9mm rounds.")
 	icon_state = "miniuzi"
 	accepted_magazine_type = /obj/item/ammo_box/magazine/uzim9mm
 	burst_size = 2
@@ -133,14 +133,14 @@
  * Roughly 9 damage per bullet every 0.2 seconds, equaling out to downing an opponent in a bit over a second, if they have no armor.
  */
 /obj/item/gun/ballistic/automatic/mini_uzi/chimpgun
-	name = "\improper MONK-10"
-	desc = "Developed by Syndicate monkeys, for syndicate Monkeys. Despite the name, this weapon resembles an Uzi significantly more than a MAC-10. Uses 9mm rounds. There's a label on the other side of the gun that says \"Do what comes natural.\""
+	name = "\improper chimp smg" // BUG CHANGE (was "MONK-10")
+	desc = "A small submachine gun, meant to be put in the hands of syndicate simians. An engraving on the back reads 'Do what comes natural.'" // BUG CHANGE (was "Developed by Syndicate monkeys, for syndicate Monkeys. Despite the name, this weapon resembles an Uzi significantly more than a MAC-10. Uses 9mm rounds. There's a label on the other side of the gun that says "Do what comes natural.")
 	projectile_damage_multiplier = 0.4
 	projectile_wound_bonus = -25
 	pin = /obj/item/firing_pin/monkey
 
 /obj/item/gun/ballistic/automatic/m90
-	name = "\improper M-90gl Carbine"
+	name = "\improper battle carbine" // BUG CHANGE (was "M-90gl Carbine")
 	desc = "A three-round burst .223 toploading carbine, designated 'M-90gl'. Has an attached underbarrel grenade launcher."
 	desc_controls = "Right-click to use grenade launcher."
 	icon_state = "m90"
@@ -189,8 +189,8 @@
 	return ..()
 
 /obj/item/gun/ballistic/automatic/tommygun
-	name = "\improper Thompson SMG"
-	desc = "Based on the classic 'Chicago Typewriter'."
+	name = "\improper antique smg" // BUG CHANGE (was "Thompson SMG")
+	desc = "While this .45 caliber submachine gun is supposedly a 'classic', nobody truly remembers where the design originally came from." // BUG CHANGE (was "Based on the classic 'Chicago Typewriter'")
 	icon_state = "tommygun"
 	inhand_icon_state = "shotgun"
 	selector_switch_icon = TRUE
@@ -216,8 +216,8 @@
  * Roughly 9 damage per bullet every 0.2 seconds, equaling out to downing an opponent in a bit over a second, if they have no armor.
  */
 /obj/item/gun/ballistic/automatic/tommygun/chimpgun
-	name = "\improper Typewriter"
-	desc = "It was the best of times, it was the BLURST of times!? You stupid monkeys!"
+	name = "\improper antique chimp smg" // BUG CHANGE (was "Typewriter")
+	desc = "An antique submachine gun, meant to be put in the hands of chimps. An engraving on the back reads 'Make Shakespeare proud.'" // BUG CHANGE (was "It was the best of times, it was the BLURST of times!? You stupid monkeys!")
 	burst_delay = 2
 	rof = 0.2 SECONDS
 	projectile_damage_multiplier = 0.4
@@ -225,8 +225,8 @@
 	pin = /obj/item/firing_pin/monkey
 
 /obj/item/gun/ballistic/automatic/ar
-	name = "\improper NT-ARG 'Boarder'"
-	desc = "A robust assault rifle used by Nanotrasen fighting forces."
+	name = "\improper boarding rifle" // BUG CHANGE (was "NT-ARG 'Boarder'")
+	desc = "The NT-ARG; A robust .223 assault rifle used by Nanotrasen fighting forces, often nicknamed the 'Boarder.'" // BUG CHANGE (was "A robust assault rifle used by Nanotrasen fighting forces.")
 	icon_state = "arg"
 	inhand_icon_state = "arg"
 	slot_flags = 0
@@ -238,8 +238,8 @@
 // L6 SAW //
 
 /obj/item/gun/ballistic/automatic/l6_saw
-	name = "\improper L6 SAW"
-	desc = "A heavily modified 7mm light machine gun, designated 'L6 SAW'. Has 'Aussec Armoury - 2531' engraved on the receiver below the designation."
+	name = "\improper light machine gun" // BUG CHANGE (was "L6 SAW")
+	desc = "The L6 Saw; A shortened variant of the L6, a 7mm light machine gun. Its alterations have been made to ensure mobility in close-quarters theatres." // BUG CHANGE (was "A heavily modified 7mm light machine gun, designated 'L6 SAW'. Has 'Aussec Armoury - 2531' engraved on the receiver below the designation.")
 	icon_state = "l6"
 	inhand_icon_state = "l6closedmag"
 	base_icon_state = "l6"
@@ -338,7 +338,7 @@
 	casing_ejector = FALSE
 
 // NT Battle Rifle //
-
+/* // BUG REMOVAL
 /obj/item/gun/ballistic/automatic/battle_rifle
 	name = "\improper NT BR-38 battle rifle"
 	desc = "Nanotrasen's latest prototype .38 Special longarm, found exclusively in the hands of their private security teams. \
@@ -536,3 +536,4 @@
 		light_overlay = "flight", \
 		overlay_x = 28, \
 		overlay_y = 12)
+*/ // BUG REMOVAL

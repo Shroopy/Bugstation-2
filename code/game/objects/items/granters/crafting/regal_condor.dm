@@ -1,4 +1,4 @@
-/obj/item/book/granter/crafting_recipe/regal_condor
+/* /obj/item/book/granter/crafting_recipe/regal_condor
 	name = "memoirs of a fallen agent"
 	desc = "A battered journal. It seems like it is covered in donkpocket crumbs."
 	crafting_recipe_types = list(
@@ -18,3 +18,4 @@
 /obj/item/book/granter/crafting_recipe/regal_condor/recoil(mob/living/user)
 	to_chat(user, span_warning("The book turns to dust in your hands."))
 	qdel(src)
+*/ // BUG REMOVAL

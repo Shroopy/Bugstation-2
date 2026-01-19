@@ -3,7 +3,7 @@
 
 /obj/item/gun/ballistic/revolver/grenadelauncher
 	name = "grenade launcher"
-	desc = "A break-operated grenade launcher."
+	desc = "A break-action grenade launcher." // BUG EDIT
 	icon_state = "dshotgun_sawn"
 	inhand_icon_state = "gun"
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/grenadelauncher
@@ -64,11 +64,8 @@
 	casing_ejector = FALSE
 
 /obj/item/gun/ballistic/rocketlauncher
-	name = "\improper Dardo-RE Rocket Launcher"
-	desc = "A reusable rocket propelled grenade launcher. An arrow pointing toward the front of the launcher \
-		alongside the words \"Front Toward Enemy\" are printed on the tube. Someone seems to have crossed out \
-		that last word and written \"NT\" over it at some point. A sticker near the back of the launcher warn \
-		to \"CHECK BACKBLAST CLEAR BEFORE FIRING\", whatever that means."
+	name = "\improper rocket launcher" // BUG CHANGE (was "Dardo-RE Rocket Launcher")
+	desc = "A 'Dardo-RE' reusable rocket propelled grenade launcher." // BUG CHANGE (was "A reusable rocket propelled grenade launcher. An arrow pointing toward the front of the launcher alongside the words \"Front Toward Enemy\" are printed on the tube. Someone seems to have crossed out that last word and written \"NT\" over it at some point. A sticker near the back of the launcher warn to \"CHECK BACKBLAST CLEAR BEFORE FIRING\", whatever that means.")
 	icon = 'icons/obj/weapons/guns/wide_guns.dmi'
 	icon_state = "rocketlauncher"
 	inhand_icon_state = "rocketlauncher"
@@ -98,16 +95,12 @@
 		AddElement(/datum/element/backblast)
 
 /obj/item/gun/ballistic/rocketlauncher/unrestricted
-	desc = "A reusable rocket propelled grenade launcher. An arrow pointing toward the front of the launcher \
-		alongside the words \"Front Toward Enemy\" are printed on the tube. \
-		A sticker near the back of the launcher warn to \"CHECK BACKBLAST CLEAR BEFORE FIRING\", whatever that means."
+	desc = "A 'Dardo-RE' reusable rocket propelled grenade launcher." // BUG EDIT
 	pin = /obj/item/firing_pin
 
 /obj/item/gun/ballistic/rocketlauncher/nobackblast
-	name = "\improper Dardo-REF Flameless Rocket Launcher"
-	desc = "A reusable rocket propelled grenade launcher. An arrow pointing toward the front of the launcher \
-		alongside the words \"Front Toward Enemy\" are printed on the tube. \
-		This one has been fitted with a special backblast diverter to prevent 'friendly' fire 'accidents' during use."
+	name = "\improper modified rocket launcher" // BUG EDIT
+	desc = "A 'Dardo-RE' reusable rocket propelled grenade launcher which has been fitted with a special backblast diverter." // BUG EDIT
 	backblast = FALSE
 
 /obj/item/gun/ballistic/rocketlauncher/try_fire_gun(atom/target, mob/living/user, params)
@@ -149,6 +142,5 @@
 		return OXYLOSS
 
 /obj/item/gun/ballistic/rocketlauncher/unrestricted/nanotrasen
-	desc = "A reusable rocket propelled grenade launcher. The words \"Syndicate this way\" and an arrow have been written near the barrel. \
-	A sticker near the cheek rest reads, \"ENSURE AREA BEHIND IS CLEAR BEFORE FIRING\""
+	desc = "A 'Dardo-RE' reusable rocket propelled grenade launcher." // BUG EDIT
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/rocketlauncher/empty

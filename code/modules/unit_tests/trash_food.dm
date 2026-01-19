@@ -12,7 +12,7 @@
 		/obj/item/grown/bananapeel/bluespace,
 		/obj/item/food/grown/bungopit,
 		/obj/item/food/egg,
-		/obj/item/gun/ballistic/revolver/peashooter,
+		// /obj/item/gun/ballistic/revolver/peashooter, BUG REMOVAL
 		/obj/item/grown/corncob,
 		/obj/item/grown/corncob/pepper,
 		// misc waste products that don't belong in trash spawner

@@ -263,7 +263,7 @@
 	contains = list(/obj/item/gun/energy/disabler/smg = 3)
 	crate_name = "disabler smg crate"
 	crate_type = /obj/structure/closet/crate/secure/plasma
-
+/*
 /datum/supply_pack/security/armory/battle_rifle
 	name = "NT BR-38 Crate"
 	desc = "An experimental energy-based ballistic battle rifle. Only available to \
@@ -287,7 +287,7 @@
 		/obj/item/ammo_box/magazine/m38/iceblox =2,
 	)
 	crate_name = ".38 magazine crate"
-
+*/ // BUG REMOVAL
 /datum/supply_pack/security/armory/exileimp
 	name = "Exile Implants Crate"
 	desc = "Contains five Exile implants."

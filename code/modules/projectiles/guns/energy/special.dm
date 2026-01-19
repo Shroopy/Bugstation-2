@@ -70,7 +70,7 @@
 	automatic_charge_overlays = FALSE
 
 /obj/item/gun/energy/mindflayer
-	name = "\improper Mind Flayer"
+	name = "\improper mind flayer" // BUG EDIT
 	desc = "A prototype weapon recovered from the ruins of Research-Station Epsilon."
 	icon_state = "xray"
 	w_class = WEIGHT_CLASS_BULKY

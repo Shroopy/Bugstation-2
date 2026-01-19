@@ -686,7 +686,7 @@
 	shoes = /obj/item/clothing/shoes/clown_shoes/combat
 	r_hand = /obj/item/pneumatic_cannon/pie/selfcharge
 	l_hand = /obj/item/bikehorn/golden
-	box = /obj/item/storage/box/hug/reverse_revolver
+	// box = /obj/item/storage/box/hug/reverse_revolver BUG REMOVAL
 
 	backpack_contents = list(
 		/obj/item/paperplane/syndicate = 1,

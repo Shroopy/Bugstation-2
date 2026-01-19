@@ -51,13 +51,9 @@
 ///////////////////////
 
 /obj/item/gun/ballistic/rifle/boltaction
-	name = "\improper Sakhno Precision Rifle"
-	desc = "A Sakhno Precision Rifle, a bolt action weapon that was (and certainly still is) popular with \
-		frontiersmen, cargo runners, private security forces, explorers, and other unsavoury types. This particular \
-		pattern of the rifle dates back all the way to 2440."
-	sawn_desc = "A sawn-off Sakhno Precision Rifle, popularly known as an \"Obrez\". \
-		There was probably a reason it wasn't manufactured this short to begin with. \
-		Despite the terrible nature of the modification, the weapon seems otherwise in good condition."
+	name = "\improper bolt-action rifle" // BUG CHANGE (was "Sakhno Precision Rifle")
+	desc = "A rugged bolt-action rifle, popular with PMCs and cargo workers for its price-efficiency." // BUG CHANGE (was "A Sakhno Precision Rifle, a bolt action weapon that was (and certainly still is) popular with frontiersmen, cargo runners, private security forces, explorers, and other unsavoury types. This particular pattern of the rifle dates back all the way to 2440.")
+	sawn_desc = "An impractically-shortened bolt-action rifle. The weapon is in otherwise serviceable condition, despite its alterations."// BUG CHANGE (was "A sawn-off Sakhno Precision Rifle, popularly known as an \"Obrez\". There was probably a reason it wasn't manufactured this short to begin with. Despite the terrible nature of the modification, the weapon seems otherwise in good condition.")
 
 	icon_state = "sakhno"
 	inhand_icon_state = "sakhno"
@@ -115,7 +111,7 @@
 
 /obj/item/gun/ballistic/rifle/boltaction/harpoon
 	name = "ballistic harpoon gun"
-	desc = "A weapon favored by carp hunters, but just as infamously employed by agents of the Animal Rights Consortium against human aggressors. Because it's ironic."
+	desc = "A spear gun favored by proficient carp hunters and infamous whale hunters alike." // BUG CHANGE (was "A weapon favored by carp hunters, but just as infamously employed by agents of the Animal Rights Consortium against human aggressors. Because it's ironic.")
 	icon = 'icons/obj/weapons/guns/ballistic.dmi'
 	icon_state = "speargun"
 	inhand_icon_state = "speargun"
@@ -125,7 +121,7 @@
 	can_be_sawn_off = FALSE
 
 	SET_BASE_PIXEL(0, 0)
-
+/*
 /obj/item/gun/ballistic/rifle/boltaction/surplus
 	name = "\improper Sakhno M2442 Army"
 	desc = "A modification of the Sakhno Precision Rifle, \"Sakhno M2442 Army\" is stamped into the side. \
@@ -190,7 +186,7 @@
 	if(.)
 		projectile_damage_multiplier = 0.75
 		spread = 50
-
+*/ // BUG REMOVAL
 /obj/item/gun/ballistic/rifle/rebarxbow
 	name = "heated rebar crossbow"
 	desc = "A handcrafted crossbow. \
@@ -290,7 +286,7 @@
 	AddComponent(/datum/component/scope, range_modifier = 2) //enough range to at least be useful for stealth
 
 /// PIPE GUNS ///
-
+/* // BUG REMOVAL
 /obj/item/gun/ballistic/rifle/boltaction/pipegun
 	name = "pipegun"
 	desc = "A symbol that the true masters of this place are not those who merely inhabit it, but the one willing to twist it towards a killing intent."
@@ -371,7 +367,7 @@
 	projectile_damage_multiplier = 1
 	burst_size = 6 // WHOLE CLIP
 	spread = 0
-
+*/ // BUG REMOVAL
 /// MAGICAL BOLT ACTIONS ///
 
 /obj/item/gun/ballistic/rifle/enchanted
@@ -415,10 +411,8 @@
 // SNIPER //
 
 /obj/item/gun/ballistic/rifle/sniper_rifle
-	name = "anti-materiel sniper rifle"
-	desc = "A boltaction anti-materiel rifle, utilizing .50 BMG cartridges. While technically outdated in modern arms markets, it still works exceptionally well as \
-		an anti-personnel rifle. In particular, the employment of modern armored MODsuits utilizing advanced armor plating has given this weapon a new home on the battlefield. \
-		It is also able to be suppressed... somehow."
+	name = "anti-materiel rifle" // BUG CHANGE (was "anti-materiel sniper rifle")
+	desc = "A bolt-action anti-materiel rifle, utilizing .50 BMG cartridges. Commonly employed against advanced armor platforms, namely MODsuits and exosuits." // BUG CHANGE (was "A boltaction anti-materiel rifle, utilizing .50 BMG cartridges. While technically outdated in modern arms markets, it still works exceptionally well as an anti-personnel rifle. In particular, the employment of modern armored MODsuits utilizing advanced armor plating has given this weapon a new home on the battlefield. It is also able to be suppressed... somehow.")
 	icon = 'icons/obj/weapons/guns/ballistic.dmi'
 	icon_state = "sniper"
 	lefthand_file = 'icons/mob/inhands/weapons/guns_lefthand.dmi'
@@ -469,7 +463,7 @@
 	pin = /obj/item/firing_pin/implant/pindicate
 
 // SKS semi-automatic rifle //
-
+/*
 /obj/item/gun/ballistic/rifle/sks
 	name = "\improper Sakhno SKS semi-automatic rifle"
 	desc = "A revival of the ancient SKS semi-automatic rifle, redesigned to utilize .310 Strilka rounds. Produced to celebrate the \
@@ -499,13 +493,12 @@
 
 /obj/item/gun/ballistic/rifle/sks/empty
 	spawn_magazine_type = /obj/item/ammo_box/magazine/internal/sks/empty
-
+*/ // BUG REMOVAL
 // lahti-l39 anti material rifle //
 
 /obj/item/gun/ballistic/automatic/lahti
-	name = "\improper Lahti L-39"
-	desc = "The Lahti L-39, now manufactured in space with better materials making it more portable and reliable- still loaded in the same massive cartridge, \
-		this thing was made to go through a tank and come out the other end- imagine what it could do to an exosuit, there's also a completely useless sight which is totally obstructed by the magazine."
+	name = "\improper anti-exo rifle" // BUG CHANGE (was "Lahti L-39")
+	desc = "A niche redesign of an antique anti-tank rifle, designed for use against exosuits. Heavy and unwieldy, with a useless scope obstructed by its magazine." // BUG CHANGE (was "The Lahti L-39, now manufactured in space with better materials making it more portable and reliable- still loaded in the same massive cartridge, this thing was made to go through a tank and come out the other end- imagine what it could do to an exosuit, there's also a completely useless sight which is totally obstructed by the magazine.")
 	icon = 'icons/obj/weapons/guns/lahtil39.dmi'
 	icon_state = "lahtil"
 	inhand_icon_state = "sniper"

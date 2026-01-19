@@ -187,7 +187,7 @@
 	tool_behaviors = list(TOOL_SCREWDRIVER)
 	time = 1 SECONDS
 	category = CAT_WEAPON_RANGED
-
+/*
 /datum/crafting_recipe/pipegun
 	name = "Pipegun"
 	result = /obj/item/gun/ballistic/rifle/boltaction/pipegun
@@ -217,7 +217,7 @@
 	tool_behaviors = list(TOOL_SCREWDRIVER)
 	time = 5 SECONDS
 	category = CAT_WEAPON_RANGED
-
+*/ // BUG REMOVAL
 /datum/crafting_recipe/rebarxbow
 	name = "Heated Rebar Crossbow"
 	result = /obj/item/gun/ballistic/rifle/rebarxbow
@@ -247,7 +247,7 @@
 	tool_behaviors = list(TOOL_CROWBAR)
 	time = 1 SECONDS
 	category = CAT_WEAPON_RANGED
-
+/*
 /datum/crafting_recipe/pipegun_prime
 	name = "Regal Pipegun"
 	result = /obj/item/gun/ballistic/rifle/boltaction/pipegun/prime
@@ -328,7 +328,7 @@
 	time = 15 SECONDS
 	category = CAT_WEAPON_RANGED
 	crafting_flags = CRAFT_CHECK_DENSITY
-
+*/ // BUG REMOVAL
 /datum/crafting_recipe/trash_cannon
 	name = "Trash Cannon"
 	tool_behaviors = list(TOOL_WELDER, TOOL_SCREWDRIVER)
@@ -438,7 +438,7 @@
 	)
 	time = 10 SECONDS
 	category = CAT_WEAPON_RANGED
-
+/*
 /datum/crafting_recipe/sks
 	name = "Sakhno SKS semi-automatic rifle"
 	result = /obj/item/gun/ballistic/rifle/sks/empty
@@ -450,7 +450,7 @@
 	tool_behaviors = list(TOOL_SCREWDRIVER)
 	time = 10 SECONDS
 	category = CAT_WEAPON_RANGED
-
+*/ // BUG REMOVAL
 /datum/crafting_recipe/dimensional_bombcore
 	name = "Multi-Dimensional Payload"
 	result = /obj/item/bombcore/dimensional

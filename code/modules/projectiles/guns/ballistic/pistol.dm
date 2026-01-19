@@ -1,5 +1,5 @@
 /obj/item/gun/ballistic/automatic/pistol
-	name = "\improper Makarov pistol"
+	name = "\improper compact pistol" // BUG CHANGE (was "Makarov pistol")
 	desc = "A small, easily concealable 9mm handgun. Has a threaded barrel for suppressors."
 	icon_state = "pistol"
 	w_class = WEIGHT_CLASS_SMALL
@@ -52,17 +52,16 @@
 	install_suppressor(S)
 
 /obj/item/gun/ballistic/automatic/pistol/clandestine
-	name = "\improper Ansem pistol"
-	desc = "The spiritual successor of the Makarov, or maybe someone just dropped their gun in a bucket of paint. The gun is chambered in 10mm."
+	name = "\improper operator pistol" // BUG CHANGE (was "Ansem pistol")
+	desc = "A reliable handgun chambered in 10mm ammunition, synonymous in films with clandestine operations." // BUG CHANGE (was "The spiritual successor of the Makarov, or maybe someone just dropped their gun in a bucket of paint. The gun is chambered in 10mm.")
 	icon_state = "pistol_evil"
 	accepted_magazine_type = /obj/item/ammo_box/magazine/m10mm
 	empty_indicator = TRUE
 	suppressor_x_offset = 12
 
 /obj/item/gun/ballistic/automatic/pistol/clandestine/fisher
-	name = "\improper Ansem/SC pistol"
-	desc = "A modified variant of the Ansem, spiritual successor to the Makarov, featuring an integral suppressor and push-button trigger on the grip \
-	for an underbarrel-mounted disruptor, similar in operation to the standalone SC/FISHER. Chambered in 10mm."
+	name = "\improper stealth pistol" // BUG CHANGE (was "Ansem/SC pistol")
+	desc = "A heavily-altered 10mm handgun, sporting an integral suppressor and an underbarrel disruptor." // BUG CHANGE (was "A modified variant of the Ansem, spiritual successor to the Makarov, featuring an integral suppressor and push-button trigger on the grip for an underbarrel-mounted disruptor, similar in operation to the standalone SC/FISHER. Chambered in 10mm.")
 	desc_controls = "Right-click to use the underbarrel disruptor. Two shots maximum between self-charges."
 	icon_state = "pistol_evil_fisher"
 	suppressed = SUPPRESSED_QUIET
@@ -73,6 +72,7 @@
 /obj/item/gun/ballistic/automatic/pistol/clandestine/fisher/Initialize(mapload)
 	. = ..()
 	underbarrel = new /obj/item/gun/energy/recharge/fisher(src)
+	/*
 	AddElement(/datum/element/examine_lore, \
 		lore_hint = span_notice("You can [EXAMINE_HINT("look closer")] to learn a little more about [src]."), \
 		lore = "The Ansem/SC is a Scarborough Arms overhaul suite for their own Ansem handgun, designed for special operators who operate operationally, \
@@ -87,6 +87,7 @@
 		<br>\
 		Caveat emptor." \
 	)
+	*/ // BUG REMOVAL
 
 /obj/item/gun/ballistic/automatic/pistol/clandestine/fisher/Destroy()
 	QDEL_NULL(underbarrel)
@@ -112,8 +113,8 @@
 	simulated_hit.on_hit(hit_atom)
 
 /obj/item/gun/ballistic/automatic/pistol/m1911
-	name = "\improper M1911"
-	desc = "A classic .45 handgun with a small magazine capacity."
+	name = "\improper antique pistol" // BUG CHANGE (was "M1911")
+	desc = "A .45 handgun with a dated yet reliable design." // BUG CHANGE (was "A classic .45 handgun with a small magazine capacity.")
 	icon_state = "m1911"
 	w_class = WEIGHT_CLASS_NORMAL
 	accepted_magazine_type = /obj/item/ammo_box/magazine/m45
@@ -128,8 +129,8 @@
  * 15 damage every.. second? 7 shots to kill. Not fast.
  */
 /obj/item/gun/ballistic/automatic/pistol/m1911/chimpgun
-	name = "\improper CH1M911"
-	desc = "For the monkey mafioso on-the-go. Uses .45 rounds and has the distinct smell of bananas."
+	name = "\improper chimp pistol" // BUG CHANGE (was "CH1M911")
+	desc = "A .45 caliber pistol, designed for the hands of an angry ape." // BUG CHANGE (was "For the monkey mafioso on-the-go. Uses .45 rounds and has the distinct smell of bananas.")
 	projectile_damage_multiplier = 0.5
 	projectile_wound_bonus = -12
 	pin = /obj/item/firing_pin/monkey
@@ -139,8 +140,8 @@
 	spawnwithmagazine = FALSE
 
 /obj/item/gun/ballistic/automatic/pistol/deagle
-	name = "\improper Desert Eagle"
-	desc = "A robust .50 AE handgun."
+	name = "\improper magnum pistol" // BUG CHANGE (was "Desert Eagle")
+	desc = "A robust .50 AE handgun, nicknamed the 'Orion Eagle.'" // BUG CHANGE (was "A robust .50 AE handgun.")
 	icon_state = "deagle"
 	force = 14
 	accepted_magazine_type = /obj/item/ammo_box/magazine/m50
@@ -163,7 +164,7 @@
 		))
 	. = ..()
 	pin.pin_removable = FALSE
-
+/* // BUG REMOVAL
 /obj/item/gun/ballistic/automatic/pistol/deagle/gold
 	desc = "A gold plated Desert Eagle folded over a million times by superior martian gunsmiths. Uses .50 AE ammo."
 	icon_state = "deagleg"
@@ -190,10 +191,10 @@
 	accepted_magazine_type = /obj/item/ammo_box/magazine/r10mm
 	actions_types = list(/datum/action/item_action/toggle_firemode)
 	obj_flags = UNIQUE_RENAME // if you did the sidequest, you get the customization
-
+*/ // BUG REMOVAL
 /obj/item/gun/ballistic/automatic/pistol/aps
-	name = "\improper Stechkin APS machine pistol"
-	desc = "A modernized reproduction of an old Soviet machine pistol. It fires quickly, but kicks like a mule. Uses 9mm ammo. Has a threaded barrel for suppressors." //NOVA EDIT
+	name = "\improper machine pistol" // BUG CHANGE (was "Stechkin APS machine pistol")
+	desc = "An automatic 9mm machine pistol with a surprising kick. Has a threaded barrel for suppressors." //BUG CHANGE (was "A modernized reproduction of an old Soviet machine pistol. It fires quickly, but kicks like a mule. Uses 9mm ammo. Has a threaded barrel for suppressors.")
 	icon_state = "aps"
 	w_class = WEIGHT_CLASS_NORMAL
 	accepted_magazine_type = /obj/item/ammo_box/magazine/m9mm_aps
@@ -226,9 +227,8 @@
 #define DOORHICKEY_GUN_MAX_DAMAGE 140
 
 /obj/item/gun/ballistic/automatic/pistol/doorhickey
-	name = "\improper Liberator"
-	desc = "A poorly made 3D printed \"gun\", only capable of firing a single shot. Well-known throughout the Spinward Sector \
-		after an incident where 3 assistants were killed by shrapnel from such a device exploding while attempting to shoot a mouse."
+	name = "\improper printed pistol" // BUG CHANGE (was "Liberator")
+	desc = "A crude pistol assembled via plastic 3D-printed parts." // BUG CHANGE (was ""A poorly made 3D printed \"gun\", only capable of firing a single shot. Well-known throughout the Spinward Sector after an incident where 3 assistants were killed by shrapnel from such a device exploding while attempting to shoot a mouse."")
 	icon_state = "doorhickey"
 	custom_materials = list(/datum/material/plastic = SHEET_MATERIAL_AMOUNT * 2)
 	bolt_type = BOLT_TYPE_NO_BOLT

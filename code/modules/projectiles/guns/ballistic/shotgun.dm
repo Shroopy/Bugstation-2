@@ -167,10 +167,8 @@
 // Bulldog shotgun //
 
 /obj/item/gun/ballistic/shotgun/bulldog
-	name = "\improper Bulldog Shotgun"
-	desc = "A 2-round burst fire, mag-fed shotgun for combat in narrow corridors, \
-		nicknamed 'Bulldog' by boarding parties. Compatible only with specialized 8-round drum magazines. \
-		Can have a secondary magazine attached to quickly swap between ammo types, or just to keep shooting."
+	name = "\improper twin-tube shotgun" // BUG CHANGE (was "Bulldog Shotgun")
+	desc = "A burst-fire shotgun utilizing two specialized eight-round magazines. The second magazine is optional, but allows for easy use of two ammunition types." // BUG CHANGE (was "A 2-round burst fire, mag-fed shotgun for combat in narrow corridors, nicknamed 'Bulldog' by boarding parties. Compatible only with specialized 8-round drum magazines. Can have a secondary magazine attached to quickly swap between ammo types, or just to keep shooting.")
 	icon_state = "bulldog"
 	lefthand_file = 'icons/mob/inhands/weapons/guns_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/guns_righthand.dmi'
@@ -373,8 +371,8 @@
 
 ///An underpowered shotgun given to Pun Pun when the station job trait roll.
 /obj/item/gun/ballistic/shotgun/monkey
-	name = "\improper Barback's Shot"
-	desc = "A chimp-sized, single-shot and break-action shotgun with an unpractical stock."
+	name = "\improper chimp shotgun" // BUG CHANGE (was "Barback's Shot")
+	desc = "A chimp-sized, single-shot shotgun with an unpractical stock." // BUG EDIT
 	icon_state = "chimp_shottie"
 	inhand_icon_state = "shotgun"
 	lefthand_file = 'icons/mob/inhands/weapons/guns_lefthand.dmi'
@@ -398,7 +396,7 @@
 	pb_knockback = 1
 
 /obj/item/gun/ballistic/shotgun/musket
-	name = "\improper Donk Co. Musket"
+	name = "\improper donk musket" // BUG EDIT
 	icon = 'icons/obj/weapons/guns/ballistic.dmi'
 	icon_state = "donk_musket"
 	inhand_icon_state = "donk_musket"

@@ -69,9 +69,7 @@
 
 /obj/item/ammo_casing/shotgun/pulseslug
 	name = "pulse slug"
-	desc = "A delicate device which can be loaded into a shotgun. The primer acts as a button which triggers the gain medium and fires a powerful \
-	energy blast. While the heat and power drain limit it to one use, it can still allow an operator to engage targets that ballistic ammunition \
-	would have difficulty with."
+	desc = "A delicate device which can be loaded into a shotgun. Fires a powerful energy blast." // BUG CHANGE (was "A delicate device which can be loaded into a shotgun. The primer acts as a button which triggers the gain medium and fires a powerful energy blast. While the heat and power drain limit it to one use, it can still allow an operator to engage targets that ballistic ammunition would have difficulty with.")
 	icon_state = "pshell"
 	projectile_type = /obj/projectile/beam/pulse/shotgun
 
@@ -142,11 +140,8 @@
 	variance = 10
 
 /obj/item/ammo_casing/shotgun/flechette/donk
-	name = "\improper Donk Co. 'Donk Spike' Shell"
-	desc = "Donk Co., looking to create a new and exciting shell to move onto the open market, invented what they call the 'Donk Spike'. \
-		A flechette not made from standard ferrous metals. But...plastic. It was a financial failure due to a complete lack of \
-		confidence in the product. Now there are millions of these things in landfills across the sector. This is one such example. \
-		Looks like a donk-pocket! Tastes like death!"
+	name = "\improper donk spike shell" // BUG EDIT
+	desc = "A Donk Co. plastic flechette shell, found most often in the sector's finest landfills." // BUG CHANGE (was "Donk Co., looking to create a new and exciting shell to move onto the open market, invented what they call the 'Donk Spike'. A flechette not made from standard ferrous metals. But...plastic. It was a financial failure due to a complete lack of confidence in the product. Now there are millions of these things in landfills across the sector. This is one such example. Looks like a donk-pocket! Tastes like death!")
 	icon_state = "flechette_donk"
 	projectile_type = /obj/projectile/bullet/pellet/flechette/donk
 	custom_materials = list(/datum/material/iron = HALF_SHEET_MATERIAL_AMOUNT, /datum/material/plastic = SMALL_MATERIAL_AMOUNT * 2)

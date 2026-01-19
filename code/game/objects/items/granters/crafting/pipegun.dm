@@ -1,4 +1,4 @@
-/obj/item/book/granter/crafting_recipe/dusting/pipegun_prime
+/*/obj/item/book/granter/crafting_recipe/dusting/pipegun_prime
 	name = "diary of a dead assistant"
 	desc = "A battered journal. Looks like he had a pretty rough life."
 	crafting_recipe_types = list(
@@ -44,3 +44,4 @@
 		"10u of reactant to open the relic... Is this even real science anymore?",
 		"Making them all sleep in the cold below? This is a disabler, not a lethal weapon.",
 	)
+*/ // BUG REMOVAL

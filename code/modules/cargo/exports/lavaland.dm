@@ -36,7 +36,7 @@
 		/obj/item/clothing/shoes/clown_shoes/banana_shoes,
 		/obj/item/gun/magic/staff/honk,
 		/obj/item/knife/envy,
-		/obj/item/gun/ballistic/revolver/russian/soul,
+		// /obj/item/gun/ballistic/revolver/russian/soul, BUG REMOVAL
 		/obj/item/veilrender/vealrender,
 		/obj/item/clothing/suit/hooded/berserker,
 		/obj/item/freeze_cube,

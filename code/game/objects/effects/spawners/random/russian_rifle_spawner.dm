@@ -3,8 +3,8 @@
 	desc = "Mosin? Never heard of her!"
 	icon_state = "pistol"
 	loot = list(
-		/obj/item/gun/ballistic/rifle/boltaction/surplus = 80,
-		/obj/item/gun/ballistic/rifle/boltaction = 10,
+		// /obj/item/gun/ballistic/rifle/boltaction/surplus = 80, // BUG REMOVAL
+		/obj/item/gun/ballistic/rifle/boltaction = 80, // BUG EDIT (10 to 80)
 		/obj/item/food/rationpack = 1,
 	)
 /obj/effect/spawner/random/sakhno/ammo

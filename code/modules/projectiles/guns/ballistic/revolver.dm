@@ -105,16 +105,17 @@
 		return span_rose("[user] touches the end of [src] to \the [A], using the residual heat to ignite it in a puff of smoke. What a badass.")
 
 /obj/item/gun/ballistic/revolver/c38
-	name = "\improper .38 revolver"
-	desc = "A classic, if not outdated, lethal firearm. Uses .38 Special rounds."
+	name = "\improper compact revolver" // BUG CHANGE (was ".38 revolver")
+	desc = "A small .38 revolver. After Nanotrasen was pushed out of the ballistics market, outdated designs such as this one became standard." // BUG CHANGE (was "A classic, if not outdated, lethal firearm. Uses .38 Special rounds.")
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/cylinder/rev38
 	icon_state = "c38"
 	base_icon_state = "c38"
 	fire_sound = 'sound/items/weapons/gun/revolver/shot.ogg'
 
 /obj/item/gun/ballistic/revolver/c38/detective
-	name = "\improper Colt Detective Special"
-	desc = "A classic, if not outdated, law enforcement firearm. Uses .38 Special rounds. \nSome spread rumors that if you loosen the barrel with a wrench, you can \"improve\" it."
+	name = "\improper detective's revolver" // BUG CHANGE (was "Colt Detective Special")
+	desc = "A small .38 revolver. After Nanotrasen was pushed out of the ballistics market, outdated designs such as this one became standard.\
+	\nSome spread rumors that if you loosen the barrel with a wrench, you can \"improve\" it." // BUG EDIT
 
 	can_modify_ammo = TRUE
 	initial_caliber = CALIBER_38
@@ -139,8 +140,8 @@
 	)
 
 /obj/item/gun/ballistic/revolver/badass
-	name = "\improper Badass Revolver"
-	desc = "A 7-chamber revolver manufactured by Waffle Corp to make their operatives feel Badass. Offers no tactical advantage whatsoever. Uses .357 ammo."
+	name = "\improper badass revolver" // BUG EDIT (capitalization)
+	desc = "A 7-chamber revolver manufactured by Waffle Corp to make their operatives feel badass. Offers no tactical advantage whatsoever. Uses .357 ammo." // BUG EDIT (capitalization)
 	icon_state = "revolversyndie"
 
 /obj/item/gun/ballistic/revolver/badass/nuclear
@@ -153,20 +154,20 @@
 
 /obj/item/gun/ballistic/revolver/cowboy/nuclear
 	pin = /obj/item/firing_pin/implant/pindicate
-
+/*
 /obj/item/gun/ballistic/revolver/mateba
 	name = "\improper Unica 6 auto-revolver"
 	desc = "A retro high-powered autorevolver typically used by officers of the New Russia military. Uses .357 ammo."
 	icon_state = "mateba"
-
+*/ // BUG REMOVAL
 /obj/item/gun/ballistic/revolver/golden
-	name = "\improper Golden revolver"
+	name = "\improper golden revolver" // BUG EDIT
 	desc = "This ain't no game, ain't never been no show, And I'll gladly gun down the oldest lady you know. Uses .357 ammo."
 	icon_state = "goldrevolver"
 	fire_sound = 'sound/items/weapons/resonator_blast.ogg'
 	recoil = 8
 	pin = /obj/item/firing_pin
-
+/*
 /obj/item/gun/ballistic/revolver/nagant
 	name = "\improper Nagant revolver"
 	desc = "An old model of revolver that originated in Russia. Able to be suppressed. Uses 7.62x38mmR ammo."
@@ -174,11 +175,12 @@
 	can_suppress = TRUE
 
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/cylinder/rev762
-
+*/ // BUG REMOVAL
 
 // A gun to play Russian Roulette!
 // You can spin the chamber to randomize the position of the bullet.
 
+/* // BUG REMOVAL
 /obj/item/gun/ballistic/revolver/russian
 	name = "\improper Russian revolver"
 	desc = "A Russian-made revolver for drinking games. Uses .357 ammo, and has a mechanism requiring you to spin the chamber before each trigger pull."
@@ -397,3 +399,4 @@
 	desc = "A wild plantlife mutation that shoots hardened peas. Incredible."
 	fire_sound = 'sound/items/weapons/peashoot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/cylinder/peashooter
+*/ // BUG REMOVAL

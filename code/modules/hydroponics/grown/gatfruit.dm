@@ -1,6 +1,5 @@
-
 // Gatfruit
-/obj/item/seeds/gatfruit
+/* /obj/item/seeds/gatfruit
 	name = "gatfruit seed pack"
 	desc = "These seeds grow into pea-shooting revolvers."
 	icon_state = "seed-gatfruit"
@@ -44,4 +43,4 @@
 		if(reagents.total_volume)
 			reagents.trans_to(casing, amount_to_trans)
 	return gun
-
+*/ // BUG REMOVAL

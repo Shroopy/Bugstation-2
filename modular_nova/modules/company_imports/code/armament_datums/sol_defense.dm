@@ -186,11 +186,11 @@
 
 /datum/armament_entry/company_import/sol_defense/longarm/type213
 	item_type = /obj/item/gun/ballistic/automatic/type213
-
+/*
 /datum/armament_entry/company_import/sol_defense/longarm/br38
 	item_type = /obj/item/gun/ballistic/automatic/battle_rifle
 	cost = PAYCHECK_COMMAND * 8
-
+*/ // BUG REMOVAL
 /datum/armament_entry/company_import/sol_defense/longarm/elite
 	item_type = /obj/item/gun/ballistic/automatic/sol_classic/marksman
 	cost = PAYCHECK_COMMAND * 12

@@ -15,7 +15,7 @@ GLOBAL_LIST_INIT(summoned_all_guns, get_sane_item_types(/obj/item/gun))
 
 GLOBAL_LIST_INIT(summoned_guns, list(
 	/obj/item/gun/ballistic/automatic/ar,
-	/obj/item/gun/ballistic/automatic/battle_rifle,
+	// /obj/item/gun/ballistic/automatic/battle_rifle, BUG REMOVAL
 	/obj/item/gun/ballistic/automatic/c20r/unrestricted,
 	/obj/item/gun/ballistic/automatic/gyropistol,
 	/obj/item/gun/ballistic/automatic/l6_saw/unrestricted,
@@ -26,7 +26,7 @@ GLOBAL_LIST_INIT(summoned_guns, list(
 	/obj/item/gun/ballistic/automatic/pistol/aps,
 	/obj/item/gun/ballistic/automatic/pistol/clandestine/fisher,
 	/obj/item/gun/ballistic/automatic/pistol/deagle,
-	/obj/item/gun/ballistic/automatic/pistol/deagle/regal,
+	// /obj/item/gun/ballistic/automatic/pistol/deagle/regal, BUG REMOVAL
 	/obj/item/gun/ballistic/automatic/pistol/doorhickey,
 	/obj/item/gun/ballistic/automatic/pistol/m1911,
 	/obj/item/gun/ballistic/automatic/proto/unrestricted,
@@ -36,9 +36,9 @@ GLOBAL_LIST_INIT(summoned_guns, list(
 	/obj/item/gun/ballistic/revolver,
 	/obj/item/gun/ballistic/revolver/badass,
 	/obj/item/gun/ballistic/revolver/c38,
-	/obj/item/gun/ballistic/revolver/nagant,
+	// /obj/item/gun/ballistic/revolver/nagant, BUG REMOVAL
 	/obj/item/gun/ballistic/rifle/boltaction,
-	/obj/item/gun/ballistic/rifle/boltaction/donkrifle,
+	// /obj/item/gun/ballistic/rifle/boltaction/donkrifle, BUG REMOVAL
 	/obj/item/gun/ballistic/rifle/boltaction/harpoon,
 	/obj/item/gun/ballistic/rifle/rebarxbow/syndie,
 	/obj/item/gun/ballistic/rifle/sniper_rifle,

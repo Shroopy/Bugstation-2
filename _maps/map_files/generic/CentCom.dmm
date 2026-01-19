@@ -4025,18 +4025,18 @@
 /area/centcom/central_command_areas/prison)
 "tS" = (
 /obj/structure/rack/gunrack,
-/obj/item/gun/ballistic/shotgun/riot{ //BUG CHANGE (was "/obj/item/gun/ballistic/shotgun/riot/sol")
+/obj/item/gun/ballistic/shotgun/riot/sol{
 	pixel_x = -8;
 	pixel_y = 8
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/item/gun/ballistic/shotgun/riot{ //BUG CHANGE (was "/obj/item/gun/ballistic/shotgun/riot/sol")
+/obj/item/gun/ballistic/shotgun/riot/sol{
 	pixel_x = -8;
 	pixel_y = 0
 	},
-/obj/item/gun/ballistic/shotgun/riot{ //BUG CHANGE (was "/obj/item/gun/ballistic/shotgun/riot/sol")
+/obj/item/gun/ballistic/shotgun/riot/sol{
 	pixel_x = -8;
 	pixel_y = -7
 	},
@@ -4153,11 +4153,11 @@
 	dir = 5
 	},
 /obj/structure/rack/gunrack,
-/obj/item/gun/energy/laser{ // BUG CHANGE (was "/obj/item/gun/energy/modular_laser_rifle")
+/obj/item/gun/energy/modular_laser_rifle{
 	pixel_x = -8;
 	pixel_y = 5
 	},
-/obj/item/gun/energy/laser{ // BUG CHANGE (was "/obj/item/gun/energy/modular_laser_rifle")
+/obj/item/gun/energy/modular_laser_rifle{
 	pixel_x = -8;
 	pixel_y = -6
 	},
@@ -7088,11 +7088,11 @@
 	dir = 8
 	},
 /obj/structure/rack/gunrack,
-/obj/item/gun/energy/e_gun{ //BUG CHANGE (was "/obj/item/gun/energy/modular_laser_rifle/carbine")
+/obj/item/gun/energy/modular_laser_rifle/carbine{
 	pixel_x = 0;
 	pixel_y = 4
 	},
-/obj/item/gun/energy/e_gun{ //BUG CHANGE (was "/obj/item/gun/energy/modular_laser_rifle/carbine")
+/obj/item/gun/energy/modular_laser_rifle/carbine{
 	pixel_x = 0;
 	pixel_y = -6
 	},
@@ -9580,15 +9580,15 @@
 	dir = 6
 	},
 /obj/structure/rack/gunrack,
-/obj/item/gun/ballistic/revolver/c38{ // BUG CHANGE (was "/obj/item/gun/ballistic/revolver/takbok")
+/obj/item/gun/ballistic/revolver/takbok{
 	pixel_x = 0;
 	pixel_y = 7
 	},
-/obj/item/gun/ballistic/revolver/c38{ // BUG CHANGE (was "/obj/item/gun/ballistic/revolver/takbok")
+/obj/item/gun/ballistic/revolver/takbok{
 	pixel_x = 0;
 	pixel_y = 0
 	},
-/obj/item/gun/ballistic/revolver/c38{ // BUG CHANGE (was "/obj/item/gun/ballistic/revolver/takbok")
+/obj/item/gun/ballistic/revolver/takbok{
 	pixel_x = 0;
 	pixel_y = -7
 	},
@@ -10179,12 +10179,12 @@
 	dir = 1
 	},
 /obj/structure/table/reinforced,
-/obj/item/ammo_box/speedloader/c38, // BUG CHANGE (was "/obj/item/ammo_box/c585trappiste")
-/obj/item/ammo_box/speedloader/c38{ // BUG CHANGE (was "/obj/item/ammo_box/c585trappiste")
+/obj/item/ammo_box/c585trappiste,
+/obj/item/ammo_box/c585trappiste{
 	pixel_x = 0;
 	pixel_y = 4
 	},
-/obj/item/ammo_box/speedloader/c38{ // BUG CHANGE (was "/obj/item/ammo_box/c585trappiste")
+/obj/item/ammo_box/c585trappiste{
 	pixel_x = 0;
 	pixel_y = 8
 	},

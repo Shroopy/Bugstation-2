@@ -400,8 +400,10 @@ SOLFED ARMOR VALUES!
 	max_specific_storage = WEIGHT_CLASS_NORMAL
 
 /obj/item/storage/belt/military/solfed/PopulateContents()
+	/*
 	new /obj/item/ammo_box/magazine/c40sol_rifle/standard(src)
 	new /obj/item/ammo_box/magazine/c40sol_rifle/standard(src)
 	new /obj/item/ammo_box/magazine/c40sol_rifle/standard(src)
 	new /obj/item/ammo_box/magazine/c40sol_rifle/standard(src)
+	*/ // BUG REMOVAL
 	new /obj/item/melee/baton/security/loaded(src)

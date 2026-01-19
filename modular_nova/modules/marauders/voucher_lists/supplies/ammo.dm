@@ -125,7 +125,7 @@
 	set_items = list(
 		/obj/item/ammo_box/magazine/m9mm_aps/fire,
 	)
-
+/*
 /datum/voucher_set/traitor/supplies/ammo/enforcer_hp
 	name = /obj/item/ammo_box/magazine/enforcer/hp::name
 	description = /obj/item/ammo_box/magazine/enforcer/hp::desc
@@ -152,7 +152,7 @@
 	set_items = list(
 		/obj/item/ammo_box/magazine/enforcer/fire,
 	)
-
+*/ // BUG REMOVAL
 /datum/voucher_set/traitor/supplies/ammo/s12gauge_milspec
 	name = /obj/item/ammo_box/advanced/s12gauge/milspec::name
 	description = /obj/item/ammo_box/advanced/s12gauge/milspec::desc

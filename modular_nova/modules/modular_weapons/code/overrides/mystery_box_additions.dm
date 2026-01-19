@@ -1,4 +1,4 @@
-GLOBAL_LIST_INIT(nova_special_firearms, list(
+/*GLOBAL_LIST_INIT(nova_special_firearms, list(
 	/obj/item/storage/toolbox/guncase/nova/carwo_large_case/thunderdome_kiboko,
 	/obj/item/storage/toolbox/guncase/nova/carwo_large_case/thunderdome_kiboko/evil,
 	/obj/item/storage/toolbox/guncase/nova/boarder,
@@ -28,7 +28,7 @@ GLOBAL_LIST_INIT(nova_special_firearms, list(
 	/obj/item/gun/ballistic/rifle/sporterized,
 	/obj/item/gun/ballistic/automatic/xhihao_smg,
 ))
-
+*/ // BUG REMOVAL
 GLOBAL_LIST_INIT(nova_funny_mystery_box_items, list(
 	/obj/item/storage/medkit/civil_defense/thunderdome,
 	/obj/item/storage/medkit/frontier/stocked,

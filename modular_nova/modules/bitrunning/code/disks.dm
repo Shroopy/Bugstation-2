@@ -101,7 +101,9 @@
 		/obj/item/storage/medkit/expeditionary/surplus,
 		/obj/item/katana,
 		/obj/item/shield/riot/tele,
+		/*
 		/obj/item/gun/energy/modular_laser_rifle/carbine,
+		*/ // BUG REMOVAL
 		/obj/item/syndicate_contacts,
 	)
 
@@ -116,7 +118,9 @@
 	selectable_items += list(
 		/obj/item/domain_anchor,
 		/obj/item/autosurgeon/syndicate/nodrop/bitrunning,
+		/*
 		/obj/item/gun/energy/modular_laser_rifle,
+		*/ // BUG REMOVAL
 		/obj/item/storage/belt/holster/energy/nanite,
 		/obj/item/minigunpack,
 	)

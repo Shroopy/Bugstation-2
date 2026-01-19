@@ -172,8 +172,8 @@
 
 /obj/item/choice_beacon/ntc/generate_display_names()
 	var/static/list/selectable_gun_types = list(
-		"Takbok Revolver Set" = /obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/takbok,
-		"Skild Pistol Set" = /obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/skild,
+		"Revolver" = /obj/item/gun/ballistic/revolver/c38, //BUG CHANGE (previously Takbok Revolver Set)
+		// "Skild Pistol Set" = /obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/skild, BUG REMOVAL
 	)
 
 	return selectable_gun_types

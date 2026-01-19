@@ -182,6 +182,7 @@
 			new /obj/item/knife/combat(src)
 			new /obj/item/switchblade(src)
 			new /obj/item/switchblade(src)
+			/*
 			new /obj/item/gun/ballistic/automatic/sol_smg(src)
 			new /obj/item/gun/ballistic/automatic/sol_smg(src)
 			for(var/i in 1 to 2)
@@ -193,6 +194,7 @@
 			new /obj/item/gun/ballistic/automatic/miecz(src)
 			for(var/i in 1 to 2)
 				new /obj/item/ammo_box/magazine/miecz(src)
+			*/ // BUG REMOVAL
 
 		if(4) //MODsuits
 			new /obj/item/mod/control/pre_equipped/mining(src)

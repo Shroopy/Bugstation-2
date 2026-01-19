@@ -58,7 +58,7 @@
 
 /// Returns get_ammo() with the appropriate args passed to it - some guns like the revolver and bow are special cases
 /datum/component/ammo_hud/proc/get_accurate_ammo_count(obj/item/gun/ballistic/the_gun)
-	// Handle pulse rifle's unique ammo system
+	/* // Handle pulse rifle's unique ammo system
 	if(istype(the_gun, /obj/item/gun/ballistic/automatic/pulse_rifle))
 		var/obj/item/gun/ballistic/automatic/pulse_rifle/pulse_gun = the_gun
 		var/total_shots = 0
@@ -95,7 +95,7 @@
 				total_shots += floor(casing.remaining_uses / sniper.shots_per_fire)
 
 		return total_shots
-
+	*/ // BUG REMOVAL
 	// fucking revolvers indeed - do not count empty or chambered rounds for the display HUD
 	if(istype(the_gun, /obj/item/gun/ballistic/revolver))
 		var/obj/item/gun/ballistic/revolver/the_revolver = the_gun

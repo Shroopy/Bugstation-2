@@ -112,10 +112,10 @@
 /obj/item/choice_beacon/blueshield/generate_display_names()
 	var/static/list/selectable_gun_types = list(
 		"Blueshield Energy Shield" = /obj/item/shield/energy/returning/blueshield,
-		"Fendér Revolver Set" = /obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/bluvolva,
+		// "Fendér Revolver Set" = /obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/bluvolva, BUG REMOVAL
 		"Custom Hellfire Laser Carbine" = /obj/item/gun/energy/laser/hellgun/blueshield,
-		"NT20 Submachinegun Gunset" = /obj/item/storage/toolbox/guncase/nova/ntspecial/nt20,
-		"Katyusha Shotgun Gunset" = /obj/item/storage/toolbox/guncase/nova/katyusha,
+		// "NT20 Submachinegun Gunset" = /obj/item/storage/toolbox/guncase/nova/ntspecial/nt20, BUG REMOVAL
+		// "Katyusha Shotgun Gunset" = /obj/item/storage/toolbox/guncase/nova/katyusha, BUG REMOVAL
 		// IRIS ADDITION - START
 		"X-02 Energy Revolver" = /obj/item/gun/energy/e_gun/blueshield,
 		"Defender Energy Carbine" = /obj/item/gun/energy/e_gun/stun/blueshield,

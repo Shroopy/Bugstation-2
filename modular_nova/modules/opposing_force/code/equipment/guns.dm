@@ -1,6 +1,6 @@
 /datum/opposing_force_equipment/ranged
 	category = OPFOR_EQUIPMENT_CATEGORY_RANGED
-
+/*
 /datum/opposing_force_equipment/ranged/riot_sol
 	name = "M64 Shotgun"
 	description = "A case with a twelve gauge shotgun with an eight shell capacity underneath, and two 15-shell boxes of buckshot."
@@ -84,7 +84,7 @@
 	name = "Shitzu Shotgun"
 	description = "A modified magfed shotgun gun, designated 'Shitzu'."
 	item_type = /obj/item/storage/toolbox/guncase/nova/syndicate/shitzu
-
+*/ // BUG REMOVAL
 /datum/opposing_force_equipment/ranged/hook_shotgun
 	name = "Hook Modified Sawn-off Shotgun"
 	description = "Range isn't an issue when you can bring your victim to you."
@@ -175,7 +175,7 @@
 	name = "Sindano SMG"
 	description = "A small submachinegun, this one is painted in tacticool black. Accepts any standard Sol pistol magazine."
 	item_type = /obj/item/storage/toolbox/guncase/nova/pistol/opfor/sindano
-
+/*
 /obj/item/storage/toolbox/guncase/nova/pistol/opfor/sindano/PopulateContents()
 	new /obj/item/gun/ballistic/automatic/sol_smg/evil(src)
 	new /obj/item/ammo_box/magazine/c35sol_pistol/stendo(src)
@@ -190,7 +190,7 @@
 	new /obj/item/gun/ballistic/automatic/pistol/sol/evil(src)
 	new /obj/item/ammo_box/magazine/c35sol_pistol(src)
 	new /obj/item/ammo_box/magazine/c35sol_pistol(src)
-
+*/ // BUG REMOVAL
 /datum/opposing_force_equipment/ranged_stealth/makarov
 	name = "Makarov Pistol"
 	description = "A small, easily concealable 9mm handgun. This one is packed with a suppressor."
@@ -211,7 +211,7 @@
 	new /obj/item/gun/ballistic/automatic/pistol/m1911(src)
 	new /obj/item/ammo_box/magazine/m45(src)
 	new /obj/item/ammo_box/magazine/m45(src)
-
+/*
 /datum/opposing_force_equipment/ranged_stealth/plasma_pistol
 	name = "'Słońce' Plasma Projector"
 	description = "An outdated sidearm rarely seen in use by some members of the CIN. Spews an inaccurate stream of searing plasma out the magnetic barrel so long as it has power and the trigger is pulled."
@@ -231,7 +231,7 @@
 	new /obj/item/gun/ballistic/automatic/pistol/plasma_marksman(src)
 	new /obj/item/ammo_box/magazine/recharge/plasma_battery(src)
 	new /obj/item/ammo_box/magazine/recharge/plasma_battery(src)
-
+*/ // BUG REMOVAL
 /datum/opposing_force_equipment/ranged_stealth/syndie_revolver
 	name = "Syndicate Revolver"
 	description = "A modernized 7 round revolver manufactured by Scarborough."

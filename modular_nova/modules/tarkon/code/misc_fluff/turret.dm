@@ -44,7 +44,7 @@
 		/obj/item/ammo_box/magazine/c585trappiste_pistol,
 		/obj/item/ammo_box/magazine/miecz,
 	)
-
+/*
 /obj/item/storage/toolbox/emergency/turret/mag_fed/cerberus/pre_filled/PopulateContents()
 	new /obj/item/ammo_box/magazine/c585trappiste_pistol(src)
 	new /obj/item/ammo_box/magazine/c585trappiste_pistol(src)
@@ -53,7 +53,7 @@
 /obj/item/storage/toolbox/emergency/turret/mag_fed/hoplite/pre_filled/PopulateContents()
 	new /obj/item/ammo_box/magazine/c35sol_pistol(src)
 	new /obj/item/ammo_box/magazine/c35sol_pistol(src)
-
+*/ // BUG REMOVAL
 ////// Turrets //////
 /obj/machinery/porta_turret/syndicate/toolbox/mag_fed/cerberus
 	name = "\improper T.I.B.S \"Cerberus\" Guardian Turret"

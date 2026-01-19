@@ -11,12 +11,14 @@
 /obj/structure/closet/freighterammo/PopulateContents()
 	. = ..()
 
+	/*
 	new /obj/item/ammo_box/magazine/lanca(src)
 	new /obj/item/ammo_box/magazine/lanca(src)
 	new /obj/item/ammo_box/magazine/lanca(src)
 	new /obj/item/ammo_box/magazine/lanca(src)
 	new /obj/item/ammo_box/magazine/c35sol_pistol(src)
 	new /obj/item/ammo_box/magazine/c35sol_pistol(src)
+	*/ // BUG REMOVAL
 	new /obj/item/ammo_box/speedloader/strilka310(src)
 	new /obj/item/ammo_box/speedloader/strilka310(src)
 	new /obj/item/ammo_box/speedloader/strilka310(src)
@@ -33,6 +35,8 @@
 	new /obj/item/clothing/gloves/combat(src)
 	new /obj/item/storage/backpack/duffelbag/syndie(src)
 	new /obj/item/radio(src)
+	/*
 	new /obj/item/ammo_box/magazine/c40sol_rifle(src)
 	new /obj/item/ammo_box/magazine/c40sol_rifle(src)
 	new /obj/item/ammo_box/magazine/c40sol_rifle(src)
+	*/ // BUG REMOVAL

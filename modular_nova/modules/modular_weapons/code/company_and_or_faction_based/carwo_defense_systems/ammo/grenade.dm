@@ -33,7 +33,7 @@
 	ammo_categories = AMMO_CLASS_NONE
 	ammo_stack_type = /obj/item/ammo_box/magazine/ammo_stack/c980
 
-
+/*
 /obj/item/ammo_casing/c980grenade/fire_casing(atom/target, mob/living/user, params, distro, quiet, zone_override, spread, atom/fired_from)
 	var/obj/item/gun/ballistic/automatic/sol_grenade_launcher/firing_launcher = fired_from
 	if(istype(firing_launcher))
@@ -43,7 +43,7 @@
 	else if(istype(fired_from, /obj/item/gun/ballistic/pump_launcher/c980))
 		loaded_projectile.range = get_dist(user, target)
 	. = ..()
-
+*/ // BUG REMOVAL
 
 /obj/projectile/bullet/c980grenade
 	name = ".980 Tydhouer practice grenade"

@@ -77,8 +77,8 @@
 /obj/item/storage/toolbox/emergency/turret/mag_fed/PopulateContents()
 
 /obj/item/storage/toolbox/emergency/turret/mag_fed/pre_filled/PopulateContents()
-	new /obj/item/ammo_box/magazine/c35sol_pistol(src)
-	new /obj/item/ammo_box/magazine/c35sol_pistol(src)
+	// new /obj/item/ammo_box/magazine/c35sol_pistol(src) BUG REMOVAL
+	// new /obj/item/ammo_box/magazine/c35sol_pistol(src) BUG REMOVAL
 
 
 ///Grabs a mag to load into the turret
@@ -809,14 +809,14 @@
 		fire_sound = lethal_projectile_sound
 	else if(istype(soundmaker, /obj/item/ammo_casing/c35sol))
 		fire_sound = 'modular_nova/modules/modular_weapons/sounds/pistol_light.ogg'
-	else if(istype(soundmaker, /obj/item/ammo_casing/c585trappiste))
-		fire_sound = 'modular_nova/modules/modular_weapons/sounds/pistol_heavy.ogg'
+	/* else if(istype(soundmaker, /obj/item/ammo_casing/c585trappiste))
+		fire_sound = 'modular_nova/modules/modular_weapons/sounds/pistol_heavy.ogg' */ // BUG REMOVAL
 	else if(istype(soundmaker, /obj/item/ammo_casing/c40sol))
 		fire_sound = 'modular_nova/modules/modular_weapons/sounds/rifle_heavy.ogg'
 	else if(istype(soundmaker, /obj/item/ammo_casing/strilka310))
 		fire_sound = 'modular_nova/modules/modular_weapons/sounds/battle_rifle.ogg'
-	else if(istype(soundmaker, /obj/item/ammo_casing/c27_54cesarzowa))
-		fire_sound = 'modular_nova/modules/modular_weapons/sounds/smg_light.ogg'
+	/* else if(istype(soundmaker, /obj/item/ammo_casing/c27_54cesarzowa))
+		fire_sound = 'modular_nova/modules/modular_weapons/sounds/smg_light.ogg' */ // BUG REMOVAL
 
 	playsound(src, fire_sound, 60, TRUE)
 

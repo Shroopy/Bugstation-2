@@ -54,7 +54,7 @@
 	set_items = list(
 		/obj/item/gun/energy/recharge/ebow,
 	)
-
+/*
 /datum/voucher_set/traitor/primary_weapon/shitzu
 	name = /obj/item/gun/ballistic/shotgun/katyusha/shitzu::name
 	description = /obj/item/gun/ballistic/shotgun/katyusha/shitzu::desc
@@ -138,7 +138,7 @@
 		/obj/item/ammo_box/magazine/c40sol_rifle,
 		/obj/item/ammo_box/magazine/c40sol_rifle,
 	)
-
+*/ // BUG REMOVAL
 // melee
 /datum/voucher_set/traitor/primary_weapon/eshield
 	name = /obj/item/shield/energy::name

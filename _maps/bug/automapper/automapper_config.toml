@@ -613,4 +613,10 @@ trait_name = "Station"
 #BUG EDITS -------------------------------
 # ADD ALL BUG EDITS BENEATH THIS!
 
-
+# CentCom Armory
+[templates.centcom_armory]
+map_files = ["centcom_armory.dmm"]
+directory = "_maps/bug/automapper/templates/centcom/"
+required_map = "builtin"
+coordinates = [178, 116, 1]
+trait_name = "CentCom"

@@ -1,0 +1,104 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/machinery/light/directional/south,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/table/reinforced,
+/obj/item/ammo_box/speedloader/c38,
+/obj/item/ammo_box/speedloader/c38{
+	pixel_x = 0;
+	pixel_y = 3
+	},
+/obj/item/ammo_box/speedloader/c38{
+	pixel_x = 0;
+	pixel_y = 6
+	},
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/armory)
+"cQ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/rack/gunrack,
+/obj/effect/spawner/random/armory/disablers,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/armory)
+"ux" = (
+/obj/structure/rack/gunrack,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/spawner/random/armory/shotgun,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/armory)
+"zi" = (
+/turf/template_noop,
+/area/template_noop)
+"BR" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/structure/rack/gunrack,
+/obj/effect/spawner/random/armory/laser_gun,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/armory)
+"LW" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/structure/rack/gunrack,
+/obj/item/gun/ballistic/revolver/c38,
+/obj/item/gun/ballistic/revolver/c38{
+	pixel_x = 0;
+	pixel_y = -6
+	},
+/obj/item/gun/ballistic/revolver/c38{
+	pixel_x = 0;
+	pixel_y = 6
+	},
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/armory)
+
+(1,1,1) = {"
+zi
+cQ
+zi
+zi
+zi
+"}
+(2,1,1) = {"
+zi
+zi
+zi
+zi
+zi
+"}
+(3,1,1) = {"
+ux
+zi
+zi
+zi
+zi
+"}
+(4,1,1) = {"
+zi
+zi
+zi
+zi
+zi
+"}
+(5,1,1) = {"
+BR
+zi
+LW
+zi
+zi
+"}
+(6,1,1) = {"
+zi
+zi
+zi
+zi
+aa
+"}

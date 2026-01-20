@@ -53,7 +53,7 @@
 	r_hand = /obj/item/gun/ballistic/automatic/c20r // BUG CHANGE (was "/obj/item/gun/ballistic/automatic/miecz")
 	loot = list(/obj/effect/spawner/random/ancient_milsim/ranged)
 	/// Type of bullet we use
-	// var/casingtype = /obj/item/ammo_casing/c27_54cesarzowa BUG REMOVAL
+	var/casingtype = /obj/item/ammo_casing/c45 // BUG EDIT
 	/// Sound to play when firing weapon
 	var/projectilesound = 'sound/items/weapons/gun/smg/shot.ogg' // BUG CHANGE (was "modular_nova/modules/modular_weapons/sounds/smg_light.ogg")
 	/// number of burst shots
@@ -61,10 +61,11 @@
 	/// Time between taking shots
 	var/ranged_cooldown = 0.45 SECONDS
 
-/mob/living/basic/trooper/cin_soldier/ranged/Initialize(mapload) // BUG REMOVAL: "casing_type = casingtype,\"
+/mob/living/basic/trooper/cin_soldier/ranged/Initialize(mapload)
 	. = ..()
 	AddComponent(\
 		/datum/component/ranged_attacks,\
+		casing_type = casingtype,\
 		projectile_sound = projectilesound,\
 		cooldown_time = ranged_cooldown,\
 		burst_shots = burst_shots,\
@@ -74,8 +75,8 @@
 	r_hand = /obj/item/gun/ballistic/shotgun/automatic/combat/compact // BUG CHANGE (was "/obj/item/gun/ballistic/revolver/shotgun_revolver")
 	l_hand = /obj/item/shield/ballistic
 	ai_controller = /datum/ai_controller/basic_controller/trooper/ranged/shotgunner
-	//casingtype = /obj/item/ammo_casing/shotgun/buckshot BUG REMOVAL
-	projectilesound = 'modular_nova/modules/sec_haul/sound/revolver_fire.ogg'
+	casingtype = /obj/item/ammo_casing/shotgun/buckshot // BUG EDIT
+	projectilesound = 'sound/items/weapons/gun/shotgun/shot.ogg' // BUG EDIT
 	burst_shots = 1
 	ranged_cooldown = 1.25 SECONDS
 	var/projectile_deflect_chance = 10

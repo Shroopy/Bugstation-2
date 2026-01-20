@@ -60,10 +60,13 @@
 	safety_currently_on = !safety_currently_on
 
 	// BUG ADDITION: If the safety is on, the character moves slower.
+	var/mob/living/living_user = user
 	if(!safety_currently_on)
+		living_user.safeties_off += 1
 		user.add_movespeed_modifier(/datum/movespeed_modifier/safety_off)
 	else
-		user.remove_movespeed_modifier(/datum/movespeed_modifier/safety_off)
+		living_user.safeties_off -= 1
+		remove_slowdown(user)
 	// BUG ADDITION END
 
 	update_action_button_state()
@@ -105,5 +108,9 @@
 		user.add_movespeed_modifier(/datum/movespeed_modifier/safety_off)
 
 /datum/component/gun_safety/proc/remove_slowdown(mob/user)
-	user.remove_movespeed_modifier(/datum/movespeed_modifier/safety_off)
+	if(!istype(user, /mob/living))
+		return
+	var/mob/living/living_user = user
+	if(living_user.safeties_off == 0)
+		user.remove_movespeed_modifier(/datum/movespeed_modifier/safety_off)
 // BUG ADDITION END

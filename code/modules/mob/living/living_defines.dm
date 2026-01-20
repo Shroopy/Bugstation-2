@@ -253,3 +253,6 @@
 
 	/// how many tiles can this mob reach with their hands? 1 tile is adjacent.
 	var/reach_length = 1
+
+	/// BUG ADDITION: How many weapons the mob is carrying with their safeties off.
+	var/safeties_off = 0

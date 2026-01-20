@@ -668,13 +668,21 @@
 // BUG ADDITION START
 /obj/item/gun/proc/on_gun_equip(datum/source, mob/user, slot)
 	SIGNAL_HANDLER
-
+	if(!istype(user, /mob/living))
+		return
 	var/datum/component/gun_safety/safety = GetComponent(/datum/component/gun_safety)
+	var/mob/living/living_user = user
+	if(!safety.safety_currently_on)
+		living_user.safeties_off += 1;
 	safety.check_safety_for_movement(user)
 
 /obj/item/gun/proc/on_gun_unequip(datum/source, force, atom/newloc, no_move, invdrop, silent, mob/user)
 	SIGNAL_HANDLER
-
+	if(!istype(user, /mob/living))
+		return
 	var/datum/component/gun_safety/safety = GetComponent(/datum/component/gun_safety)
+	var/mob/living/living_user = user
+	if(!safety.safety_currently_on)
+		living_user.safeties_off -= 1;
 	safety.remove_slowdown(user)
 // BUG ADDITION END

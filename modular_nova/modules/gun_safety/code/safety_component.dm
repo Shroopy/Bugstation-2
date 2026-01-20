@@ -111,6 +111,7 @@
 	if(!istype(user, /mob/living))
 		return
 	var/mob/living/living_user = user
-	if(living_user.safeties_off == 0)
+	if(living_user.safeties_off <= 0)
+		living_user.safeties_off = 0
 		user.remove_movespeed_modifier(/datum/movespeed_modifier/safety_off)
 // BUG ADDITION END

@@ -140,6 +140,7 @@
 	flavour_text = "You're the captain of a privateer crew that sometimes takes contracts from the illusive Guild, which offers bounties and contracts to independent crews, like yours! Lead your crew to infiltrate the station and capture hostages and hold them till the station's emergency shuttle leaves. The higher ranking the hostages, the more you'll get paid out. You're free to (and encouraged to) beat and humiliate, but not kill. Your anonymous employer wants your victims as their personel slaves. They mentioned something about propaganda? Ah, who knows with the Guild... All sorts of types posts these bounties."
 	important_text = "You are expected to roleplay heavily and lead effectively in this role."
 	outfit = /datum/outfit/guild/slaver/captain
+BUG REMOVAL END */
 
 /obj/item/radio/headset/guild
 	keyslot = new /obj/item/encryptionkey/headset_syndicate/guild
@@ -147,6 +148,7 @@
 /obj/item/radio/headset/guild/command
 	command = TRUE
 
+/* BUG REMOVAL START
 /datum/outfit/guild
 	name = "Guild Default Outfit"
 

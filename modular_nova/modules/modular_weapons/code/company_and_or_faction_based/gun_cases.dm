@@ -1,7 +1,7 @@
 /*
 *	GUNSET BOXES
 */
-/*
+
 /obj/item/storage/toolbox/guncase/nova
 	desc = "A thick gun case with foam inserts laid out to fit a weapon, magazines, and gear securely."
 	icon = 'modular_nova/modules/modular_weapons/icons/obj/gunsets.dmi'
@@ -157,7 +157,7 @@
 	icon_state = "cc_case_s"
 	w_class = WEIGHT_CLASS_NORMAL
 	storage_type = /datum/storage/toolbox/guncase/nova/pistol
-
+/*
 // Solfed
 /obj/item/storage/toolbox/guncase/nova/solfed
 	icon_state = "solfedcase"
@@ -189,7 +189,7 @@
 	icon_state = "solfedspeccase_s"
 	w_class = WEIGHT_CLASS_NORMAL
 	storage_type = /datum/storage/toolbox/guncase/nova/pistol
-
+*/ // BUG REMOVAL
 // Syndicate
 /obj/item/storage/toolbox/guncase/nova/syndicate
 	icon_state = "syndicase"
@@ -237,7 +237,7 @@
 	icon_state = "dynespeccase_s"
 	w_class = WEIGHT_CLASS_NORMAL
 	storage_type = /datum/storage/toolbox/guncase/nova/pistol
-
+/*
 // Carwo Defense Systems & Trappiste Fabriek
 /obj/item/storage/toolbox/guncase/nova/carwo_large_case
 	icon_state = "case_carwo"
@@ -262,4 +262,4 @@
 /obj/item/storage/toolbox/guncase/nova/xhihao_large_case/examine(mob/user)
 	. = ..()
 	. += "<i>It is subtly marked with <b>[span_purple("Xhihao Light Arms")]</b> trademarking.</i>"
-*/ //BUG REMOVAL
+*/ // BUG REMOVAL

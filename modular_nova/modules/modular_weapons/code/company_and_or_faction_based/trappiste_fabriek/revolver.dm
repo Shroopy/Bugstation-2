@@ -1,5 +1,5 @@
 // .35 Sol mini revolver
-/*
+/* BUG REMOVAL START
 /obj/item/gun/ballistic/revolver/sol
 	name = "\improper Renard Revolver"
 	desc = "A small revolver with a comically short barrel and cylinder space for eight .35 Sol Short rounds."
@@ -36,8 +36,9 @@
 	max_ammo = 8
 
 // .585 super revolver
-
+BUG REMOVAL END */
 /obj/item/gun/ballistic/revolver/takbok
+/* BUG REMOVAL START
 	name = "\improper Défonce Revolver"
 	desc = "A hefty revolver with an equally large cylinder capable of holding six .585 Trappiste rounds."
 
@@ -64,7 +65,15 @@
 		The durable, simple, and easy-to-maintain design of the Défonce, combined with its high power, \
 		has also made it popular in some parts of the civilian firearms market; \
 		primarily with frontier settlers and hunters who appreciate its maintainability, and the ease with which it can take down large creatures."
+BUG REMOVAL END */
 
+// BUG ADDITION START
+/obj/item/gun/ballistic/revolver/takbok/Initialize(mapload)
+	qdel() // We're keeping the item in the code so CentCom doesn't error out but deleting it immediately, I hate it too
+	. = ..() // Should never be reached but has to be kept in code to prevent errors
+// BUG ADDITION END
+
+/* BUG REMOVAL START
 /obj/item/gun/ballistic/revolver/takbok/give_manufacturer_examine()
 	AddElement(/datum/element/manufacturer_examine, COMPANY_TRAPPISTE)
 
@@ -105,4 +114,4 @@
 
 /obj/item/gun/ballistic/revolver/bluvolva/give_manufacturer_examine()
 	AddElement(/datum/element/manufacturer_examine, COMPANY_TRAPPISTE)
-*/ //BUG REMOVAL
+*/ //BUG REMOVAL END

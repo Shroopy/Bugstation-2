@@ -1,6 +1,7 @@
 // SolGov shotgun (this was gonna be in a proprietary shotgun shell type outside of 12ga at some point, wild right?)
-/*
+
 /obj/item/gun/ballistic/shotgun/riot/sol
+/* // BUG REMOVAL START
 	name = "\improper M64 Shotgun"
 	desc = "A robust twelve-gauge shotgun with an eight-shell, top-mounted magazine tube. Made for and used by SolGov's various military and police forces."
 
@@ -124,8 +125,13 @@
 /obj/item/gun/ballistic/shotgun/riot/sol/super/empty
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/shot/sol_super/empty
 
+BUG REMOVAL END */
+
 /obj/item/gun/ballistic/shotgun/riot/sol/super/Initialize(mapload)
-	. = ..()
+	// BUG EDIT START
+	qdel() // We're keeping the item in the code so CentCom doesn't error out but deleting it immediately, I hate it too
+	. = ..() // Should never be reached but has to be kept in code to prevent errors
+	/*
 	AddComponent(\
 		/datum/component/gun_booster, \
 		booster_action = /datum/action/item_action/booster/sol_super, \
@@ -137,7 +143,10 @@
 		amped_fire_delay = 1 SECONDS, \
 	)
 	RegisterSignal(src, COMSIG_GUN_BOOSTER_TOGGLED, PROC_REF(on_booster_toggle))
+	*/
+	// BUG EDIT END
 
+/* BUG REMOVAL START
 /obj/item/gun/ballistic/shotgun/riot/sol/super/Destroy(force)
 	UnregisterSignal(src, COMSIG_GUN_BOOSTER_TOGGLED)
 	return ..()
@@ -218,4 +227,4 @@
 
 /obj/item/ammo_box/magazine/internal/shot/sol_super/plus/empty
 	start_empty = TRUE
-*/ //BUG REMOVAL
+*/ //BUG REMOVAL END

@@ -1,4 +1,4 @@
-/*
+/* BUG REMOVAL START
 /// File location for the long gun's speech
 #define LONG_MOD_LASER_SPEECH "nova/long_modular_laser.json"
 /// File location for the short gun's speech
@@ -7,10 +7,11 @@
 #define MOD_LASER_SPEECH_COOLDOWN 2 SECONDS
 /// What color is the default kill mode for these guns, used to make sure the chat colors are right at roundstart
 #define DEFAULT_RUNECHAT_GUN_COLOR "#cd4456"
-
+BUG REMOVAL END */
 // Modular energy weapons, laser guns that can transform into different variants after a few seconds of waiting and animation
 // Long version, takes both hands to use and doesn't fit in any bags out there
 /obj/item/gun/energy/modular_laser_rifle
+/* BUG REMOVAL START
 	name = "\improper Hyeseong modular laser rifle"
 	desc = "A popular energy weapon system that can be reconfigured into many different variants on the fly. \
 		Seen commonly amongst the Marsians who produce the weapon, with many different shapes and sizes to fit \
@@ -82,9 +83,12 @@
 		Her onboard machine intelligence, at first devised to support the operator and manage the internal reactor, \
 		is shipped with a more professional and understated personality—since influenced by 'negligence' from users in \
 		wiping the intelligence's memory before resale or transport."
+BUG REMOVAL END */
 
 /obj/item/gun/energy/modular_laser_rifle/Initialize(mapload)
-	. = ..()
+	qdel() // BUG EDIT - We're keeping the item in the code so CentCom doesn't error out but deleting it immediately, I hate it too
+	. = ..() // Should never be reached but has to be kept in code to prevent errors
+	/* BUG REMOVAL START
 	AddElement(/datum/element/manufacturer_examine, COMPANY_CYBERSUN)
 	chat_color = DEFAULT_RUNECHAT_GUN_COLOR
 	chat_color_darkened = process_chat_color(DEFAULT_RUNECHAT_GUN_COLOR, sat_shift = 0.85, lum_shift = 0.85)
@@ -246,9 +250,11 @@
 	name = "Toggle Weapon Personality"
 	desc = "Toggles the weapon's personality core. Studies find that turning them off makes them quite sad, however."
 	background_icon_state = "bg_mod"
+BUG REMOVAL END */
 
 //Short version of the above modular rifle, has less charge and different modes
 /obj/item/gun/energy/modular_laser_rifle/carbine
+/* BUG REMOVAL START
 	name = "\improper Hoshi modular laser carbine"
 	icon = 'modular_nova/modules/modular_weapons/icons/obj/company_and_or_faction_based/saibasan/guns32x.dmi'
 	icon_state = "hoshi_kill"
@@ -289,4 +295,4 @@
 #undef SHORT_MOD_LASER_SPEECH
 #undef MOD_LASER_SPEECH_COOLDOWN
 #undef DEFAULT_RUNECHAT_GUN_COLOR
-*/ //BUG REMOVAL
+*/ //BUG REMOVAL END

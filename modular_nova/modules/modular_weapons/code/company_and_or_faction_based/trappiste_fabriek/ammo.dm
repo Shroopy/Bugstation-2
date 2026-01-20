@@ -1,6 +1,6 @@
 // .585 Trappiste
 // High caliber round used in large pistols and revolvers
-/*
+/*BUG REMOVAL START
 /obj/item/ammo_casing/c585trappiste
 	name = ".585 Trappiste lethal bullet casing"
 	desc = "A white polymer cased high caliber round commonly used in handguns."
@@ -16,8 +16,9 @@
 	name = ".585 Trappiste bullet"
 	damage = 30
 	wound_bonus = 5 // Normal bullets are 20
-
+BUG REMOVAL END */
 /obj/item/ammo_box/c585trappiste
+/* BUG REMOVAL START
 	name = "ammo box (.585 Trappiste lethal)"
 	desc = "A box of .585 Trappiste pistol rounds, holds ten cartridges."
 
@@ -31,7 +32,15 @@
 	caliber = CALIBER_585TRAPPISTE
 	ammo_type = /obj/item/ammo_casing/c585trappiste
 	max_ammo = 10
+BUG REMOVAL END */
 
+// BUG ADDITION START
+/obj/item/ammo_box/c585trappiste/Initialize(mapload)
+	qdel() // We're keeping the item in the code so CentCom doesn't error out but deleting it immediately, I hate it too
+	. = ..() // Should never be reached but has to be kept in code to prevent errors
+// BUG ADDITION END
+
+/* BUG REMOVAL START
 // .585 Trappiste equivalent to a rubber bullet
 
 /obj/item/ammo_casing/c585trappiste/incapacitator
@@ -110,4 +119,4 @@
 	caliber = CALIBER_585TRAPPISTE
 	ammo_band_icon = "+sl585_band"
 	ammo_band_color = null
-*/ //BUG REMOVAL
+*/ //BUG REMOVAL END

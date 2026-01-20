@@ -79,7 +79,7 @@
 	suffix = "nova"
 	name = "Prison Transporter NSS-74"
 
-
+/* BUG REMOVAL START
 /obj/machinery/computer/camera_advanced/shuttle_docker/slaver
 	name = "Ship Navigation Computer"
 	desc = "Used to designate a precise custom destination to land."
@@ -198,6 +198,8 @@
 		/obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/skild,
 		/obj/item/megaphone/command,
 	)
+
+BUG REMOVAL END */
 
 /*----- Tarkon Shuttle Datum + related code -----*/
 /datum/map_template/shuttle/ruin/tarkon_driver

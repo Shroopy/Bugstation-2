@@ -59,6 +59,15 @@
 /datum/component/gun_safety/proc/toggle_safeties(mob/user)
 	safety_currently_on = !safety_currently_on
 
+	// BUG ADDITION: If the safety is on, the character moves slower.
+	if(!safety_currently_on){
+		user.add_movespeed_modifier(/datum/movespeed_modifier/safety_off)
+	}
+	else{
+		user.remove_movespeed_modifier(/datum/movespeed_modifier/safety_off)
+	}
+	// BUG ADDITION END
+
 	update_action_button_state()
 
 	playsound(parent, 'sound/items/weapons/empty.ogg', 100, TRUE)

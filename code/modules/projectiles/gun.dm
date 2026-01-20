@@ -102,6 +102,8 @@
 	give_manufacturer_examine()
 	// NOVA EDIT ADDITION END
 	add_bayonet_point()
+	RegisterSignal(src, COMSIG_ITEM_POST_EQUIPPED, PROC_REF(on_gun_equip)) // BUG EDIT
+	RegisterSignal(src, COMSIG_ITEM_POST_UNEQUIP, PROC_REF(on_gun_unequip)) // BUG EDIT
 
 /obj/item/gun/Destroy()
 	if(isobj(pin)) //Can still be the initial path, then we skip
@@ -662,3 +664,17 @@
 
 #undef FIRING_PIN_REMOVAL_DELAY
 #undef DUALWIELD_PENALTY_EXTRA_MULTIPLIER
+
+// BUG ADDITION START
+/obj/item/gun/proc/on_gun_equip(datum/source, mob/user, slot)
+	SIGNAL_HANDLER
+
+	var/datum/component/gun_safety/safety = GetComponent(/datum/component/gun_safety)
+	safety.check_safety_for_movement(user)
+
+/obj/item/gun/proc/on_gun_unequip(datum/source, force, atom/newloc, no_move, invdrop, silent, mob/user)
+	SIGNAL_HANDLER
+
+	var/datum/component/gun_safety/safety = GetComponent(/datum/component/gun_safety)
+	safety.remove_slowdown(user)
+// BUG ADDITION END

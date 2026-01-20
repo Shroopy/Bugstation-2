@@ -60,12 +60,10 @@
 	safety_currently_on = !safety_currently_on
 
 	// BUG ADDITION: If the safety is on, the character moves slower.
-	if(!safety_currently_on){
+	if(!safety_currently_on)
 		user.add_movespeed_modifier(/datum/movespeed_modifier/safety_off)
-	}
-	else{
+	else
 		user.remove_movespeed_modifier(/datum/movespeed_modifier/safety_off)
-	}
 	// BUG ADDITION END
 
 	update_action_button_state()
@@ -100,3 +98,12 @@
 	name = "Toggle Gun Safety"
 	button_icon = 'modular_nova/modules/gun_safety/icons/actions.dmi'
 	button_icon_state = "safety_on"
+
+// BUG ADDITION START
+/datum/component/gun_safety/proc/check_safety_for_movement(mob/user)
+	if(!safety_currently_on)
+		user.add_movespeed_modifier(/datum/movespeed_modifier/safety_off)
+
+/datum/component/gun_safety/proc/remove_slowdown(mob/user)
+	user.remove_movespeed_modifier(/datum/movespeed_modifier/safety_off)
+// BUG ADDITION END

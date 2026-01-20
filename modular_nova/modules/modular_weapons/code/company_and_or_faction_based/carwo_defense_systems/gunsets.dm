@@ -71,6 +71,7 @@
 		/obj/item/ammo_box/magazine/c980_grenade/drum/thunderdome_shrapnel = 1,
 		/obj/item/ammo_box/magazine/c980_grenade/drum/thunderdome_gas = 1,
 	), src)
+BUG REMOVAL END */
 
 /obj/structure/closet/secure_closet/armory_kiboko
 	name = "heavy equipment locker"
@@ -80,13 +81,16 @@
 /obj/structure/closet/secure_closet/armory_kiboko/PopulateContents()
 	. = ..()
 	generate_items_inside(list(
-		/obj/item/storage/toolbox/guncase/nova/carwo_large_case/kiboko_magless = 1,
-		/obj/item/ammo_box/c980grenade = 2,
-		/obj/item/ammo_box/c980grenade/smoke = 1,
-		/obj/item/ammo_box/c980grenade/riot = 1,
+		// BUG EDIT START
+		/obj/item/gun/grenadelauncher = 1,
+		// /obj/item/ammo_box/c980grenade = 2,
+		// /obj/item/ammo_box/c980grenade/smoke = 1,
+		// /obj/item/ammo_box/c980grenade/riot = 1,
+		// BUG EDIT END
 		/obj/item/mod/control/pre_equipped/jaeger_med = 3,
 	), src)
 
+/* BUG REMOVAL START
 /obj/structure/closet/secure_closet/armory_kiboko_but_evil
 	name = "heavy equipment locker"
 	icon = 'modular_nova/master_files/icons/obj/closet.dmi'

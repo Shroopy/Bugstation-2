@@ -1,6 +1,6 @@
 /obj/item/ammo_box/magazine/wt550m9
-	name = "\improper PDW magazine (4.6x30mm)" // BUG EDIT
-	desc = "A top-loading 4.6x30mm magazine, specifically for the WT-550 combat PDW." // BUG EDIT
+	name = "\improper carbine magazine (4.6x30mm)" // BUG EDIT
+	desc = "A top-loading 4.6x30mm magazine, specifically for the WT-550 combat carbine." // BUG EDIT
 	icon_state = "46x30mmt-20"
 	base_icon_state = "46x30mmt"
 	ammo_band_icon = "+46x30mmab"
@@ -14,12 +14,12 @@
 	icon_state = "[base_icon_state]-[round(ammo_count(), 4)]"
 
 /obj/item/ammo_box/magazine/wt550m9/wtap
-	name = "\improper PDW magazine (4.6x30mm AP)" // BUG EDIT
+	name = "\improper AP carbine magazine (4.6x30mm AP)" // BUG EDIT
 	MAGAZINE_TYPE_ARMORPIERCE
 	ammo_type = /obj/item/ammo_casing/c46x30mm/ap
 
 /obj/item/ammo_box/magazine/wt550m9/wtic
-	name = "\improper PDW magazine (4.6x30mm incendiary)" // BUG EDIT
+	name = "\improper incendiary carbine magazine (4.6x30mm incendiary)" // BUG EDIT
 	MAGAZINE_TYPE_INCENDIARY
 	ammo_type = /obj/item/ammo_casing/c46x30mm/inc
 

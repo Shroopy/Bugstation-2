@@ -134,6 +134,6 @@
 	gun_category = /obj/item/gun/energy/e_gun
 
 /obj/structure/guncase/wt550
-	name = "WT-550 gun locker"
-	desc = "A locker that holds WT-550 rifles."
+	name = "carbine gun locker" // BUG CHANGE
+	desc = "A locker that holds WT-550 carbines." // BUG CHANGE
 	case_type = "wt550"

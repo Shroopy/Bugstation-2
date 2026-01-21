@@ -2,7 +2,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/ammo_box/magazine/wt550m9/rub
-	name = "\improper WT-550 magazine (4.6x30mm rubber)"
+	name = "\improper less-lethal carbine magazine (4.6x30mm rubber)" // BUG CHANGE
 	desc = "A top-loading 4.6x30mm magazine, specifically to carry less than lethal ammo."
 	ammo_band_color = "#2596be"
 	ammo_type = /obj/item/ammo_casing/c46x30mm/rubber

@@ -258,8 +258,8 @@
 	autolathe_exportable = FALSE
 
 /datum/design/mag_autorifle
-	name = "WT-550 Autorifle Magazine (4.6x30mm)"
-	desc = "A 20 round magazine for the out of date WT-550 Autorifle."
+	name = "Carbine Magazine (4.6x30mm)" // BUG CHANGE
+	desc = "A 20 round magazine for the out of date WT-550 carbine." // BUG CHANGE
 	id = "mag_autorifle"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 2)
@@ -270,16 +270,16 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/mag_autorifle/ap_mag
-	name = "WT-550 Autorifle Armour Piercing Magazine (4.6x30mm AP)"
-	desc = "A 20 round armour piercing magazine for the out of date WT-550 Autorifle."
+	name = "AP Carbine Magazine (4.6x30mm AP)" // BUG CHANGE
+	desc = "A 20 round armour piercing magazine for the out of date WT-550 carbine." // BUG CHANGE
 	id = "mag_autorifle_ap"
 	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 3, /datum/material/silver = SMALL_MATERIAL_AMOUNT * 6)
 	build_path = /obj/item/ammo_box/magazine/wt550m9/wtap
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/mag_autorifle/ic_mag
-	name = "WT-550 Autorifle Incendiary Magazine (4.6x30mm IC)"
-	desc = "A 20 round armour piercing magazine for the out of date WT-550 Autorifle."
+	name = "Incendiary Carbine Magazine (4.6x30mm IC)" // BUG CHANGE
+	desc = "A 20 round incendiary magazine for the out of date WT-550 carbine." // BUG CHANGE
 	id = "mag_autorifle_ic"
 	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 3, /datum/material/silver = SMALL_MATERIAL_AMOUNT * 6, /datum/material/glass =HALF_SHEET_MATERIAL_AMOUNT)
 	build_path = /obj/item/ammo_box/magazine/wt550m9/wtic

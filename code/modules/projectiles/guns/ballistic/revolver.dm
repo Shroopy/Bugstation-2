@@ -1,6 +1,7 @@
 /obj/item/gun/ballistic/revolver
 	name = "\improper .357 revolver"
 	desc = "A suspicious revolver. Uses .357 ammo."
+	icon = 'modular_zzbug/icons/obj/weapons/guns/ballistic.dmi' // BUG CHANGE
 	icon_state = "revolver"
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/cylinder
 	fire_sound = 'sound/items/weapons/gun/revolver/shot_alt.ogg'

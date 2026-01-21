@@ -1,6 +1,7 @@
 /obj/item/gun/ballistic/automatic/pistol
 	name = "\improper Makarov pistol"
 	desc = "A small, easily concealable 9mm handgun. Has a threaded barrel for suppressors."
+	icon = 'modular_zzbug/icons/obj/weapons/guns/ballistic.dmi' // BUG CHANGE
 	icon_state = "pistol"
 	w_class = WEIGHT_CLASS_SMALL
 	accepted_magazine_type = /obj/item/ammo_box/magazine/m9mm
@@ -54,6 +55,7 @@
 /obj/item/gun/ballistic/automatic/pistol/clandestine
 	name = "\improper Ansem pistol"
 	desc = "The spiritual successor of the Makarov, or maybe someone just dropped their gun in a bucket of paint. The gun is chambered in 10mm."
+	icon = 'modular_zzbug/icons/obj/weapons/guns/ballistic.dmi' // BUG CHANGE
 	icon_state = "pistol_evil"
 	accepted_magazine_type = /obj/item/ammo_box/magazine/m10mm
 	empty_indicator = TRUE
@@ -64,6 +66,7 @@
 	desc = "A modified variant of the Ansem, spiritual successor to the Makarov, featuring an integral suppressor and push-button trigger on the grip \
 	for an underbarrel-mounted disruptor, similar in operation to the standalone SC/FISHER. Chambered in 10mm."
 	desc_controls = "Right-click to use the underbarrel disruptor. Two shots maximum between self-charges."
+	icon = 'modular_zzbug/icons/obj/weapons/guns/ballistic.dmi' // BUG CHANGE
 	icon_state = "pistol_evil_fisher"
 	suppressed = SUPPRESSED_QUIET
 	can_suppress = FALSE
@@ -114,6 +117,7 @@
 /obj/item/gun/ballistic/automatic/pistol/m1911
 	name = "\improper M1911"
 	desc = "A classic .45 handgun with a small magazine capacity."
+	icon = 'modular_zzbug/icons/obj/weapons/guns/ballistic.dmi' // BUG CHANGE
 	icon_state = "m1911"
 	w_class = WEIGHT_CLASS_NORMAL
 	accepted_magazine_type = /obj/item/ammo_box/magazine/m45
@@ -141,6 +145,7 @@
 /obj/item/gun/ballistic/automatic/pistol/deagle
 	name = "\improper Desert Eagle"
 	desc = "A robust .50 AE handgun."
+	icon = 'modular_zzbug/icons/obj/weapons/guns/ballistic.dmi' // BUG CHANGE
 	icon_state = "deagle"
 	force = 14
 	accepted_magazine_type = /obj/item/ammo_box/magazine/m50
@@ -194,6 +199,7 @@
 /obj/item/gun/ballistic/automatic/pistol/aps
 	name = "\improper Stechkin APS machine pistol"
 	desc = "A modernized reproduction of an old Soviet machine pistol. It fires quickly, but kicks like a mule. Uses 9mm ammo. Has a threaded barrel for suppressors." //NOVA EDIT
+	icon = 'modular_zzbug/icons/obj/weapons/guns/ballistic.dmi' // BUG CHANGE
 	icon_state = "aps"
 	w_class = WEIGHT_CLASS_NORMAL
 	accepted_magazine_type = /obj/item/ammo_box/magazine/m9mm_aps

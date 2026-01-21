@@ -44,6 +44,7 @@
 /obj/item/gun/ballistic/shotgun/riot
 	name = "riot shotgun"
 	desc = "A sturdy shotgun with a longer magazine and a fixed tactical stock designed for non-lethal riot control."
+	icon = 'modular_zzbug/icons/obj/weapons/guns/ballistic.dmi' // BUG CHANGE
 	icon_state = "riotshotgun"
 	inhand_icon_state = "shotgun"
 	fire_delay = 8
@@ -69,6 +70,7 @@
 /obj/item/gun/ballistic/shotgun/automatic/combat //NOVA EDIT - ICON OVERRIDDEN IN AESTHETICS MODULE
 	name = "combat shotgun"
 	desc = "A semi automatic shotgun with tactical furniture and a six-shell capacity underneath."
+	icon = 'modular_zzbug/icons/obj/weapons/guns/ballistic.dmi' // BUG CHANGE
 	icon_state = "cshotgun"
 	inhand_icon_state = "shotgun_combat"
 	projectile_damage_multiplier = 1.5
@@ -86,6 +88,7 @@
 /obj/item/gun/ballistic/shotgun/automatic/combat/compact
 	name = "compact combat shotgun"
 	desc = "A compact version of the semi automatic combat shotgun. Lower magazine capacity, but more easily carried."
+	icon = 'modular_zzbug/icons/obj/weapons/guns/ballistic.dmi' // BUG CHANGE
 	icon_state = "cshotgunc"
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/shot/com/compact
 	w_class = WEIGHT_CLASS_BULKY
@@ -104,6 +107,7 @@
 /obj/item/gun/ballistic/shotgun/automatic/dual_tube
 	name = "cycler shotgun"
 	desc = "An advanced shotgun with two separate magazine tubes, allowing you to quickly toggle between ammo types."
+	icon = 'modular_zzbug/icons/obj/weapons/guns/ballistic.dmi' // BUG CHANGE
 	icon_state = "cycler"
 	inhand_icon_state = "bulldog"
 	lefthand_file = 'icons/mob/inhands/weapons/guns_lefthand.dmi'
@@ -171,6 +175,7 @@
 	desc = "A 2-round burst fire, mag-fed shotgun for combat in narrow corridors, \
 		nicknamed 'Bulldog' by boarding parties. Compatible only with specialized 8-round drum magazines. \
 		Can have a secondary magazine attached to quickly swap between ammo types, or just to keep shooting."
+	icon = 'modular_zzbug/icons/obj/weapons/guns/ballistic.dmi' // BUG CHANGE
 	icon_state = "bulldog"
 	lefthand_file = 'icons/mob/inhands/weapons/guns_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/guns_righthand.dmi'
@@ -292,6 +297,7 @@
 /obj/item/gun/ballistic/shotgun/doublebarrel
 	name = "double-barreled shotgun"
 	desc = "A true classic."
+	icon = 'modular_zzbug/icons/obj/weapons/guns/ballistic.dmi' // BUG CHANGE
 	icon_state = "dshotgun"
 	base_icon_state = "dshotgun"
 	inhand_icon_state = "shotgun_db"

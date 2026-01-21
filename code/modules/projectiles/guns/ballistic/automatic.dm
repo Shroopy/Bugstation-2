@@ -17,6 +17,7 @@
 /obj/item/gun/ballistic/automatic/proto
 	name = "\improper Nanotrasen Saber SMG"
 	desc = "A prototype full-auto 9mm submachine gun, designated 'SABR'. Has a threaded barrel for suppressors."
+	icon = 'modular_zzbug/icons/obj/weapons/guns/ballistic.dmi' // BUG CHANGE
 	icon_state = "saber"
 	burst_size = 1
 	actions_types = list()
@@ -37,6 +38,7 @@
 /obj/item/gun/ballistic/automatic/c20r
 	name = "\improper C-20r SMG"
 	desc = "A bullpup three-round burst .45 SMG, designated 'C-20r'. Has a 'Scarborough Arms - Per falcis, per pravitas' buttstamp."
+	icon = 'modular_zzbug/icons/obj/weapons/guns/ballistic.dmi' // BUG CHANGE
 	icon_state = "c20r"
 	inhand_icon_state = "c20r"
 	selector_switch_icon = TRUE
@@ -70,6 +72,7 @@
 		its ballistics weapon program, cornering them into the energy weapons market. Most often found today in the hands of pirates, \
 		underfunded security personnel, cargo technicians, theoretical physicists, and gang bangers out on the rim. \
 		Light-weight and fully automatic. Uses 4.6x30mm rounds."
+	icon = 'modular_zzbug/icons/obj/weapons/guns/ballistic.dmi' // BUG CHANGE
 	icon_state = "wt550"
 	w_class = WEIGHT_CLASS_BULKY
 	inhand_icon_state = "arg"
@@ -120,6 +123,7 @@
 /obj/item/gun/ballistic/automatic/mini_uzi
 	name = "\improper Type U3 Uzi"
 	desc = "A lightweight, burst-fire submachine gun, for when you really want someone dead. Uses 9mm rounds."
+	icon = 'modular_zzbug/icons/obj/weapons/guns/ballistic.dmi' // BUG CHANGE
 	icon_state = "miniuzi"
 	accepted_magazine_type = /obj/item/ammo_box/magazine/uzim9mm
 	burst_size = 2
@@ -191,6 +195,7 @@
 /obj/item/gun/ballistic/automatic/tommygun
 	name = "\improper Thompson SMG"
 	desc = "Based on the classic 'Chicago Typewriter'."
+	icon = 'modular_zzbug/icons/obj/weapons/guns/ballistic.dmi' // BUG CHANGE
 	icon_state = "tommygun"
 	inhand_icon_state = "shotgun"
 	selector_switch_icon = TRUE

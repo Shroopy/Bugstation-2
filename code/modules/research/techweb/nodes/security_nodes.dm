@@ -6,10 +6,10 @@
 	design_ids = list(
 		"toy_armblade",
 		"toygun",
-		"c38_rubber",
-		"c38_rubber_mag",
+		 "c38_rubber",
+		/* "c38_rubber_mag", // BUG REMOVAL START
 		"c38_sec",
-		"c38_mag",
+		"c38_mag", */ // BUG REMOVAL END
 		"capbox",
 		"foam_dart",
 		"sec_beanbag_slug",
@@ -82,13 +82,13 @@
 	prereq_ids = list(TECHWEB_NODE_EXPLOSIVES)
 	design_ids = list(
 		"c38_hotshot",
-		"c38_hotshot_mag",
+		// "c38_hotshot_mag", // BUG REMOVAL
 		"c38_iceblox",
-		"c38_iceblox_mag",
+		// "c38_iceblox_mag", // BUG REMOVAL
 		"c38_trac",
-		"c38_trac_mag",
+		// "c38_trac_mag", // BUG REMOVAL
 		"c38_true_strike",
-		"c38_true_strike_mag",
+		// "c38_true_strike_mag", // BUG REMOVAL
 		"techshotshell",
 		"flechetteshell",
 	)
@@ -119,7 +119,7 @@
 		"xray_laser",
 		"nuclear_gun",
 		"c38_flare",
-		"c38_flare_mag",
+		// "c38_flare_mag", // BUG REMOVAL
 	)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = TECHWEB_TIER_4_POINTS)
 	announce_channels = list(RADIO_CHANNEL_SECURITY)

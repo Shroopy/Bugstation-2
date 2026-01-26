@@ -226,7 +226,7 @@
 /datum/techweb_node/exotic_ammo/New()
 	design_ids += list(
 		"c38_haywire",
-		"c38_haywire_mag",
+		// "c38_haywire_mag", // BUG REMOVAL
 		"ammobench_niche",
 		"sec_dart_pen",
 	)

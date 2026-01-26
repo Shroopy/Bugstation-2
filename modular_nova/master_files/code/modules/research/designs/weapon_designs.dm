@@ -13,6 +13,7 @@
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
+/* BUG REMOVAL START
 /datum/design/c38_haywire_mag
 	name = "Magazine (.38 Haywire) (Lethal)"
 	desc = "Designed to tactically reload a NT BR-38 Battle Rifle. Haywire bullets create small electromagnetic pulses on impact; devastating against electronics."
@@ -28,6 +29,7 @@
 		RND_CATEGORY_WEAPONS + RND_SUBCATEGORY_WEAPONS_AMMO,
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
+BUG REMOVAL END*/
 
 /datum/design/shotgun_dart_pen
 	name = "Penetrating Shotgun Dart (Lethal)"

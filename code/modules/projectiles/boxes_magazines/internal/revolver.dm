@@ -10,6 +10,7 @@
 	caliber = CALIBER_N762
 	max_ammo = 7
 
+/* BUG REMOVAL START
 /obj/item/ammo_box/magazine/internal/cylinder/rus357
 	name = "\improper Russian revolver cylinder"
 	ammo_type = /obj/item/ammo_casing/c357
@@ -23,6 +24,7 @@
 	for (var/i in 1 to max_ammo - 1)
 		stored_ammo += new /obj/item/ammo_casing/c357/spent(src)
 	stored_ammo += new /obj/item/ammo_casing/c357(src)
+BUG REMOVAL END */
 
 /obj/item/ammo_box/magazine/internal/cylinder/peashooter
 	name = "peashooter cylinder"

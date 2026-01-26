@@ -164,13 +164,16 @@
 		))
 	. = ..()
 	pin.pin_removable = FALSE
-/* // BUG REMOVAL
-/obj/item/gun/ballistic/automatic/pistol/deagle/gold
+
+/obj/item/gun/ballistic/automatic/pistol/deagle/gold // This still exists for map compatibility but is identical to the base deagle now
+/* BUG REMOVAL START
 	desc = "A gold plated Desert Eagle folded over a million times by superior martian gunsmiths. Uses .50 AE ammo."
 	icon_state = "deagleg"
 	inhand_icon_state = "deagleg"
+BUG REMOVAL END */
 
-/obj/item/gun/ballistic/automatic/pistol/deagle/camo
+/obj/item/gun/ballistic/automatic/pistol/deagle/camo // This still exists for map compatibility but is identical to the base deagle now
+/* BUG REMOVAL START
 	desc = "A Deagle brand Deagle for operators operating operationally. Uses .50 AE ammo."
 	icon_state = "deaglecamo"
 	inhand_icon_state = "deagleg"
@@ -192,6 +195,7 @@
 	actions_types = list(/datum/action/item_action/toggle_firemode)
 	obj_flags = UNIQUE_RENAME // if you did the sidequest, you get the customization
 */ // BUG REMOVAL
+
 /obj/item/gun/ballistic/automatic/pistol/aps
 	name = "\improper machine pistol" // BUG CHANGE (was "Stechkin APS machine pistol")
 	desc = "An automatic 9mm machine pistol with a surprising kick. Has a threaded barrel for suppressors." //BUG CHANGE (was "A modernized reproduction of an old Soviet machine pistol. It fires quickly, but kicks like a mule. Uses 9mm ammo. Has a threaded barrel for suppressors.")

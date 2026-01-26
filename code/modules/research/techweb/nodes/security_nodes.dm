@@ -6,10 +6,10 @@
 	design_ids = list(
 		"toy_armblade",
 		"toygun",
-		 "c38_rubber",
-		/* "c38_rubber_mag", // BUG REMOVAL START
+		"c38_rubber",
+		// "c38_rubber_mag", // BUG REMOVAL
 		"c38_sec",
-		"c38_mag", */ // BUG REMOVAL END
+		// "c38_mag", // BUG REMOVAL
 		"capbox",
 		"foam_dart",
 		"sec_beanbag_slug",

@@ -671,6 +671,8 @@
 	if(!istype(user, /mob/living))
 		return
 	var/datum/component/gun_safety/safety = GetComponent(/datum/component/gun_safety)
+	if(!safety) // Check if safety exists
+		return
 	var/mob/living/living_user = user
 	if(!safety.safety_currently_on)
 		living_user.safeties_off += 1;
@@ -681,6 +683,8 @@
 	if(!istype(user, /mob/living))
 		return
 	var/datum/component/gun_safety/safety = GetComponent(/datum/component/gun_safety)
+	if(!safety) // Check if safety exists
+		return
 	var/mob/living/living_user = user
 	if(!safety.safety_currently_on)
 		living_user.safeties_off -= 1;

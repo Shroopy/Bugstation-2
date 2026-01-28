@@ -1,6 +1,7 @@
 /obj/item/gun/energy/pulse
 	name = "pulse rifle"
 	desc = "A heavy-duty, multifaceted energy rifle with three modes. Preferred by front-line combat personnel."
+	icon = 'modular_zzbug/icons/obj/weapons/guns/energy.dmi' // BUG CHANGE
 	icon_state = "pulse"
 	inhand_icon_state = null
 	worn_icon_state = null

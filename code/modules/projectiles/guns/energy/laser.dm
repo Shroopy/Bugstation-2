@@ -1,6 +1,7 @@
 /obj/item/gun/energy/laser
 	name = "laser gun"
 	desc = "A basic energy-based laser gun that fires concentrated beams of light which pass through glass and thin metal."
+	icon = 'modular_zzbug/icons/obj/weapons/guns/energy.dmi' // BUG CHANGE
 	icon_state = "laser"
 	inhand_icon_state = "laser"
 	w_class = WEIGHT_CLASS_BULKY
